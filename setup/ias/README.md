@@ -45,21 +45,21 @@ You can manage trust configurations for a global account only if you have create
 
 9. Choose **SAML 2.0 Configuration** under Trust Tab.
 
-   ![Configure SAML](./images/CustIDP-configureSAML.png)
+    ![Configure SAML](./images/CustIDP-configureSAML.png)
 
 10. Choose **Browse** for **Metadata File** upload. Choose the metadata XML file downloaded from previous step 3.
 
-   ![Save SAML](./images/CustIDP-saveSAML.png)
+    ![Save SAML](./images/CustIDP-saveSAML.png)
 
 11. Choose **Save**.
 
 12. Choose **Subject Name Identifier**.
 
-   ![Subject NameID](./images/CustIDP-subjectNameID.png)
+    ![Subject NameID](./images/CustIDP-subjectNameID.png)
 
 13. Select basic attribute **E-Mail** and choose **Save**.
 
-   ![Save Subject NameID](./images/CustIDP-subjectNameIDSave.png)
+    ![Save Subject NameID](./images/CustIDP-subjectNameIDSave.png)
 
 
 ### Establish Trust with your SAP S/4HANA Cloud SAML 2.0 Identity Provider in your SAP BTP Subaccount
@@ -84,7 +84,7 @@ Your business users are stored in the SAP Cloud Identity Authentication service.
 
 6. Choose **Upload** to upload the metadata file. Select the tenant metadata file downloaded from previous step.
 
-7. Enter a **Name**, for example: **S4HCloudTenant**.
+7. Enter a **Name**, for example: **S4HCloudTenant**. Keep the **Status** as active and enable **Available for User Logon**.
 
    ![Configure Trust](./images/CustIDP-configurenewTrust1.png)
 
