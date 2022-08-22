@@ -77,8 +77,21 @@ Use the Cloud Foundry Command Line Interface (CLI) to deploy to the SAP BTP suba
    ```
    cf8 install-plugin multiapps
    ```
+3. Set the SAP BTP API endpoint. You can find it in overview of your SAP BTP subaccount:
 
-3. Change to the directory where the MTAR file is located and deploy it:
+    ![api](../../setup/mock/images/logon.png)
+
+    ```cmd
+    cf8 api <your-api endpoint>
+    ```
+
+4. Log in to your subaccount and select your org and space:
+
+   ```cmd
+   cf8 login -u <your-user> -p <your-password>
+   ```
+
+5. Change to the directory where the MTAR file is located and deploy it:
 
    ```
    cf8 deploy app-97087_web_standalone_mtar_build-2714.mtar
