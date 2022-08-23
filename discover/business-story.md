@@ -1,4 +1,4 @@
-# Learn the Business Scenario of This Mission
+# The Mission Story
 
 As a sample scenario, Jane a sales executive of ACME Corporation regularly meets different customers. She needs access to latest customer information on the go. She needs a simplified web application, which can run on a portable device like smartphone or a tablet.
 

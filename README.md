@@ -1,5 +1,5 @@
 [![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/btp-s4hana-nocode-extension)](https://api.reuse.software/info/github.com/SAP-samples/btp-s4hana-nocode-extension)
-# Side-by-side UI Extensions on SAP BTP Using SAP AppGyver
+# Use SAP AppGyver to Build Side-by-Side UI Extensions for SAP S/HANA
 
 The main focus of this mission is to develop a custom UI application, which consumes an OData service from an SAP S/4HANA Cloud system.
 
@@ -25,12 +25,12 @@ This scenario covers:
 
 * [The Mission Story](discover/business-story.md)
 * [Learn the Basics of SAP BTP](https://github.com/SAP-samples/cloud-extension-html5-sample/blob/mission/mission/discover/BTP.md)
-* [Learn about SAP S/4HANA](https://github.com/SAP-samples/cloud-extension-html5-sample/blob/mission/mission/discover/S4H.md)
-* [Learn about SAP S/4HANA Cloud](./discover/S4HC.md)
-* [Learn about HTML5 Applications](https://github.com/SAP-samples/cloud-extension-html5-sample/blob/mission/mission/discover/HTML5.md)
-* [Learn about SAP AppGyver](./discover/AppGyver.md)
-* [Learn about SAP Cloud Identity Services](https://github.com/SAP-samples/cloud-extension-html5-sample/blob/mission/mission/discover/IAS.md)
-* [Learn about SAP Launchpad Service and SAP Work Zone](https://github.com/SAP-samples/cloud-extension-html5-sample/blob/mission/mission/discover/Launchpad.md)
+* [Learn About SAP S/4HANA](https://github.com/SAP-samples/cloud-extension-html5-sample/blob/mission/mission/discover/S4H.md)
+* [Learn About SAP S/4HANA Cloud](./discover/S4HC.md)
+* [Learn About HTML5 Applications](https://github.com/SAP-samples/cloud-extension-html5-sample/blob/mission/mission/discover/HTML5.md)
+* [Learn About SAP AppGyver](./discover/AppGyver.md)
+* [Learn About SAP Cloud Identity Services](https://github.com/SAP-samples/cloud-extension-html5-sample/blob/mission/mission/discover/IAS.md)
+* [Learn About SAP Launchpad Service and SAP Work Zone](https://github.com/SAP-samples/cloud-extension-html5-sample/blob/mission/mission/discover/Launchpad.md)
 
 
 
@@ -40,8 +40,8 @@ This scenario covers:
   - [Subscribe to SAP Launchpad Service](./setup/launchpad/README.md)
   - [Onboard SAP S/4HANA Cloud System](./setup/s4hc-onboarding/README.md)
   - [Configure Communication Settings in SAP S/4HANA Cloud](./setup/s4hc-setup/setup-s4hc-system.md)
-  - [Configure End-to-End Connectivity from SAP BTP to SAP S/4HANA Cloud System](./connectivity/end-to-end-connection.md)
-  - [Configure Single Sign-On between SAP S/4HANA Cloud and SAP BTP](https://github.com/SAP-samples/cloud-extension-html5-sample/blob/mission/mission/custom-idp/README.md)
+  - [Configure End-to-End Communication from SAP BTP to SAP S/4HANA Cloud System](./connectivity/end-to-end-connection.md)
+  - [Configure Single Sign-On Between SAP S/4HANA Cloud and SAP BTP](https://github.com/SAP-samples/cloud-extension-html5-sample/blob/mission/mission/custom-idp/README.md)
   - [Map SAP BTP Role Collections to Identity Authentication Service Users](./setup/rolemapping/README.md)
 
 
@@ -59,18 +59,21 @@ If you don't have an SAP S/4HANA system, you can use a mock server setup instead
 Once you have set up the landscape, you can develop, test, and run a simple UI application. We will show the steps to implement the simple UI application using the SAP BTP-managed HTML5 repository. This is a kind of PoC to see if and how the whole landscape setup is working.
 
 * Develop a simple UI application:
-  * [Create Base Application](./create-application/develop/README.md)
-  * [Create List Page](./create-application/develop/ListPage/README.md)
-  * [Create Details Page](./create-application/develop/DetailsPage/README.md)
-  * [Build and Deploy the Application to your SAP BTP Cloud Foundry Account](./create-application/deploy/README.md)
+  * [Create a No-Code Application with SAP AppGyver](./create-application/develop/README.md)
+  * [Create a Business Partner List Page](./create-application/develop/ListPage/README.md)
+  * [Create a Business Partner Details Page](./create-application/develop/DetailsPage/README.md)
+  * [Build and Deploy Your SAP AppGyver Application to SAP BTP](./create-application/deploy/README.md)
 
-## How to obtain support
+## How to Obtain Support
+
 [Create an issue](https://github.com/SAP-samples/btp-s4hana-nocode-extension/issues) in this repository if you find a bug or have questions about the content.
- 
+
 For additional support, [ask a question in SAP Community](https://answers.sap.com/questions/ask.html).
 
 ## Contributing
+
 If you wish to contribute code, offer fixes or improvements, please send a pull request. Due to legal reasons, contributors will be asked to accept a DCO when they create the first pull request to this project. This happens in an automated fashion during the submission process. SAP uses [the standard DCO text of the Linux Foundation](https://developercertificate.org/).
 
 ## License
+
 Copyright (c) 2022 SAP SE or an SAP affiliate company. All rights reserved. This project is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE](LICENSE) file.

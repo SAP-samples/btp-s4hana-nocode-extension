@@ -1,4 +1,4 @@
-# Developing a No-Code Application with SAP AppGyver
+# Create a No-Code Application with SAP AppGyver
 
 In this section, you will create an SAP AppGyver application.
 

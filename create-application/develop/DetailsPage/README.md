@@ -1,4 +1,4 @@
-## Details Page
+## Create a Business Partner Details Page
 
 After you have created the entry page of your application, you will now create a page to show the details of the selected business partner.
 
