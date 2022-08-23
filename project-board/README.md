@@ -19,7 +19,7 @@
   - [Subscribe to SAP Launchpad Service](../setup/launchpad/README.md)
   - [Onboard SAP S/4HANA Cloud system](../setup/s4hc-onboarding/README.md)
   - [Configure Communication Settings in S/4HANA Cloud](../setup/s4hc-setup/setup-s4hc-system.md)
-  - [Configure End-to-End Connectivity from SAP BTP to SAP S/4HANA Cloud System](../connectivity/end-to-end-connection.md)
+  - [Configure End-to-End Communication from SAP BTP to SAP S/4HANA Cloud System](../connectivity/end-to-end-connection.md)
   - [Configure Single Sign-On Between SAP S/4HANA Cloud and SAP BTP](../setup/ias/README.md)
   - [Map SAP BTP Role Collections to Identity Authentication Service Users](../setup/rolemapping/README.md)
 
@@ -32,8 +32,8 @@
 
 - DEVELOP
   - [Create Base Application](../create-application/develop/README.md)
-  - [Create List Page](../create-application/develop/ListPage/README.md)
-  - [Create Details Page](../create-application/develop/DetailsPage/README.md)
+  - [Create a Business Partner List Page](../create-application/develop/ListPage/README.md)
+  - [Create a Business Partner Details Page](../create-application/develop/DetailsPage/README.md)
   - [Build and Deploy Your SAP AppGyver Application to SAP BTP](../create-application/deploy/README.md)
 
 - COMPLETE

@@ -1,4 +1,4 @@
-# Configure End-to-End Connection from SAP BTP to SAP S/4HANA Cloud
+# Configure End-to-End Communication from SAP BTP to SAP S/4HANA Cloud
 
 ## Introduction
 
