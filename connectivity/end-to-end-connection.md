@@ -10,7 +10,7 @@ See section [User Propagation from the Cloud Foundry Environment to SAP S/4HANA 
 
 1. Log in to the SAP S/4HANA Cloud system with your administrator e-mail and password.
 
-2. Search for application **Communication Arrangement** and open the Communication Arrangement, which you have created in the previous section [Configure Communication Settings in S/4HANA Cloud](./setup/s4hc-setup/setup-s4hc-system.md).
+2. Search for application **Communication Arrangement** and open the Communication Arrangement, which you have created in the previous section [Configure Communication Settings in S/4HANA Cloud](../setup/s4hc-setup/setup-s4hc-system.md).
 
 3. In **Inbound Services**, copy the **Service URL** of the **Business Partner (A2X)** with **Application Protocol**, **OData V2** to a text editor of your choice. This OData V2 URL is used for configuring SAP BTP Destination.
 
