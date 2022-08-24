@@ -43,7 +43,7 @@ Download the certificate from your Cloud Foundry subaccount on SAP BTP. You will
 
 5. Choose **Propose Password**.
 
-6. Copy the proposed password in a text editor of your choice. You will you will use this later when creating a destination in your SAP BTP subaccount.
+6. Copy the proposed password in a text editor of your choice. You will use this later when creating a destination in your SAP BTP subaccount.
 
 7. Choose **Create**.
 
