@@ -14,9 +14,6 @@ A data variable is essentially the same as a page variable that exists in the co
 2. Choose **DATA VARIABLES** on the left side of app builder.
 
 3. Now, choose **ADD DATA VARIABLE** and select **A_BusinessPartner**.
-
-   <img src="../images/createdatavariable.png">
-  
   
   ![addDataVar](../images/createdatavariable.png)
 
@@ -31,7 +28,7 @@ At this step, you are creating a Business Partner List page in app builder.
 
 1. On the left panel of UI CANVAS, you see the **Component Market**, scroll to the **Lists** section and choose **List Item**.
 
-   <img src="../images/marketplace.png"  height="200px">
+   ![Component](../images/marketplace.png)
 
 2. Drag the list to the application's page.
 
@@ -39,7 +36,8 @@ At this step, you are creating a Business Partner List page in app builder.
 
 4. A popup opens. Select **Data and Variables.**
 
-    <img src="../images/datavariable.png"  height="200px">
+
+    ![Data](../images/datavariable.png)
 
 5. Select **A_BusinessPartner1** from the list and choose **SAVE**.
 
@@ -51,7 +49,7 @@ At this step, you are creating a Business Partner List page in app builder.
 
 3. Choose Primary Label **ABC**.
 
-    <img src="../images/primarylabel1.png"  height="200px">
+    ![ABC](../images/primarylabel1.png)
 
 4. Choose **Data item in repeat**.
 
@@ -59,7 +57,7 @@ At this step, you are creating a Business Partner List page in app builder.
 
 6. Select **Business Partner** scroll and choose **SAVE**.
 
-    <img src="../images/selectItem1.png" width="400px" height="200px">
+    ![BusinessPartner](../images/selectItem1.png)
 
 7. Go to **PROPERTIES**.
 
@@ -85,7 +83,7 @@ It adds the data variable to the list.
 
 4. The application is launched in the preview portal.
 
-    <img src="../images/preview1.png"  height="300px" width="600px">
+    ![Preview](../images/preview1.png)
 
 The application's first page is now displayed.
 
