@@ -13,7 +13,7 @@ In this section, you will learn how to subscribe to SAP Launchpad Service and co
 
     <img src="././images/entitlements_1.png" width="70%">
 
-3. In the pop-up use, the search function to find required entitlements and then choose the **Launchpad Service** plan on the left site.
+3. In the pop-up use, the search function to find required entitlements and then choose the **Launchpad Service** plan on the left side.
 
 4. Choose **Add 1 Service Plan**.
 
