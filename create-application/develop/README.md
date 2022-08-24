@@ -49,7 +49,7 @@ In this section, you will create an SAP AppGyver application.
 
 9. Choose the blank page. On the right side under the **Properties**, choose **Page name**.
 
-10. Change the page name to **Hom**.
+10. Change the page name to **Home**.
 
     <img src="./images/change%20pagename.png" width="400px">
 
