@@ -55,7 +55,7 @@ On the details page, you will then load the business partner address by passing 
 
 6. Choose the open page component.
 
-7. On the right side of the screen, select **PROPERTIES** &rarr; **Parameters** &rarr; **businessPprtnerId**.
+7. On the right side of the screen, select **PROPERTIES** &rarr; **Parameters** &rarr; **businessPartnerId**.
 
 8. Choose the **X** button. It opens a popup.
 
@@ -214,7 +214,7 @@ Now, that your app is developed, Let's preview the application.
 
 5. The main page should look like:
 
-   <img src="../images/preview1.png">
+   ![main page](../images/preview1.png)
 
 6. The details page should look like:
 
