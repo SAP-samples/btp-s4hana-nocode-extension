@@ -1,5 +1,5 @@
 [![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/btp-s4hana-nocode-extension)](https://api.reuse.software/info/github.com/SAP-samples/btp-s4hana-nocode-extension)
-# Use SAP AppGyver to Build Side-by-Side UI Extensions for SAP S4/HANA
+# Use SAP AppGyver to Build Side-by-Side UI Extensions for SAP S/4HANA
 
 The main focus of this mission is to develop a custom UI application, which consumes an OData service from an SAP S/4HANA Cloud system.
 
