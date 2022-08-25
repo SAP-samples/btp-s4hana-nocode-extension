@@ -32,7 +32,7 @@ At this step, you are creating a Business Partner List page in app builder.
 
 2. Drag the list to the application's page.
 
-3. On the right side **PROPERTIES** section, scroll to **Repeat With**.
+3. On the right side **PROPERTIES** section, scroll to **Repeat With** and select it.
 
 4. A popup opens. Select **Data and Variables.**
 
