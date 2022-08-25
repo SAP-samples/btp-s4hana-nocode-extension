@@ -89,7 +89,7 @@ To add a data source, you need to add the following steps to your project.
 
    <img src="./images/data%20integration2.png" width="400px">
 
-7. After installing integration, you'll see **Enable Data Entity**. Select the entry to choose.
+7. After installing integration, you'll see **Enable Data Entity**. Select **Enable Data Entity** to enable it.
 
 8. Now, search for **A_BusinessPartnerAddress** and choose **Enable Data Entity**.
 
