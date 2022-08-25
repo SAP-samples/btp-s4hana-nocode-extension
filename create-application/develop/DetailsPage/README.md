@@ -174,8 +174,6 @@ Next, you will add a list element, which displays the address of the business pa
 
 8. Select **Data item in repeat**.
 
-   <img src="./primarylabel.png" height="400px">
-
 9.  Choose **Current**.
 
 10. Scroll and select **Street Name**. Choose **Save**.
@@ -194,7 +192,9 @@ Next, you will add a list element, which displays the address of the business pa
 
      <img src="./postalcode.png">
 
-15. Choose **SAVE**.
+     <img src="./primarylabel.png" height="400px">
+
+15. Choose **SAVE** at the top of page.
 
 Now, that your app is developed, Let's preview the application.
 
