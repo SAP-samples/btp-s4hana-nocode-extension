@@ -22,7 +22,7 @@ You will add a new page to your application and add page parameters so you can a
 
 7. It creates a new parameter as a list entry, choose entry to edit.
 
-8. On the right side of the screen, change the **Parameter name** to **businesspartnerId**.
+8. On the right side of the screen, change the **Parameter name** to **businessPartnerId**.
 
 9. Again, choose  **ADD PARAMETER** and select the new entry.
 
