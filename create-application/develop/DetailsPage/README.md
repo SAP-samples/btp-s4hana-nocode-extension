@@ -95,7 +95,7 @@ The detail page receives the Business partner ID from the main page. In this ste
 
       <img src="./objectwithproperties.png">
 
-9. In the **Property** dropdown, select **Business Partners**.
+9. In the **Property** dropdown, select **Business Partner**.
 
 10. Under **Compared Value**, choose button **ABC**.
 
@@ -160,7 +160,7 @@ Next, you will add a list element, which displays the address of the business pa
 
   <img src="./listitemproperties.png">
 
-4. In the popup, select **Data and Variables** &rarr; **Data and Variable**.
+4. In the popup, select **Data and Variables** &rarr; **Data Variable**.
 
   <img src="./objectdata.png">
 
