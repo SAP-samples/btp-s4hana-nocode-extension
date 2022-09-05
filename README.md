@@ -25,9 +25,12 @@ This scenario covers:
 
 ## Steps to do in workshop
 1. Login to the Discovery Center with your SAP User and select **Start Mission** : https://discovery-center.cloud.sap/missiondetail/4024/4228/
-2. Go to the **Project Board** tab to see the detailed step by step instructions.
+2. Choose tab **Project Board** to see the detailed step by step instructions.
 3. In this workshop, we focus on **AppGyver Development** and we have setup the **Option 2 - Set Up With Mock Server** already for your usage.
-4. Kindly start with the **Develop** section with the highlighted steps below.
+4. Kindly start with the **Develop** section with the highlighted steps below.   
+5. For the AppGyver development, select the pre-configured destination **appgyver_mock** which points to the running mock server.
+
+   ![Workshop Cards](./WorkshopDCCards.png)
 
 
 ## How to Obtain Support
