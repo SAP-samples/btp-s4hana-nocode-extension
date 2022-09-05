@@ -6,7 +6,7 @@ This section contains the prerequisites that you have to fulfill before you get 
 
 * [SAP S/4HANA Cloud](https://www.sap.com/products/erp/s4hana-erp.html) system
 * [Global account](https://help.sap.com/products/BTP/65de2977205c403bbc107264b8eccf4b/8ed4a705efa0431b910056c0acdbf377.html?locale=en-US#loioc165d95ee700407eb181770901caec94) in SAP BTP
-* Subaccount in SAP BTP with Cloud Foundry environment enabled
+* Subaccount in SAP BTP with Cloud Foundry environment enabled. Please check in the [SAP AppGyver - Pricing section](https://discovery-center.cloud.sap/serviceCatalog/sap-appgyver) in which regions SAP AppGyver is available.
 * [Optional] If you don't have an SAP S/4HANA Cloud system you can run this mission by installing a mock server. For the mock server, you would need 256MB of Cloud Foundry runtime.
 
 ## Tools
