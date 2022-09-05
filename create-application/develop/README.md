@@ -64,7 +64,7 @@ To consume data from your SAP S/4HANA Cloud System that is configured as a data 
 
    <img src="./images/enable%20auth1.png" width="400px">
 
-3. Select **SAP BTP Authentication** and choose **Ok**. This enables authentication for the project.
+3. Select **SAP BTP Authentication** and choose **OK**. This enables authentication for the project.
 
    <img src="./images/auth2.png" width="400px">
 
@@ -73,7 +73,7 @@ To consume data from your SAP S/4HANA Cloud System that is configured as a data 
 
 To add a data source, you need to add the following steps to your project.
 
-1. Choose **Data** at the top of app builder.
+1. Choose the tab **Data** at the top of App builder.
 
 2. Find section **No systems integrated** and choose **Add Integration**.
 
