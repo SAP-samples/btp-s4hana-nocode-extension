@@ -117,7 +117,7 @@ The detail page receives the Business partner ID from the main page. In this ste
 
 15. Toggle to the **VIEW** mode now.
 
-Now, your application loads the business partner's address and stores it to the page variable.
+Now, your application loads the business partner's address and stores it to the data variable.
 
 
 ### Display the Business Partner Name on the Details Page
