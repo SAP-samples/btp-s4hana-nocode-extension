@@ -29,7 +29,7 @@ This scenario covers:
 2. Choose tab **Project Board** to see the detailed step by step instructions.
 3. In this workshop, we focus on **AppGyver Development** and we have setup the **Option 2 - Set Up With Mock Server** already for your usage.
 4. Kindly start with the **Develop** section with the highlighted steps below.   
-5. For the AppGyver development, select the pre-configured destination **appgyver_mock** which points to the running mock server.
+5. For the AppGyver development, select the pre-configured destination **appgyver_mock** or **bupa** which points to the running mock server.
 
    ![Workshop Cards](./WorkshopDCCards.png)
 
