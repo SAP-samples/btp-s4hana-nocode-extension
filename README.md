@@ -5,7 +5,7 @@ The main focus of this mission is to develop a custom UI application, which cons
 
 We will create a simple custom UI application using no-code tool **SAP AppGyver**, push the code to the HTML5 repository and show different options on how to expose this application - as a stand-alone or with the different SAP Launchpads environments.
 
-You can find this scenario as a mission in [SAP Discovery Center](https://discovery-center.cloud.sap/missiondetail/4024/4228/)
+
 
 ## Business Scenario
 
@@ -24,7 +24,8 @@ This scenario covers:
  ![Solution Architecture](./discover/images/ScenarioArchitecture.png)
 
 ## Steps to do in workshop
-1. Login to the Discovery Center with your SAP User and select **Start Mission** : https://discovery-center.cloud.sap/missiondetail/4024/4228/
+
+1. Login to the Discovery Center with your SAP User and select **Start Mission** to start the mission: [SAP Discovery Center mission](https://discovery-center.cloud.sap/missiondetail/4024/4228/)
 2. Choose tab **Project Board** to see the detailed step by step instructions.
 3. In this workshop, we focus on **AppGyver Development** and we have setup the **Option 2 - Set Up With Mock Server** already for your usage.
 4. Kindly start with the **Develop** section with the highlighted steps below.   
