@@ -9,17 +9,18 @@ In this section, you will create an SAP AppGyver application.
 
 ## Open SAP AppGyver
 
-1. In **SAP BTP Cockpit**, navigate to your subaccount.
+Open **SAP AppGyver Application Development** link if you have it already bookmarked, otherwise open it via the **SAP BTP Cockpit** as described below.
 
-2. From the left-side subaccount menu navigate from **Services** &rarr; **Instances and Subscriptions**.
+ 1. To open **SAP AppGyver Application Development** via SAP cockpit, navigate to your SAP BTP subaccount.
+ 2. From the left-side of your subaccount menu, navigate from **Services** &rarr; **Instances and Subscriptions**.
 
-3. In the tab **Subscriptions**, find **SAP AppGyver** and choose **Go to Application** to open the entry page for Application Development.
+ 3. In the tab **Subscriptions**, find **SAP AppGyver** and choose **Go to Application** to open the entry page for Application Development.
 
-   <img src="./images/openAppGyver.png">
+     <img src="./images/openAppGyver.png">
 
-4. You would be prompted with a log in screen of either default Identity Provider or custom Identity Provider depending on what you have configured.
+  4. You would be prompted with a log in screen of either default Identity Provider or custom Identity Provider depending on what you have configured.
 
-5. Log in to the Application using your default/custom Identity Provider credentials.
+  5. Log in to the Application using your default/custom Identity Provider credentials.
 
 ## Create an Application Using SAP AppGyver
 
