@@ -39,7 +39,7 @@ You will add a new page to your application and add page parameters so you can a
 To show the business partner details on the details page, you need to connect the **Home** page and the **Details** page. In this section, you will first create a new navigation logic to pass the page parameter created in the previous step.
 On the details page, you will then load the business partner address by passing the business partner id to the **A_BusinessPartnerAddress** entity.
 
-1. Swtich from the Details page to the **Home page**, select the first row in the list.
+1. Switch from the Details page to the **Home page**, select the first row in the list.
 
 2. At the bottom of App Builder where you can see **Add logic to LIST ITEM1**. Choose the arrow to open the logic canvas.
 
@@ -67,8 +67,9 @@ On the details page, you will then load the business partner address by passing 
 
     <img src="./selectBPID.png">
 
-13. Repeat step 7-12 the **businesspartnerName** parameter and select **Current.BusinessPartnerFullName**.
-With this step now, you can open a new page to show the business partner address by passing the business partner id to the **A_BusinessPartnerAddress** entity.
+13. Repeat step 7-12 to the **businesspartnerName** parameter and select **Current.BusinessPartnerFullName**.
+14. Choose **SAVE** to save the changes.
+15. With the above steps, you can open a new page to show the business partner address by passing the business partner id to the **A_BusinessPartnerAddress** entity.
 
 
 ### Load Business Partner Address on the Details Page
