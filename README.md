@@ -35,7 +35,7 @@ This scenario covers:
      ![Workshop Cards](./WorkshopDCCards.png)
      
  2. [**Alternative Way**] If you are not able to login to SAP Discovery center, execute the following steps:
-    - [Create a No-Code Application with SAP AppGyver](https://github.com/SAP-samples/btp-s4hana-nocode-extension/blob/main/create-application/develop/README.md)
+    - [Create a No-Code Application with SAP AppGyver](https://github.com/SAP-samples/btp-s4hana-nocode-extension/blob/workshop/create-application/develop/README.md)
     - [Create a Business Partner List Page](https://github.com/SAP-samples/btp-s4hana-nocode-extension/blob/main/create-application/develop/ListPage/README.md)
     - [Create a Business Partner Details Page and Preview the application](https://github.com/SAP-samples/btp-s4hana-nocode-extension/blob/main/create-application/develop/DetailsPage/README.md)
 
