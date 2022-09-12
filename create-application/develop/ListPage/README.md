@@ -69,9 +69,9 @@ At this step, you are creating a Business Partner List page in app builder.
 
 11. Select **Business Partner Full Name**.
 
-12. Choose **SAVE**.
+12. Choose **SAVE** to add the data variable to the list.
 
-It adds the data variable to the list.
+13. Choose **SAVE** to save the changes in the application.
 
 ### Preview the Application
 
