@@ -51,7 +51,7 @@ On the details page, you will then load the business partner address by passing 
 
 6. Drag and drop it to the Logic canvas.
 
-7. Hover over the **Component Tab** and choose the round dot. Connect the dots of the **component tap** and the **open page** component. It creates a new connection setting the logic to open a new page.
+7. Hover over the **Component tab** and choose the round dot. Connect the dots of the **Component tab** and the **open page** component. It creates a new connection setting the logic to open a new page.
 
    <img src="./logiccanvas2.png">
 
