@@ -8,7 +8,7 @@ You will add a new page to your application and add page parameters so you can a
 
 1. On the top left section, choose the name of your current page **Home**, which is highlighted in light blue to open the page menu of SAP AppGyver.
 
-2. Choose **ADD NEW PAGE**.
+2. Choose **ADD NEW PAGE** and then Select **OK**.
 
    <img src="./newpage1.png">
 
