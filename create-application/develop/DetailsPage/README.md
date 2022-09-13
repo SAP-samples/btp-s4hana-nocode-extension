@@ -71,7 +71,7 @@ On the details page, you will then load the business partner address by passing 
 
 14. Repeat step 7-12 to the **businesspartnerName** parameter and select **Current.BusinessPartnerFullName**.
 15. Choose **SAVE** to save the changes.
-16. With the above steps, you can open a new page to show the business partner address by passing the business partner id to the **A_BusinessPartnerAddress** entity.
+16. With this step now, you can open the details page you created to show the business partner address by passing the business partner id to the A_BusinessPartnerAddress entity.
 
 
 ### Load Business Partner Address on the Details Page
