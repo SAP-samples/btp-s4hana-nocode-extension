@@ -8,7 +8,7 @@ You will add a new page to your application and add page parameters so you can a
 
 1. On the top left section, choose the name of your current page **Home**, which is highlighted in light blue to open the page menu of SAP AppGyver.
 
-2. Choose **ADD NEW PAGE**.
+2. Choose **ADD NEW PAGE** and then Select **OK**.
 
    <img src="./newpage1.png">
 
@@ -39,37 +39,39 @@ You will add a new page to your application and add page parameters so you can a
 To show the business partner details on the details page, you need to connect the **Home** page and the **Details** page. In this section, you will first create a new navigation logic to pass the page parameter created in the previous step.
 On the details page, you will then load the business partner address by passing the business partner id to the **A_BusinessPartnerAddress** entity.
 
-1. Switch from the Details page to the **Home page**, select the first row in the list.
+1. Select on the top Left Side mentioning **Details**. 
+2. Select **Home**.
+3. Select the first row in the list.
 
-2. At the bottom of App Builder where you can see **Add logic to LIST ITEM1**. Choose the arrow to open the logic canvas.
+4. At the bottom of App Builder where you can see **Add logic to LIST ITEM1**. Choose the arrow to open the logic canvas.
 
    <img src="./logicview1.png" height="400px">
 
-3. In the component menu on the left side, choose **Navigation** &rarr; **Open page** to add a function that opens a new page.
+5. In the component menu on the left side, choose **Navigation** &rarr; **Open page** to add a function that opens a new page.
 
-4. Drag and drop it to the Logic canvas.
+6. Drag and drop it to the Logic canvas.
 
-5. Hover over the **Component Tab** and choose the round dot. Connect the dots of the **component tap** and the **open page** component. It creates a new connection setting the logic to open a new page.
+7. Hover over the **Component tab** and choose the round dot. Connect the dots of the **Component tab** and the **open page** component. It creates a new connection setting the logic to open a new page.
 
    <img src="./logiccanvas2.png">
 
-6. Choose the open page component.
+8. Choose the open page component.
 
-7. On the right side of the screen, select **PROPERTIES** &rarr; **Parameters** &rarr; **businessPartnerId**.
+9. On the right side of the screen, select **PROPERTIES** &rarr; **Parameters** &rarr; **businessPartnerId**.
 
-8. Choose the **X** button. It opens a popup.
+10. Choose the **X** button. It opens a popup.
 
-9. Select **Data item in repeat**.
+11. Select **Data item in repeat**.
 
-10. Select **Current**.
+12. Select **Current**.
 
-11. Scroll the list and select **BusinessPartner**.
+13. Scroll the list and select **BusinessPartner**.
 
     <img src="./selectBPID.png">
 
-13. Repeat step 7-12 to the **businesspartnerName** parameter and select **Current.BusinessPartnerFullName**.
-14. Choose **SAVE** to save the changes.
-15. With the above steps, you can open a new page to show the business partner address by passing the business partner id to the **A_BusinessPartnerAddress** entity.
+14. Repeat step 7-12 to the **businesspartnerName** parameter and select **Current.BusinessPartnerFullName**.
+15. Choose **SAVE** to save the changes.
+16. With this step now, you can open the details page you created to show the business partner address by passing the business partner id to the A_BusinessPartnerAddress entity.
 
 
 ### Load Business Partner Address on the Details Page
