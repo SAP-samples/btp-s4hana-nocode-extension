@@ -18,9 +18,9 @@ Open **SAP AppGyver Application Development** link if you have it already bookma
 
      <img src="./images/openAppGyver.png">
 
-  4. You would be prompted with a log in screen of either default Identity Provider or custom Identity Provider depending on what you have configured.
+ 4. You would be prompted with a log in screen of either default Identity Provider or custom Identity Provider depending on what you have configured.
 
-  5. Log in to the Application using your default/custom Identity Provider credentials.
+ 5. Log in to the Application using your default/custom Identity Provider credentials.
 
 ## Create an Application Using SAP AppGyver
 
