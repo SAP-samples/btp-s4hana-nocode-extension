@@ -29,10 +29,11 @@ This scenario covers:
    - Login to the Discovery Center with your SAP User and select **Start Mission** to start the mission: [SAP Discovery Center mission](https://discovery-center.cloud.sap/missiondetail/4024/4228/)
    - Choose tab **Project Board** to see the detailed step by step instructions.
    - In this workshop, we focus on **AppGyver Development** and we have setup the **Option 2 - Set Up With Mock Server** already for your usage.
-   - Kindly start with the **Develop** section with the highlighted steps below.   
-   - For the AppGyver development, select the pre-configured destination **appgyver_mock** or **bupa** which points to the running mock server.
+   - Kindly start with the **Develop** section with the highlighted steps below. You can find the step-by-step instructions.   
+   - For the AppGyver Hands-on, kindly use the P-user provided to you to login to the SAP AppGyver Application Development.
+   - While configuring SAP BTP integration, Select the pre-configured destination **appgyver_mock** or **bupa** which points to the running mock server.
 
-     ![Workshop Cards](./WorkshopDCCards.png)
+       ![Workshop Cards](./WorkshopDCCards.png)
      
  2. [**Alternative Way**] If you are not able to login to SAP Discovery center, execute the following steps:
     - [Create a No-Code Application with SAP AppGyver](https://github.com/SAP-samples/btp-s4hana-nocode-extension/blob/workshop/create-application/develop/README.md)
