@@ -47,6 +47,16 @@ This scenario covers:
   - [Map SAP BTP Role Collections to Identity Authentication Service Users](./setup/rolemapping/README.md)
 
 
+## Landscape Setup for SAP BTP and SAP S/4HANA on-premise
+  - [OPTIONAL: Setup of an SAP S/4HANA system from the SAP Cloud Appliance Library](https://github.com/SAP-samples/cloud-extension-ecc-business-process/blob/mission/mission/cal-setup/CALS4H.md)
+  - [Subscribe to the Low-Code / No-Code Service in SAP BTP](./setup/btp/README.md)
+  - [Subscribe to SAP Launchpad Service](./setup/launchpad/README.md)
+  - [Set up the S/4HANA on-premise System](https://github.com/SAP-samples/cloud-extension-html5-sample/blob/mission/mission/s4h-setup/README.md)
+  - [Set up the SAP Cloud Connector & Trust to the SAP S/4HANA System](https://github.com/SAP-samples/cloud-extension-html5-sample/blob/mission/mission/cloud-connector/README.md)
+  - [Configure End-to-End Connectivity from SAP BTP to SAP S/4HANA System](./connectivity/s4hpp-connection.md)
+  - [Configure Single Sign-On between SAP S/4HANA and SAP BTP](https://github.com/SAP-samples/cloud-extension-html5-sample/blob/mission/mission/custom-idp/README.md)
+  - [Map SAP BTP Role Collections to Identity Authentication Service Users](./setup/rolemapping/README.md)
+
 ## Landscape Setup for SAP BTP and Mock Server
 
 If you don't have an SAP S/4HANA system, you can use a mock server setup instead.
