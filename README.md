@@ -21,7 +21,13 @@ This scenario covers:
 
 ## Solution Architecture
 
+**SAP S/4HANA Cloud**
+
  ![Solution Architecture](./discover/images/ScenarioArchitecture.png)
+
+**SAP S/4HANA on-premise**
+ ![Solution Architecture](./discover/images/s4hop.png)
+
 
 ## Discover
 
