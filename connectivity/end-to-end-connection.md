@@ -67,6 +67,8 @@ See section [User Propagation from the Cloud Foundry Environment to SAP S/4HANA 
 
 5. Add the following properties by choosing the **New Property** button. If you have imported the sample destination file, the following properties are automatically added:
 
+   * Name: **AppgyverEnabled** - value: **true**
+   
    * Name: **HTML5.DynamicDestination** - value: **true**
 
    * Name: **nameIdFormat** - value: **urn\:oasis\:names\:tc\:SAML\:1.1\:nameid-format\:emailAddress**
@@ -76,8 +78,6 @@ See section [User Propagation from the Cloud Foundry Environment to SAP S/4HANA 
    * Name: **userIdSource** - value: **email**
 
    * Name: **WebIDEAdditionalData** - value: **full_url**
-
-   * Name: **WebIDEEnabled** - value: **true**
 
    * Name: **WebIDEUsage** - value: **odata_gen**
 
