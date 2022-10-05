@@ -166,9 +166,9 @@ If the deployment was successful, you will see the following log:
   * **Authentication** = NoAuthentication
 
   Choose **New Property** at create the following properties:
+  * **AppgyverEnabled** = true
   * **HTML5.DynamicDestination** = true
   * **WebIDEAdditionalData** = full_url
-  * **WebIDEEnabled** = true
   * **WebIDEUsage** = odata_gen
 
   * Check **Use default JDK truststore**
