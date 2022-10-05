@@ -85,7 +85,7 @@ See section [User Propagation from the Cloud Foundry Environment to SAP S/4HANA 
 
 7. **Save** your settings.
 
-   ![saved Destination](./images/destinations_saved.png)
+   ![save Destination](./images/destinations_save.png)
 
 ## Summary
 
