@@ -25,7 +25,7 @@
 
   
 - OPTION 2: SET UP with SAP S/4HANA on-premise
-  - [OPTIONAL: Setup of an SAP S/4HANA system from the SAP Cloud Appliance Library](https://github.com/SAP-samples/cloud-extension-ecc-business-process/blob/mission/mission/cal-setup/CALS4H.md)
+  - [OPTIONAL: Create an SAP S/4HANA Test System using the SAP Cloud Appliance Library](https://github.com/SAP-samples/cloud-extension-ecc-business-process/blob/mission/mission/cal-setup/CALS4H.md)
   - [Subscribe to the Low-Code / No-Code Service in SAP BTP](../setup/btp/README.md)
   - [Subscribe to SAP Launchpad Service](../setup/launchpad/README.md)
   - [Set up the S/4HANA on-premise System](https://github.com/SAP-samples/cloud-extension-html5-sample/blob/mission/mission/s4h-setup/README.md)
