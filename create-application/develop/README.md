@@ -67,7 +67,7 @@ To add a data source, you need to add the following steps to your project.
 
 3. On the next screen **SAP Systems**, select **BTP Destinations**.
 
-4. Select the destination that you have created in the previous section from the list.
+4. Select the destination **bupa_MOCK**.
 
 5. Under the **Data entities**, select **Search** and enter **A_BUSINESSPARTNER**.
 
