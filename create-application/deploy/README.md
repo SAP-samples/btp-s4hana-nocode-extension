@@ -103,7 +103,7 @@ Use the Cloud Foundry Command Line Interface (CLI) to deploy to the SAP BTP suba
 
 2. From the left-side subaccount menu navigate to **HTML5 Applications**.
 
-3. Under **Managed Application Router provided by SAP Launchpad Service**, you will find a list of applications.
+3. Under **Managed Application Router provided by SAP Build Work Zone, standard edition**, you will find a list of applications.
 
    ![show Applications](./images/html5_applications.png)
 
