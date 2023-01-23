@@ -3,7 +3,7 @@
 
 The main focus of this mission is to develop a custom UI application, which consumes an OData service from an SAP S/4HANA system.
 
-We will create a simple custom UI application using no-code tool **SAP AppGyver**, push the code to the HTML5 repository and show different options on how to expose this application - as a stand-alone or with the different SAP Launchpads environments.
+We will create a simple custom UI application using no-code tool **SAP AppGyver**, push the code to the HTML5 repository and show different options on how to expose this application - as a stand-alone or with the different SAP Build Work Zone environments.
 
 You can find this scenario as a mission in [SAP Discovery Center](https://discovery-center.cloud.sap/missiondetail/4024/4228/).
 
@@ -38,14 +38,14 @@ This scenario covers:
 * [Learn About HTML5 Applications](https://github.com/SAP-samples/cloud-extension-html5-sample/blob/mission/mission/discover/HTML5.md)
 * [Learn About SAP AppGyver](./discover/AppGyver.md)
 * [Learn About SAP Cloud Identity Services](https://github.com/SAP-samples/cloud-extension-html5-sample/blob/mission/mission/discover/IAS.md)
-* [Learn About SAP Launchpad Service and SAP Work Zone](https://github.com/SAP-samples/cloud-extension-html5-sample/blob/mission/mission/discover/Launchpad.md)
+* [Learn About SAP Work Zone](https://github.com/SAP-samples/cloud-extension-html5-sample/blob/mission/mission/discover/Launchpad.md)
 
 
 
 ## Landscape Setup for SAP BTP and SAP S/4HANA Cloud
 
   - [Subscribe to the Low-Code / No-Code Service in SAP BTP](./setup/btp/README.md)
-  - [Subscribe to SAP Launchpad Service](./setup/launchpad/README.md)
+  - [Subscribe to SAP Build Work Zone, standard edition](./setup/launchpad/README.md)
   - [Onboard SAP S/4HANA Cloud System](./setup/s4hc-onboarding/README.md)
   - [Configure Communication Settings in SAP S/4HANA Cloud](./setup/s4hc-setup/setup-s4hc-system.md)
   - [Configure End-to-End Communication from SAP BTP to SAP S/4HANA Cloud System](./connectivity/end-to-end-connection.md)
@@ -56,7 +56,7 @@ This scenario covers:
 ## Landscape Setup for SAP BTP and SAP S/4HANA on-premise
   - [OPTIONAL: Create an SAP S/4HANA Test System using the SAP Cloud Appliance Library](https://github.com/SAP-samples/cloud-extension-ecc-business-process/blob/mission/mission/cal-setup/CALS4H.md)
   - [Subscribe to the Low-Code / No-Code Service in SAP BTP](./setup/btp/README.md)
-  - [Subscribe to SAP Launchpad Service](./setup/launchpad/README.md)
+  - [Subscribe to SAP Build Work Zone, standard edition](./setup/launchpad/README.md)
   - [Set Up the SAP S/4HANA on-premise System](https://github.com/SAP-samples/cloud-extension-html5-sample/blob/mission/mission/s4h-setup/README.md)
   - [Set Up the SAP Cloud Connector & Trust to the SAP S/4HANA System](https://github.com/SAP-samples/cloud-extension-html5-sample/blob/mission/mission/cloud-connector/README.md)
   - [Configure End-to-End Connectivity from SAP BTP to SAP S/4HANA System](./connectivity/s4hpp-connection.md)
@@ -68,7 +68,7 @@ This scenario covers:
 If you don't have an SAP S/4HANA system, you can use a mock server setup instead.
 
   - [Subscribe to the Low-Code / No-Code Service in SAP BTP](./setup/btp/README.md)
-  - [Subscribe to SAP Launchpad Service](./setup/launchpad/README.md)
+  - [Subscribe to SAP Build Work Zone, standard edition](./setup/launchpad/README.md)
   - [Install Mock Server](./setup/mock/README.md)
 
 

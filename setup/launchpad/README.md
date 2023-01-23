@@ -1,7 +1,7 @@
-# Subscribe to SAP Launchpad Service
+# Subscribe to SAP Build Work Zone, standard edition
 ## Introduction
 
-In this section, you will learn how to subscribe to SAP Launchpad Service and configure user roles. You need this subscription to run the SAP AppGyver application as HTML5 Application with Managed Application Router provided by SAP Launchpad Service on SAP BTP.
+In this section, you will learn how to subscribe to SAP Build Work Zone, standard edition and configure user roles. You need this subscription to run the SAP AppGyver application as HTML5 Application with Managed Application Router provided by SAP Build Work Zone, standard edition on SAP BTP.
 
 **Persona:** SAP BTP Developer
 
@@ -13,7 +13,7 @@ In this section, you will learn how to subscribe to SAP Launchpad Service and co
 
     <img src="././images/entitlements_1.png" width="70%">
 
-3. In the pop-up use, the search function to find required entitlements and then choose the **Launchpad Service** plan on the left side.
+3. In the pop-up use, the search function to find required entitlements and then choose the **SAP Build Work Zone, standard edition** plan on the left side.
 
 4. Choose **Add 1 Service Plan**.
 
@@ -23,9 +23,9 @@ In this section, you will learn how to subscribe to SAP Launchpad Service and co
 
     <img src="././images/entitlements_3.png" width="70%">
 
-6. In the menu on the left, choose **Service Marketplace** and search for **Launchpad Service**.
+6. In the menu on the left, choose **Service Marketplace** and search for **SAP Build Work Zone, standard edition**.
 
-7. Choose **Launchpad Service** tile.
+7. Choose **SAP Build Work Zone, standard edition** tile.
 
     <img src="././images/launchpad_1.png" width="70%">
 
