@@ -9,14 +9,14 @@
   - [Learn About HTML5 Applications](https://github.com/SAP-samples/cloud-extension-html5-sample/blob/mission/mission/discover/HTML5.md)
   - [Learn About SAP AppGyver](../discover/AppGyver.md)
   - [Learn About SAP Cloud Identity Services](https://github.com/SAP-samples/cloud-extension-html5-sample/blob/mission/mission/discover/IAS.md)
-  - [Learn About SAP Launchpad Service and SAP Work Zone](https://github.com/SAP-samples/cloud-extension-html5-sample/blob/mission/mission/discover/Launchpad.md)
+  - [Learn About SAP Work Zone](https://github.com/SAP-samples/cloud-extension-html5-sample/blob/mission/mission/discover/Launchpad.md)
 
 - PREPARE
   - [Prerequisites and Required Systems](../prepare/README.md)
 
 - OPTION 1: SET UP with SAP S/4HANA Cloud
   - [Subscribe to the Low-Code / No-Code Service in SAP BTP](../setup/btp/README.md)
-  - [Subscribe to SAP Launchpad Service](../setup/launchpad/README.md)
+  - [Subscribe to SAP Build Work Zone, standard edition](../setup/launchpad/README.md)
   - [Onboard SAP S/4HANA Cloud system](../setup/s4hc-onboarding/README.md)
   - [Configure Communication Settings in S/4HANA Cloud](../setup/s4hc-setup/setup-s4hc-system.md)
   - [Configure End-to-End Communication from SAP BTP to SAP S/4HANA Cloud System](../connectivity/end-to-end-connection.md)
@@ -36,7 +36,7 @@
 
 - OPTION 3: SET UP with Mock Server
   - [Subscribe to the Low-Code / No-Code Service in SAP BTP](../setup/btp/README.md)
-  - [Subscribe to SAP Launchpad Service](../setup/launchpad/README.md)
+  - [Subscribe to SAP Build Work Zone, standard edition](../setup/launchpad/README.md)
   - [Install Mock Server](../setup/mock/README.md)
 
 

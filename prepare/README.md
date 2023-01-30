@@ -32,7 +32,7 @@ The application requires the following [Entitlements and Quotas](https://help.sa
 | Service                           | Plan       | Number of Instances |
 |-----------------------------------|------------|:-------------------:|
 | SAP AppGyver                      | standard   |          1          |
-| Launchpad service                 | free or standard |    1          |
+| SAP Build Work Zone, standard edition                 | free or standard |    1          |
 | Cloud Foundry runtime (optional)  | MEMORY     |          1          |
 | Destination service               | lite       |          1          |
 
