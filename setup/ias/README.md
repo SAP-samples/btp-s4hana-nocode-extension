@@ -37,7 +37,7 @@ You can manage trust configurations for a global account only if you have create
 
    ![Add App](./images/CustIDP-addApp.png)
 
-7. Enter a **Display Name**, for example, **AppGyverTest** and choose **SAP BTP solution** as **Type**.
+7. Enter a **Display Name**, for example, **BuildAppTest** and choose **SAP BTP solution** as **Type**.
 
 8. Choose **Save**.
 

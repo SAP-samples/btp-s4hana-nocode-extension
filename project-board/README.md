@@ -7,7 +7,7 @@
   - [Learn the Basics of SAP BTP](https://github.com/SAP-samples/cloud-extension-html5-sample/blob/mission/mission/discover/BTP.md)
   - [Learn About SAP S/4HANA Cloud](../discover/S4HC.md)
   - [Learn About HTML5 Applications](https://github.com/SAP-samples/cloud-extension-html5-sample/blob/mission/mission/discover/HTML5.md)
-  - [Learn About SAP AppGyver](../discover/AppGyver.md)
+  - [Learn About SAP Build Apps](../discover/AppGyver.md)
   - [Learn About SAP Cloud Identity Services](https://github.com/SAP-samples/cloud-extension-html5-sample/blob/mission/mission/discover/IAS.md)
   - [Learn About SAP Work Zone](https://github.com/SAP-samples/cloud-extension-html5-sample/blob/mission/mission/discover/Launchpad.md)
 
@@ -24,7 +24,7 @@
   - [Map SAP BTP Role Collections to Identity Authentication Service Users](../setup/rolemapping/README.md)
 
   
-- OPTION 2: SET UP with SAP S/4HANA on-premise
+<!-- - OPTION 2: SET UP with SAP S/4HANA on-premise
   - [OPTIONAL: Create an SAP S/4HANA Test System using the SAP Cloud Appliance Library](https://github.com/SAP-samples/cloud-extension-ecc-business-process/blob/mission/mission/cal-setup/CALS4H.md)
   - [Subscribe to the Low-Code / No-Code Service in SAP BTP](../setup/btp/README.md)
   - [Subscribe to SAP Launchpad Service](../setup/launchpad/README.md)
@@ -32,9 +32,9 @@
   - [Set Up the SAP Cloud Connector & Trust to the SAP S/4HANA System](https://github.com/SAP-samples/cloud-extension-html5-sample/blob/mission/mission/cloud-connector/README.md)
   - [Configure End-to-End Connectivity from SAP BTP to SAP S/4HANA System](../connectivity/s4hpp-connection.md)
   - [Configure Single Sign-On between SAP S/4HANA and SAP BTP](https://github.com/SAP-samples/cloud-extension-html5-sample/blob/mission/mission/custom-idp/README.md)
-  - [Map SAP BTP Role Collections to Identity Authentication Service Users](../setup/rolemapping/README.md)
+  - [Map SAP BTP Role Collections to Identity Authentication Service Users](../setup/rolemapping/README.md) -->
 
-- OPTION 3: SET UP with Mock Server
+- OPTION 2: SET UP with Mock Server
   - [Subscribe to the Low-Code / No-Code Service in SAP BTP](../setup/btp/README.md)
   - [Subscribe to SAP Build Work Zone, standard edition](../setup/launchpad/README.md)
   - [Install Mock Server](../setup/mock/README.md)
@@ -44,7 +44,7 @@
   - [Create Base Application](../create-application/develop/README.md)
   - [Create a Business Partner List Page](../create-application/develop/ListPage/README.md)
   - [Create a Business Partner Details Page](../create-application/develop/DetailsPage/README.md)
-  - [Build and Deploy Your SAP AppGyver Application to SAP BTP](../create-application/deploy/README.md)
+  - [Build and Deploy Your Application to SAP BTP](../create-application/deploy/README.md)
 
 - COMPLETE
   - [Complete the Mission](../complete/complete-mission.md)

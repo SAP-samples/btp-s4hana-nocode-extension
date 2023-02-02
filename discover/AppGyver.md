@@ -1,8 +1,8 @@
-# Learn About SAP AppGyver?
+# Learn About SAP Build Apps?
 
-The SAP AppGyver tool provides a professional, no-code application development environment, designed for anyone to quickly develop apps with drag-and-drop capabilities, regardless of role and skill level.
+The SAP SAP Build Apps tool provides a professional, no-code application development environment, designed for anyone to quickly develop apps with drag-and-drop capabilities, regardless of role and skill level.
 
-## SAP AppGyver Features
+## SAP SAP Build Apps Features
 
 Eliminate coding effort to increase development efficiency by building apps visually for Web, iOS, and Android.
 
@@ -20,8 +20,8 @@ Eliminate coding effort to increase development efficiency by building apps visu
 
 ### Deep Integrations
 
-* Integrate modern APIs in minutes with the REST integration wizard​ in SAP AppGyver
-* Access SAP Fiori to build rich user interfaces directly in SAP AppGyver
+* Integrate modern APIs in minutes with the REST integration wizard​ in SAP Build Apps
+* Access SAP Fiori to build rich user interfaces directly in SAP Build Apps
 * Connect with the SAP Service Cloud solution to build custom UIs that extend the solution's functionalities
 
 ### Multidevice Support
@@ -30,5 +30,4 @@ Eliminate coding effort to increase development efficiency by building apps visu
 
 ## Links
 
-* [SAP AppGyver Documentation](https://help.sap.com/docs/APPGYVER?locale=en-US)
-* [SAP AppGyver Community Page](https://community.sap.com/topics/appgyver)
+* [SAP Build Apps Documentation](https://www.sap.com/products/technology-platform/no-code-app-builder.html)

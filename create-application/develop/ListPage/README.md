@@ -15,7 +15,7 @@ A data variable is essentially the same as a page variable that exists in the co
 
 3. Now, choose **ADD DATA VARIABLE** and select **A_BusinessPartner**.
   
-  ![addDataVar](../images/createdatavariable.png)
+    ![addDataVar](../images/ba_datavariable1.png)
 
 4. Choose **SAVE**.
 
