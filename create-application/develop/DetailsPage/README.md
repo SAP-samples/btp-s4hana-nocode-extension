@@ -10,7 +10,7 @@ You will add a new page to your application and add page parameters so you can a
 
 2. Choose **ADD NEW PAGE** and then Select **OK**.
 
-   <img src="./newpage1.png">
+   <img src="./ba_createPage.png">
 
 3. Choose **Details** as **Page name**. Your new page will be created and open.
 
@@ -30,7 +30,7 @@ You will add a new page to your application and add page parameters so you can a
 
 11. Choose **Save**.
 
-    <img src="./parameter.png">
+    <img src="./ba_pageparameters1.png">
 
 12. Switch back to **View** via the toggle button.
 
@@ -45,7 +45,7 @@ On the details page, you will then load the business partner address by passing 
 
 4. At the bottom of App Builder where you can see **Add logic to LIST ITEM1**. Choose the arrow to open the logic canvas.
 
-   <img src="./logicview1.png" height="400px">
+   <img src="./ba_enableNavigation.png" height="400px">
 
 5. In the component menu on the left side, choose **Navigation** &rarr; **Open page** to add a function that opens a new page.
 
@@ -67,7 +67,7 @@ On the details page, you will then load the business partner address by passing 
 
 13. Scroll the list and select **BusinessPartner**.
 
-    <img src="./selectBPID.png">
+    <img src="./ba_pageVariable.png">
 
 14. Repeat step 7-12 to the **businesspartnerName** parameter and select **Current.BusinessPartnerFullName**.
 15. Choose **SAVE** to save the changes.
@@ -89,10 +89,11 @@ The detail page receives the Business partner ID from the main page. In this ste
 5. Choose **ADD DATA VARIABLE**.
 
 6. Select **A_BusinessPartnerAddress** from the list.
+   <img src="./ba_detailspage2.png">
 
 7. Choose the **Filter Conditions** button on the right.
 
-    <img src="./datavariable.png">
+    
 
 8. A popup opens. Select **Object with properties**.
 
@@ -129,11 +130,11 @@ Next, you will change the header of the details page, so it displays the current
 
 1. Select the default description on the page and delete it by pressing **X**.
 
-   <img src="./removetext.png">
+   <img src="./ba_datailspage3.png">
 
 2. Select headline component. On the right side of the screen, choose **ABC** button in **Content** section.
 
-   <img src="./headline.png">
+   <img src="./ba_detailspage4.png">
 
 3. Select **Data and Variables**
 
@@ -155,17 +156,17 @@ Next, you will add a list element, which displays the address of the business pa
 
 1. Select **List item** in the component market on the left.
 
-   <img src="./listitem.png">
+   <img src="./ba_detailspage5.png">
 
 2. From the right **PROPERTIES** panel, find **Arrow Visible** section and select **false** from the dropdown.
 
 3. Choose **Repeat with** the button on the left side of the screen.
 
-  <img src="./listitemproperties.png">
+   <img src="./ba_detailspage6.png">
 
-4. In the popup, select **Data and Variables** &rarr; **Data Variable**.
+1. In the popup, select **Data and Variables** &rarr; **Data Variable**.
 
-  <img src="./objectdata.png">
+    <img src="./objectdata.png">
 
 5. Select **A_BusinessPartnerAddress1** from the list.
 
@@ -181,13 +182,13 @@ Next, you will add a list element, which displays the address of the business pa
 
 10. Scroll and select **Street Name**. Choose **Save**.
 
-   <img src="./streetname.png" height="400px">
+    <img src="./streetname.png" height="400px">
 
 11. On the right side of the screen, Choose **ABC** button under the **Secondary Label**.
 
 12. Select **Data item in repeat**.
 
-   <img src="./secondarylabel.png" height="400px">
+    <img src="./secondarylabel.png">
 
 13. Choose **Current**.
 
@@ -205,13 +206,13 @@ Now, that your app is developed, Let's preview the application.
 
 1. Choose **LAUNCH**.
 
-2. Choose **OPEN APP IN PREVIEW PORTAL**.
-
-   <img src="./launch.png">
+2. Choose **OPEN PREVIEW PORTAL** and choose **Open web preview** button.
+   
+   <img src="./ba_preview1.png">
 
 3. Select your application and choose **OPEN**.
 
-   <img src="./export.png">
+   <img src="./ba_preview2.png">
 
 4. Choose the list item to see the details page.
 
@@ -221,7 +222,7 @@ Now, that your app is developed, Let's preview the application.
 
 6. The details page should look like:
 
-   <img src="./detailspagepreview.png">
+   <img src="./ba_deatilspagePreview.png">
 
 
 

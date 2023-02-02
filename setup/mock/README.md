@@ -1,12 +1,12 @@
 # Install Mock Server
 
-If you don't have access to an SAP S/4HANA system but still want to create an application consuming an OData service with SAP AppGyver, you can use this [mock server application](https://github.com/SAP-samples/cloud-extension-ecc-business-process/blob/mock/README.md). It contains some entities of the SAP S/4HANA API_Business_Partner OData service (A_BusinessPartner & A_BusinessPartnerAddress) with sample data.
+If you don't have access to an SAP S/4HANA system but still want to create an application consuming an OData service with SAP Build Apps, you can use this [mock server application](https://github.com/SAP-samples/cloud-extension-ecc-business-process/blob/mock/README.md). It contains some entities of the SAP S/4HANA API_Business_Partner OData service (A_BusinessPartner & A_BusinessPartnerAddress) with sample data.
 
 For the installation, you could either use [SAP Business Application Studio](#deployment-with-sap-business-application-studio) or your [local system](#local-deployment).
 
 To install the mock server, you need an SAP BTP subaccount with **Cloud Foundry Environment** and **256 MB of Cloud Foundry runtime**.
 
-Also you have to create a [destination](#create-destination-for-mock-server) to the mock service in the same subaccount as your SAP AppGyver subscription.
+Also you have to create a [destination](#create-destination-for-mock-server) to the mock service in the same subaccount as your SAP Build Apps subscription.
 
 ## Deployment with SAP Business Application Studio
 
@@ -64,7 +64,9 @@ Also you have to create a [destination](#create-destination-for-mock-server) to 
       git clone -b mock https://github.com/SAP-samples/cloud-extension-ecc-business-process.git
    ```
 
-3. Choose **File** in the menu on the top and then select **Open Workspace** from the dropdown menu.
+3. Choose **File** in the menu on the top and then select **Add Folder to Workspace** from the dropdown menu.
+
+  ![add workspace](./images/add_workspace.png)
 
 4. Open the project by choosing **projects** &rarr; **cloud-extension-ecc-business-process** and choose **Open**.
 
@@ -166,10 +168,10 @@ If the deployment was successful, you will see the following log:
   * **Authentication** = NoAuthentication
 
   Choose **New Property** at create the following properties:
-  * **AppgyverEnabled** = true
   * **HTML5.DynamicDestination** = true
   * **WebIDEAdditionalData** = full_url
   * **WebIDEUsage** = odata_gen
+  * **WebIDEEnabled** = true
 
   * Check **Use default JDK truststore**
 

@@ -1,58 +1,61 @@
-# Create a No-Code Application with SAP AppGyver
+# Create a No-Code Application with SAP Build Apps
 
-In this section, you will create an SAP AppGyver application.
+In this section, you will create an SAP Build Apps application.
 
 **Persona:** Citizen Developer
 
 **Abbreviation:** SAP Business Technology Platform = SAP BTP
 
 
-## Open SAP AppGyver
+## Open SAP Build Apps
 
-Open **SAP AppGyver Application Development** link if you have it already bookmarked, otherwise open it via the **SAP BTP Cockpit** as described below.
+Open **SAP Build Apps Application Development** link if you have it already bookmarked, otherwise open it via the **SAP BTP Cockpit** as described below.
 
- 1. To open **SAP AppGyver Application Development** via SAP cockpit, navigate to your SAP BTP subaccount.
+ 1. To open **SAP Build Apps Application Development** via SAP cockpit, navigate to your SAP BTP subaccount.
  2. From the left-side of your subaccount menu, navigate from **Services** &rarr; **Instances and Subscriptions**.
 
- 3. In the tab **Subscriptions**, find **SAP AppGyver** and choose **Go to Application** to open the entry page for Application Development.
+ 3. In the tab **Subscriptions**, find **SAP Build Apps** and choose **Go to Application** to open the entry page for Application Development.
 
-     <img src="./images/openAppGyver.png">
+     <img src="./images/ba_subscription.png">
 
  4. You would be prompted with a log in screen of either default Identity Provider or custom Identity Provider depending on what you have configured.
 
  5. Log in to the Application using your default/custom Identity Provider credentials.
 
-## Create an Application Using SAP AppGyver
+## Create an Application Using SAP Build Apps
 
 ### Create a Project
 
-1. On Application Development site choose **Create**, and choose **AppGyver Project** in the dropdown.
+1. On the Build, app dashboard choose to **Create** and choose **Build an Application**.
 
-   <img src="./images/createProject.png" width="250px">
+   <img src="./images/ba_createapp.png" width="250px">
 
-2. Enter a **Project Name**.
+2. Choose **Web & Mobile Application**. 
+   <img src="./images/ba_chooseApp.png" witdh="250px">
 
-3. Enter a **Short Description**.
+3. Enter a **Project Name**.
 
-4. Choose **Create**.
+4. Enter a **Short Description**.
 
-   <img src="./images/project%20details.png" width="250px">
+5. Choose **Create**.
 
-5. Your created project will be opened in [App Builder](https://docs.appgyver.com/docs/quick-start#using-the-app-builder), which is the central page to build your application including a user interface, logic, as well as data integration.
+   <img src="./images/ba_createApp_1.png"  >
 
-6. Choose **Headline**.
+6. Your created project will be opened in **App Builder** which is the central page to build your application including a user interface, logic, as well as data integration.
 
-7. Find the **Properties** tab in the menu on the right to change the content of the title. Choose **Content** and change the content from **Headline** to **Extend UI Application**.
+7. Choose **Headline**.
 
-   <img src="./images/ChangeContent.png" width="550px">
+8. Find the **Properties** tab in the menu on the right to change the content of the title. Choose **Content** and change the content from **Headline** to **Extend UI Application**.
 
-8. Find the text field in the UI canvas in the center of your screen and choose **x** to remove this component.
+   <img src="./images/ba_title.png" width="550px">
 
-9. Choose the blank page. On the right side under the **Properties**, choose **Page name**.
+9.  Find the text field in the UI canvas in the center of your screen and choose **x** to remove this component.
 
-10. Change the page name to **Home**.
+10. Choose the blank page. On the right side under the **Properties**, choose **Page name**.
 
-    <img src="./images/change%20pagename.png" width="400px">
+11. Change the page name to **Home**.
+
+    <img src="./images/ba_pageRename.png" width="400px">
 
 
 ### Enable Authentication
@@ -63,11 +66,11 @@ To consume data from your SAP S/4HANA Cloud System that is configured as a data 
 
 2. Choose **Enable Authentication**.
 
-   <img src="./images/enable%20auth1.png" width="400px">
+   <img src="./images/ba_enableauth1.png" width="400px">
 
 3. Select **SAP BTP Authentication** and choose **OK**. This enables authentication for the project.
 
-   <img src="./images/auth2.png" width="400px">
+   <img src="./images/ba_enableauth2.png" width="400px">
 
 
 ### Add a Data Source
@@ -78,7 +81,7 @@ To add a data source, you need to add the following steps to your project.
 
 2. Find section **No systems integrated** and choose **Add Integration**.
 
-   <img src="./images/data%20integration1.png" width="400px">
+   <img src="./images/ba_dataintegration.png" width="400px">
 
 3. On the next screen **SAP Systems**, select **BTP Destinations**.
 
@@ -88,7 +91,7 @@ To add a data source, you need to add the following steps to your project.
 
 6. Choose **Install Integration**.
 
-   <img src="./images/data%20integration2.png" width="400px">
+   <img src="./images/ba_dataintegration2.png" width="400px">
 
 7. After installing integration, you'll see **Enable Data Entity**. Select **Enable Data Entity** to enable it.
 

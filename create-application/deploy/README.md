@@ -1,11 +1,10 @@
-
-# Build and Deploy Your SAP AppGyver Application to SAP BTP
+# Build and Deploy Your SAP Build Apps Application to SAP BTP
 
 ## Introduction
 
-In this section, you will build and deploy your SAP AppGyver UI application, which was already created using SAP AppGyver.
+In this section you will build the application that you created using SAP Build Apps, and then deploy it to SAP BTP as an HTML5 application.
 
-**Persona:** SAP BTP Expert Developer
+**Persona:** Citizen Developer
 
 **Abbreviation:** SAP Business Technology Platform = SAP BTP
 
@@ -16,31 +15,27 @@ In this section, you will build and deploy your SAP AppGyver UI application, whi
 
 1. In **Application Development** choose **LAUNCH**.
 
-2. Choose **DISTRIBUTE**. Choose **OPEN BUILD SERVICE**.
+2. Choose **OPEN BUILD SERVICE**.
 
-   ![choose Open Build Service](./images/build_open_build_service.png)
+   ![choose Open Build Service](./images/ba_build_open_build_service.png)
 
 3. Under **Web App**, choose **CONFIGURE**.
 
-   ![choose Configure](./images/build_configure.png)
-
-4. Enter a hostname and choose **SAVE & NEXT**.
-
-   ![choose Hostname](./images/build_hostname.png)
+   ![choose Configure](./images/ba_build_configure.png)
 
 5. On **Bundle Settings** tab, choose **MTAR** and then choose **SAVE & NEXT**.
 
-   ![choose MTAR](./images/build_mtar.png)
+   ![choose MTAR](./images/ba_build_mtar.png)
 
 6. On **Image Assets** tab, choose **SAVE & NEXT**.
 
 7. On **Permissions**, choose **SAVE & NEXT**.
 
-   ![choose Build](./images/build_build.png)
+   ![choose Build](./images/ba_build_build.png)
 
 8. In the **Web App** section, choose **BUILD**.
 
-   ![choose Build](./images/build_runtime.png)
+   ![choose Build](./images/ba_build_building_web_app.png)
 
 9. Choose file type **MTAR**.
 
@@ -50,52 +45,32 @@ In this section, you will build and deploy your SAP AppGyver UI application, whi
 
 12. Choose **BUILD**.
 
-    ![choose Refresh Browser](./images/build_status.png)
+    ![choose Refresh Browser](./images/ba_build_status.png)
 
     The Build page will not notify via e-mail once the build has been completed. You have to refresh the browser to check if the build has been completed. The build can take more than 10 minutes.
 
-13. Refresh the browser until the status changes from **created** to **queued** and then finally to **delivered**, at which point a **Download** button appears. This can take several minutes.
+13. Refresh the browser until the status changes from **created** to **queued** and then finally to **delivered**, at which point a **DEPLOY MTA** button appears. This can take several minutes.
 
-14. In **Web App** tab choose **DOWNLOAD**.
+    ![choose Deploy_MTA](./images/ba_build_deploy_mta.png)
+     
 
-    ![choose Download](./images/build_download.png)
+### Deploy
 
-    An MTAR file is downloaded. It will look like this: **app-97087_web_standalone_mtar_build-2714.mtar**.
 
-### Push to HTML5 Repository
 
-Use the Cloud Foundry Command Line Interface (CLI) to deploy to the SAP BTP subaccount. You will use version 8 and depending on how you have installed it, the command is either **cf** or **cf8**. See [Install the Cloud Foundry Command Line Interface (CLI)](https://developers.sap.com/tutorials/cp-cf-download-cli.html) if you do not already have it.
+1. In **Web App** choose **DEPLOY_MTA**.
+   
+   You will need to authorize with your identity provider the first time you do this.
 
-1. Check that the multiapps plugin is installed:
+3. Select the organization and space and then choose **DEPLOY_MTA**.
 
-   ```
-   cf8 plugins
-   ```
+    ![choose_DEPLOY_MTA](./images/ba_deploy_org_space.png)
 
-2. If the plugin is not installed, install it using:
+4. Wait until the deployment is completed and choose **CLOSE**.
 
-   ```
-   cf8 install-plugin multiapps
-   ```
-3. Set the SAP BTP API endpoint. You can find it in overview of your SAP BTP subaccount:
+    ![choose_CLOSE](./images/ba_deploy_deploying.png)
 
-    ![api](../../setup/mock/images/logon.png)
 
-    ```cmd
-    cf8 api <your-api endpoint>
-    ```
-
-4. Log in to your subaccount and select your org and space:
-
-   ```cmd
-   cf8 login -u <your-user> -p <your-password>
-   ```
-
-5. Change to the directory where the MTAR file is located and deploy it:
-
-   ```
-   cf8 deploy app-97087_web_standalone_mtar_build-2714.mtar
-   ```
 
 ### Check Deployment
 
@@ -105,7 +80,7 @@ Use the Cloud Foundry Command Line Interface (CLI) to deploy to the SAP BTP suba
 
 3. Under **Managed Application Router provided by SAP Build Work Zone, standard edition**, you will find a list of applications.
 
-   ![show Applications](./images/html5_applications.png)
+   ![show Applications](./images/ba_html5_applications.png)
 
 4. Click the **Application Name** (this will be the build number).
 
@@ -113,11 +88,4 @@ Use the Cloud Foundry Command Line Interface (CLI) to deploy to the SAP BTP suba
 
 ## Summary
 
-You have deployed the application that you developed in SAP AppGyver to SAP BTP as an HTML5 application that can be consumed using a URL.
-
-
-
-
-
-
-
+You have deployed the application that you developed in SAP Build Apps to SAP BTP as an HTML5 application that can be consumed using a URL.
