@@ -19,7 +19,7 @@ Choose the created subaccount. In the Overview page choose **Enable Cloud Foundr
 
 ![Enable CF](./images/enableCF.png)
 
-## Add your Identity Autentication Service
+## Add your Identity Authentication Service
 
 > **Prerequisite:** You have created an [IAS Tenant](https://help.sap.com/docs/BUILD_APPS/431746e4c663458aa68d9754b237bfc6/01225b6b951d425c97b58a834a1ff484.html?locale=en-US#prerequisite%3A-ias-tenant)
 
