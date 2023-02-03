@@ -47,9 +47,7 @@ This scenario covers:
   - [Onboard SAP S/4HANA Cloud System](./setup/s4hc-onboarding/README.md)
   - [Configure Communication Settings in SAP S/4HANA Cloud](./setup/s4hc-setup/setup-s4hc-system.md)
   - [Configure End-to-End Communication from SAP BTP to SAP S/4HANA Cloud System](./connectivity/end-to-end-connection.md)
-  - [Configure Single Sign-On Between SAP S/4HANA Cloud and SAP BTP](https://github.com/SAP-samples/cloud-extension-html5-sample/blob/mission/mission/custom-idp/README.md)
-  - [Map SAP BTP Role Collections to Identity Authentication Service Users](./setup/rolemapping/README.md)
-
+  
 ## Landscape Setup for SAP BTP and Mock Server
 
 If you don't have an SAP S/4HANA system, you can use a mock server setup instead.
