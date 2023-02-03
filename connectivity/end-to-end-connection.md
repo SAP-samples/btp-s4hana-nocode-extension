@@ -40,7 +40,7 @@ See section [User Propagation from the Cloud Foundry Environment to SAP S/4HANA 
 
 4. Configure the **Destination** by entering or adjusting the following values:
 
-   * **Name**: a meaningful name, for example: s4hCloudOauth
+   * **Name**: a meaningful name, for example: S4HC_SAMLASSERTION
 
    * **Type**: HTTP
 
@@ -48,36 +48,24 @@ See section [User Propagation from the Cloud Foundry Environment to SAP S/4HANA 
 
    * **ProxyType** Internet
 
-   * **Authentication** OAuth2SAMLBearerAssertion
+   * **Authentication** SAMLAssertion
 
-   * **Audience** https://myXXXXXX.s4hana.ondemand.com. This is the URL of your SAP S/4HANA Cloud account.
+   * **Audience** https://myXXXXXX.s4hana.ondemand.com. This is the URL of your SAP S/4HANA Cloud account (without the -api).
 
-   * **AuthnContextClassRef** urn\:oasis\:names\:tc\:SAML\:2.0\:ac\:classes\:X509
-
-   * **Client Key** Enter the name of the inbound communication user that you created in the S/4HANA Cloud system
-
-   * **TokenServiceURLType** Dedicated
-
-   * **TokenServiceURL** https://myXXXXXX-api.s4hana.ondemand.com/sap/bc/sec/oauth2/token
-
-   * **TokenServiceUser** Enter the name of the inbound communication user that you created in the S/4HANA Cloud system
-
-   * **Token Service Password** Enter the password of the inbound communication user, which you have copied to the text editor while creating the user in the S/4HANA Cloud system
+   * **AuthnContextClassRef** urn\:oasis\:names\:tc\:SAML\:2.0\:ac\:classes\:PreviousSession
 
 
-5. Add the following properties by choosing the **New Property** button. If you have imported the sample destination file, the following properties are automatically added:
+5. Add the following **Additional Properties** by choosing the **New Property** button. If you have imported the sample destination file, the following properties are automatically added:
 
    * Name: **AppgyverEnabled** - value: **true**
    
    * Name: **HTML5.DynamicDestination** - value: **true**
+   
+   * Name: **HTML5.Timeout** - value: **60000**
 
-   * Name: **nameIdFormat** - value: **urn\:oasis\:names\:tc\:SAML\:1.1\:nameid-format\:emailAddress**
-
-   * Name: **scope** - value: **API_BUSINESS_PARTNER_0001**
-
-   * Name: **userIdSource** - value: **email**
-
-   * Name: **WebIDEAdditionalData** - value: **full_url**
+   * Name: **nameIdFormat** - value: **urn\:oasis\:names\:tc\:SAML\:1.1\:nameid-format\:emailAddress**  
+   
+   * Name: **WebIDEEnabled** - value: **true**
 
    * Name: **WebIDEUsage** - value: **odata_gen**
 
@@ -86,6 +74,10 @@ See section [User Propagation from the Cloud Foundry Environment to SAP S/4HANA 
 7. **Save** your settings.
 
    ![save Destination](./images/destinations_save.png)
+   
+8. Choose **Check Connection**, you would get a **401 Unauthorized** response which is ok.
+   
+   ![check conn](./images/checkConnection.png)
 
 ## Summary
 
