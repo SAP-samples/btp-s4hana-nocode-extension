@@ -42,7 +42,7 @@ This scenario covers:
 
 ## Landscape Setup for SAP BTP and SAP S/4HANA Cloud
 
-  - [Subscribe to the Low-Code / No-Code Service in SAP BTP](./setup/btp/README.md)
+  - [Setup the SAP Build Apps Service](./setup/btp/SAPBUILD.md)
   - [Subscribe to SAP Build Work Zone, standard edition](./setup/launchpad/README.md)
   - [Onboard SAP S/4HANA Cloud System](./setup/s4hc-onboarding/README.md)
   - [Configure Communication Settings in SAP S/4HANA Cloud](./setup/s4hc-setup/setup-s4hc-system.md)
