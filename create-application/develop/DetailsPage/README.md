@@ -6,7 +6,7 @@ After you have created the entry page of your application, you will now create a
 
 You will add a new page to your application and add page parameters so you can access data from your application.
 
-1. On the top left section, choose the name of your current page **Home**, which is highlighted in light blue to open the page menu of SAP AppGyver.
+1. On the top left section, choose the name of your current page **Home**, which is highlighted in light blue to open the page menu of SAP Build Apps.
 
 2. Choose **ADD NEW PAGE** and then Select **OK**.
 
