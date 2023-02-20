@@ -15,7 +15,7 @@ ACME Corporation implements the application as an SAP S/4HANA extension on SAP B
 
 This scenario covers:
 
-* Building application with SAP SAP Build Apps
+* Building application with SAP Build Apps
 * Set up connectivity between SAP BTP and SAP S/4HANA Cloud or SAP S/4HANA on-premise
 * Deploying the application on SAP BTP, Cloud Foundry environment
 
@@ -34,7 +34,7 @@ This scenario covers:
 * [Learn About SAP S/4HANA](https://github.com/SAP-samples/cloud-extension-html5-sample/blob/mission/mission/discover/S4H.md)
 * [Learn About SAP S/4HANA Cloud](./discover/S4HC.md)
 * [Learn About HTML5 Applications](https://github.com/SAP-samples/cloud-extension-html5-sample/blob/mission/mission/discover/HTML5.md)
-* [Learn About SAP SAP Build Apps](./discover/AppGyver.md)
+* [Learn About SAP Build Apps](./discover/AppGyver.md)
 * [Learn About SAP Cloud Identity Services](https://github.com/SAP-samples/cloud-extension-html5-sample/blob/mission/mission/discover/IAS.md)
 * [Learn About SAP Work Zone](https://github.com/SAP-samples/cloud-extension-html5-sample/blob/mission/mission/discover/Launchpad.md)
 
