@@ -1,8 +1,8 @@
 # Learn About SAP Build Apps?
 
-The SAP SAP Build Apps tool provides a professional, no-code application development environment, designed for anyone to quickly develop apps with drag-and-drop capabilities, regardless of role and skill level.
+The SAP Build Apps tool provides a professional, no-code application development environment, designed for anyone to quickly develop apps with drag-and-drop capabilities, regardless of role and skill level.
 
-## SAP SAP Build Apps Features
+## SAP Build Apps Features
 
 Eliminate coding effort to increase development efficiency by building apps visually for Web, iOS, and Android.
 
