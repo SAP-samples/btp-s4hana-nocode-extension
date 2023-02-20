@@ -69,7 +69,7 @@ On the details page, you will then load the business partner address by passing 
 
     <img src="./ba_pageVariable.png">
 
-14. Repeat step 7-12 to the **businesspartnerName** parameter and select **Current.BusinessPartnerFullName**.
+14. Repeat step 8-13 to the **businesspartnerName** parameter and select **Current.BusinessPartnerFullName**.
 15. Choose **SAVE** to save the changes.
 16. With this step now, you can open the details page you created to show the business partner address by passing the business partner id to the A_BusinessPartnerAddress entity.
 
