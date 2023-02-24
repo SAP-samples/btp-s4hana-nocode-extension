@@ -40,7 +40,7 @@ You can propagate the user from the SAP BTP custom Identity Provider to SAP S/4H
 
 5. Add the following **Additional Properties** by choosing the **New Property** button. If you have imported the sample destination file, the following properties are automatically added:
 
-   * Name: **AppgyverEnabled** - value: **true**
+   * Name: **WebIDEEnabled** - value: **true**
    
    * Name: **HTML5.DynamicDestination** - value: **true**
    
