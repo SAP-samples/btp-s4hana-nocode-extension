@@ -26,6 +26,11 @@ This scenario covers:
  ![Solution Architecture](./discover/images/ScenarioArchitecture.png)
 
 
+### Start Discovery Center Mission 
+- Login to the Discovery Center with your SAP User and select **Start Mission** to start the mission: [SAP Discovery Center mission](https://discovery-center.cloud.sap/missiondetail/4024/4228/)
+- Choose tab **Project Board** to see the detailed step by step instructions. 
+- Learn the cards in the **Discover** section
+
 
 ## Discover
 
@@ -39,27 +44,18 @@ This scenario covers:
 * [Learn About SAP Work Zone](https://github.com/SAP-samples/cloud-extension-html5-sample/blob/mission/mission/discover/Launchpad.md)
 
 
-
-## Landscape Setup for SAP BTP and SAP S/4HANA Cloud
-
-  - [Setup the SAP Build Apps Service](./setup/btp/SAPBUILD.md)
-  - [Subscribe to SAP Build Work Zone, standard edition](./setup/launchpad/README.md)
-  - [Onboard SAP S/4HANA Cloud System](./setup/s4hc-onboarding/README.md)
-  - [Configure Communication Settings in SAP S/4HANA Cloud](./setup/s4hc-setup/setup-s4hc-system.md)
-  - [Configure End-to-End Communication from SAP BTP to SAP S/4HANA Cloud System](./connectivity/end-to-end-connection.md)
   
 ## Landscape Setup for SAP BTP and Mock Server
 
-If you don't have an SAP S/4HANA system, you can use a mock server setup instead.
-
-  - [Subscribe to the Low-Code / No-Code Service in SAP BTP](./setup/btp/README.md)
-  - [Subscribe to SAP Build Work Zone, standard edition](./setup/launchpad/README.md)
-  - [Install Mock Server](./setup/mock/README.md)
-
+- For the workshop, a SAP BTP subaccount is precreated for you
+- You are provided with an user and initial password for the custom Identity & Authentication Tenant which is configured to the subaccount.
+- You will login to the SAP BTP cockpit and to the SAP Build Apps using your custom Identity user name and password.
+- A mock server is deployed and already running in the SAP BTP subaccount. This mock server will act like an SAP S/4HANA backend giving the data for [Business Partners API](https://api.sap.com/api/API_BUSINESS_PARTNER/overview)
+- A SAP BTP destination is also preconfigured for you with the name **bupa**
 
 ## Implementation of an SAP Build Apps Extension Application
 
-Once you have set up the landscape, you can develop, test, and run a simple UI application. We will show the steps to implement the simple UI application using the SAP BTP-managed HTML5 repository. This is a kind of PoC to see if and how the whole landscape setup is working.
+Now that the landscape is all setup, let us learn to build an application using SAP Build Apps. You will also learn to preview the application, deploy the application to the SAP BTP-managed HTML5 repository and to integrate the application in the SAP Build Work Zone, standard edition. 
 
 * Develop a simple UI application:
   * [Create a No-Code Application with SAP Build Apps](./create-application/develop/README.md)
