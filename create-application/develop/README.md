@@ -18,9 +18,9 @@ Open **SAP Build Apps Application Development** link if you have it already book
 
      <img src="./images/ba_subscription.png">
 
- 4. You would be prompted with a log in screen of either default Identity Provider or custom Identity Provider depending on what you have configured.
+ 4. You might be prompted with a log in screen of either default Identity Provider or custom Identity Provider depending on what you have configured.
 
- 5. Log in to the Application using your default/custom Identity Provider credentials.
+ 5. Log in to the Application using your custom Identity Provider credentials.
 
 ## Create an Application Using SAP Build Apps
 
@@ -33,7 +33,7 @@ Open **SAP Build Apps Application Development** link if you have it already book
 2. Choose **Web & Mobile Application**. 
    <img src="./images/ba_chooseApp.png" witdh="250px">
 
-3. Enter a **Project Name**.
+3. Enter a **Project Name**, for example **test\<Your D/I Number\>**
 
 4. Enter a **Short Description**.
 
@@ -49,7 +49,9 @@ Open **SAP Build Apps Application Development** link if you have it already book
 
    <img src="./images/ba_title.png" width="550px">
 
-9.  Find the text field in the UI canvas in the center of your screen and choose **x** to remove this component.
+9. Find the text field in the UI canvas in the center of your screen and choose **x** to remove this component.
+
+   <img src="./images/ba_removeTextField.png" width="250px">
 
 10. Choose the blank page. On the right side under the **Properties**, choose **Page name**.
 
@@ -60,7 +62,7 @@ Open **SAP Build Apps Application Development** link if you have it already book
 
 ### Enable Authentication
 
-To consume data from your SAP S/4HANA Cloud System that is configured as a data source in the previous section, you need to enable authentication.
+To consume data from your SAP backend system or mock data that is configured as a SAP BTP destination in the previous section, you need to enable authentication.
 
 1. Choose **AUTH** at the top section of the app builder.
 
@@ -98,3 +100,4 @@ To add a data source, you need to add the following steps to your project.
 8. Now, search for **A_BusinessPartnerAddress** and choose **Enable Data Entity**.
 
 9. Choose **Save** at top of the app builder. This adds the data source to your project. Choose **UI Canvas** to go back to the UI designer view.
+10. Now you have added a data source for your SAP Build Apps application.

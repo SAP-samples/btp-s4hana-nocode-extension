@@ -20,11 +20,11 @@ You will add a new page to your application and add page parameters so you can a
 
 6. Choose **ADD PARAMETER**.
 
-7. It creates a new parameter as a list entry, choose entry to edit.
+7. It creates a new parameter, choose the created parameter to edit.
 
 8. On the right side of the screen, change the **Parameter name** to **businessPartnerId**.
 
-9. Again, choose  **ADD PARAMETER** and select the new entry.
+9. Again, choose  **ADD PARAMETER** and create a second parameter.
 
 10. Change **Parameter name** to **businesspartnerName**.
 
@@ -40,7 +40,7 @@ To show the business partner details on the details page, you need to connect th
 On the details page, you will then load the business partner address by passing the business partner id to the **A_BusinessPartnerAddress** entity.
 
 1. Select on the top Left Side mentioning **Details**. 
-2. Select **Home**.
+2. Select **Home** to switch to Home page to create a logic to pass the business partner and business partner full name parameters from Home page to Details page .
 3. Select the first row in the list.
 
 4. At the bottom of App Builder where you can see **Add logic to LIST ITEM1**. Choose the arrow to open the logic canvas.
@@ -61,6 +61,8 @@ On the details page, you will then load the business partner address by passing 
 
 10. Choose the **X** button. It opens a popup.
 
+    <img src="./openPage.png">
+
 11. Select **Data item in repeat**.
 
 12. Select **Current**.
@@ -69,10 +71,12 @@ On the details page, you will then load the business partner address by passing 
 
     <img src="./ba_pageVariable.png">
 
-14. Repeat step 8-13 to the **businesspartnerName** parameter and select **Current.BusinessPartnerFullName**.
-15. Choose **SAVE** to save the changes.
-16. With this step now, you can open the details page you created to show the business partner address by passing the business partner id to the A_BusinessPartnerAddress entity.
+14. Now select the other parameter **businessPartnerName** and repeat the similar steps 9-13 to the **businesspartnerName** parameter and select **Current.BusinessPartnerFullName**.
 
+    <img src="./openPage02.png">
+    
+15. Choose **SAVE** to save the changes.
+16. With this step now, you can pass the selected business partner id and name fields from the list to the details page.
 
 ### Load Business Partner Address on the Details Page
 
@@ -80,7 +84,7 @@ The detail page receives the Business partner ID from the main page. In this ste
 
 1. From the left side of the screen, choose **Home**.
 
-2. Select the **Details** page from there.
+2. Select the **Details** page from there to switch to the Details page.
 
 3. Toggle to the **VARIABLES** tab.
 
@@ -91,15 +95,13 @@ The detail page receives the Business partner ID from the main page. In this ste
 6. Select **A_BusinessPartnerAddress** from the list.
    <img src="./ba_detailspage2.png">
 
-7. Choose the **Filter Conditions** button on the right.
-
-    
+7. Choose the **Filter Conditions** button on the right. 
 
 8. A popup opens. Select **Object with properties**.
 
       <img src="./objectwithproperties.png">
 
-9. In the **Property** dropdown, select **Business Partner**.
+9. Choose **Add Condition**. In the **Property** dropdown, select **Business Partner**.
 
 10. Under **Compared Value**, choose button **ABC**.
 
@@ -154,7 +156,7 @@ Next, you will change the header of the details page, so it displays the current
 
 Next, you will add a list element, which displays the address of the business partner.
 
-1. Select **List item** in the component market on the left.
+1. Select **List item** in the component market on the left. Drag and drop the **List Item** to the Details Page.
 
    <img src="./ba_detailspage5.png">
 
