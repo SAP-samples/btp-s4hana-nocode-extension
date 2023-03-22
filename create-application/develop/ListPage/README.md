@@ -1,6 +1,6 @@
 ## Create a Business Partner List Page
 
-To create the page displaying the list of business partners, you need to first create a **Data variable**.
+To create the page displaying the list of business partners, you need to first create a **data variable**.
 
 #### Data Variable
 
@@ -11,7 +11,7 @@ A data variable is essentially the same as a page variable that exists in the co
 
 Let us create a data variable to store the results of the business partner data coming from the data source.
 
-1. From the UI canvas, choose the toggle button to switch from **View to variable**.
+1. From the UI canvas, choose the toggle button to switch from **VIEW** to **VARIABLES**.
 
 2. Choose **DATA VARIABLES** on the left side of app builder.
 
@@ -28,23 +28,24 @@ Now that the data variable is created, toggle back to the **VIEW** mode.
 At this step, you are creating a Business Partner List page in app builder.
 #### Check That the Data Is Visible in the UI
 
-1. On the left panel of UI CANVAS, you see the **Component Market**, scroll to the **Lists** section and choose **List Item**.
+1. On the left panel of UI CANVAS, you see the **CORE** tab, scroll to the **LISTS** section and choose **List item**.
 
    ![Component](../images/marketplace.png)
 
-2. Drag the list to the application's page.
+2. Drag the **List item** to the application's page.
 
-3. On the right side **PROPERTIES** section, scroll to **Repeat With** and select it.
+3. On the right side **PROPERTIES** section, scroll to **Repeat with** and select it.
 
    ![Component](../images/ba_editProperties.png)
 
-4. A popup opens. Select **Data and Variables.**
+4. A popup opens. Select **Data and Variables**, then choose **Data variable**.
 
 
    ![Data](../images/datavariable.png)
 
 5. Select **A_BusinessPartner1** from the list and choose **SAVE**.
-6. Now you have configured that the list gets populated with the data variable which gets business partner data from the backend system.
+
+You have now configured that the list gets populated with the data variable which gets business partner data from the backend system.
 
 #### Select the display fields for the List
 
@@ -60,9 +61,9 @@ Let us now define what fields we would like to show in the UI in the business pa
 
 4. Choose **Data item in repeat**.
 
-5. Choose **Current**.
+5. Choose **current**.
 
-6. Select **Business Partner** scroll and choose **SAVE**.
+6. Select **BusinessPartner** scroll and choose **SAVE**.
 
     ![BusinessPartner](../images/selectItem1.png)
 
@@ -72,9 +73,9 @@ Let us now define what fields we would like to show in the UI in the business pa
 
 9. Choose the **Data item in repeat**.
 
-10. Choose **Current**.
+10. Choose **current**.
 
-11. Select **Business Partner Full Name**.
+11. Select **BusinessPartnerFullName**.
 
 12. Choose **SAVE** to add the data variable to the list.
 
