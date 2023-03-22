@@ -67,16 +67,17 @@ On the details page, you will then load the business partner address by passing 
 
 12. Select **current**.
 
-13. Scroll the list and select **BusinessPartner**.
+13. Scroll the list and select **BusinessPartner**, and then choose **SAVE**.
 
     <img src="./ba_pageVariable.png">
 
-14. Now select the other parameter **businessPartnerName** and repeat the similar steps 9-13 to the **businesspartnerName** parameter and select **Current.BusinessPartnerFullName**.
+14. Repeat the steps 9-13 for to the **businesspartnerName** parameter and select **current.BusinessPartnerFullName**.
 
     <img src="./openPage02.png">
     
 15. Choose **SAVE** to save the changes.
-16. With this step now, you can pass the selected business partner id and name fields from the list to the details page.
+
+With this step now, you can pass the selected business partner id and name fields from the list to the details page.
 
 ### Load Business Partner Address on the Details Page
 
