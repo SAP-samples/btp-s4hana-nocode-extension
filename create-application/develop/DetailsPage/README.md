@@ -8,11 +8,11 @@ You will add a new page to your application and add page parameters so you can a
 
 1. On the top left section, choose the name of your current page **Home**, which is highlighted in light blue to open the page menu of SAP Build Apps.
 
-2. Choose **ADD NEW PAGE** and then Select **OK**.
+2. Choose **ADD NEW PAGE**.
 
    <img src="./ba_createPage.png">
 
-3. Choose **Details** as **Page name**. Your new page will be created and open.
+3. Enter **Details** as **Page name**, and then Select **OK**. Your new page will be created and open.
 
 4. On the Details page, choose the toggle button to switch to **VARIABLES** tab.
 
@@ -28,18 +28,18 @@ You will add a new page to your application and add page parameters so you can a
 
 10. Change **Parameter name** to **businesspartnerName**.
 
-11. Choose **Save**.
+11. Choose **SAVE**.
 
     <img src="./ba_pageparameters1.png">
 
-12. Switch back to **View** via the toggle button.
+12. Switch back to **VIEW** via the toggle button.
 
 ### Enable Navigation from Home Page to Details Page
 
 To show the business partner details on the details page, you need to connect the **Home** page and the **Details** page. In this section, you will first create a new navigation logic to pass the page parameter created in the previous step.
 On the details page, you will then load the business partner address by passing the business partner id to the **A_BusinessPartnerAddress** entity.
 
-1. Select on the top Left Side mentioning **Details**. 
+1. On the top left section, choose the name of your current page **Details**, which is highlighted in light blue, to open the **PAGES** menu. 
 2. Select **Home** to switch to Home page to create a logic to pass the business partner and business partner full name parameters from Home page to Details page .
 3. Select the first row in the list.
 
@@ -47,15 +47,15 @@ On the details page, you will then load the business partner address by passing 
 
    <img src="./ba_enableNavigation.png" height="400px">
 
-5. In the component menu on the left side, choose **Navigation** &rarr; **Open page** to add a function that opens a new page.
+5. In the component menu on the left side, choose **NAVIGATION** &rarr; **Open page** to add a function that opens a new page.
 
 6. Drag and drop it to the Logic canvas.
 
-7. Hover over the **Component tab** and choose the round dot. Connect the dots of the **Component tab** and the **open page** component. It creates a new connection setting the logic to open a new page.
+7. Hover over the **Component tap** and choose the round dot. Connect the dots of the **Component tap** and the **Open page** components. It creates a new connection and sets the logic to open a new page on the event of tapping an item in the list item.
 
    <img src="./logiccanvas2.png">
 
-8. Choose the open page component.
+8. Choose the **Open page** component.
 
 9. On the right side of the screen, select **PROPERTIES** &rarr; **Parameters** &rarr; **businessPartnerId**.
 
@@ -65,18 +65,19 @@ On the details page, you will then load the business partner address by passing 
 
 11. Select **Data item in repeat**.
 
-12. Select **Current**.
+12. Select **current**.
 
-13. Scroll the list and select **BusinessPartner**.
+13. Scroll the list and select **BusinessPartner**, and then choose **SAVE**.
 
     <img src="./ba_pageVariable.png">
 
-14. Now select the other parameter **businessPartnerName** and repeat the similar steps 9-13 to the **businesspartnerName** parameter and select **Current.BusinessPartnerFullName**.
+14. Repeat the steps 9-13 for to the **businesspartnerName** parameter and select **current.BusinessPartnerFullName**.
 
     <img src="./openPage02.png">
     
 15. Choose **SAVE** to save the changes.
-16. With this step now, you can pass the selected business partner id and name fields from the list to the details page.
+
+With this step now, you can pass the selected business partner id and name fields from the list to the details page.
 
 ### Load Business Partner Address on the Details Page
 
@@ -111,11 +112,11 @@ The detail page receives the Business partner ID from the main page. In this ste
 
     <img src="./bindingdatavariables.png">
 
-12. Select **Page Parameter**.
+12. Select **Page parameter**.
 
     <img src="./bindingpageparameter.png">
 
-13. Select **businesspartnerid** and choose **Save**.
+13. Select **businesspartnerId** and choose **SAVE**.
 
     <img src="./bpid.png">
 
@@ -142,11 +143,11 @@ Next, you will change the header of the details page, so it displays the current
 
    <img src="./bindingdatavariables.png">
 
-4. Select **PageParameter**.
+4. Select **Page parameter**.
 
    <img src="./bindingpageparameter.png">
 
-5. Select **businessPartnerName** and choose **Save**.
+5. Select **businessPartnerName** and choose **SAVE**.
 
 <img src="./editbinding.png">
 
@@ -156,23 +157,23 @@ Next, you will change the header of the details page, so it displays the current
 
 Next, you will add a list element, which displays the address of the business partner.
 
-1. Select **List item** in the component market on the left. Drag and drop the **List Item** to the Details Page.
+1. Drag the **List item** from the **CORE** tab on the left.
 
    <img src="./ba_detailspage5.png">
 
 2. From the right **PROPERTIES** panel, find **Arrow Visible** section and select **false** from the dropdown.
 
-3. Choose **Repeat with** the button on the left side of the screen.
+3. Choose the **Repeat with** button on the left side of the screen.
 
    <img src="./ba_detailspage6.png">
 
-1. In the popup, select **Data and Variables** &rarr; **Data Variable**.
+1. In the popup, select **Data and Variables** &rarr; **Data variable**.
 
     <img src="./objectdata.png">
 
 5. Select **A_BusinessPartnerAddress1** from the list.
 
-6. Choose **Save**.
+6. Choose **SAVE**.
 
    <img src="./bpaddress.png" height="400px">
 
@@ -180,9 +181,9 @@ Next, you will add a list element, which displays the address of the business pa
 
 8. Select **Data item in repeat**.
 
-9.  Choose **Current**.
+9.  Choose **current**.
 
-10. Scroll and select **Street Name**. Choose **Save**.
+10. Scroll and select **StreetName**. Choose **SAVE*.
 
     <img src="./streetname.png" height="400px">
 
@@ -192,9 +193,9 @@ Next, you will add a list element, which displays the address of the business pa
 
     <img src="./secondarylabel.png">
 
-13. Choose **Current**.
+13. Choose **current**.
 
-14. Scroll and select **Postal Code**. Choose **Save**.
+14. Scroll and select **PostalCode**. Choose **SAVE**.
 
      <img src="./postalcode.png">
 
@@ -218,11 +219,11 @@ Now, that your app is developed, Let's preview the application.
 
 4. Choose the list item to see the details page.
 
-5. The main page should look like:
+The main page should look like:
 
    ![main page](../images/preview1.png)
 
-6. The details page should look like:
+The details page should look like:
 
    <img src="./ba_deatilspagePreview.png">
 
