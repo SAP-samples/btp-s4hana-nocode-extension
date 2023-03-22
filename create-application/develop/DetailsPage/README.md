@@ -47,11 +47,11 @@ On the details page, you will then load the business partner address by passing 
 
    <img src="./ba_enableNavigation.png" height="400px">
 
-5. In the component menu on the left side, choose **Navigation** &rarr; **Open page** to add a function that opens a new page.
+5. In the component menu on the left side, choose **NAVIGATION** &rarr; **Open page** to add a function that opens a new page.
 
 6. Drag and drop it to the Logic canvas.
 
-7. Hover over the **Component tab** and choose the round dot. Connect the dots of the **Component tab** and the **open page** component. It creates a new connection setting the logic to open a new page.
+7. Hover over the **Component tap** and choose the round dot. Connect the dots of the **Component tap** and the **Open page** component. It creates a new connection and sets the logic to open a new page on the event of tapping an item in the list item.
 
    <img src="./logiccanvas2.png">
 
@@ -65,7 +65,7 @@ On the details page, you will then load the business partner address by passing 
 
 11. Select **Data item in repeat**.
 
-12. Select **Current**.
+12. Select **current**.
 
 13. Scroll the list and select **BusinessPartner**.
 
@@ -156,13 +156,13 @@ Next, you will change the header of the details page, so it displays the current
 
 Next, you will add a list element, which displays the address of the business partner.
 
-1. Select **List item** in the component market on the left. Drag and drop the **List Item** to the Details Page.
+1. Drag the **List item** from the **CORE** tab on the left.
 
    <img src="./ba_detailspage5.png">
 
 2. From the right **PROPERTIES** panel, find **Arrow Visible** section and select **false** from the dropdown.
 
-3. Choose **Repeat with** the button on the left side of the screen.
+3. Choose the **Repeat with** button on the left side of the screen
 
    <img src="./ba_detailspage6.png">
 
@@ -172,7 +172,7 @@ Next, you will add a list element, which displays the address of the business pa
 
 5. Select **A_BusinessPartnerAddress1** from the list.
 
-6. Choose **Save**.
+6. Choose **SAVE**.
 
    <img src="./bpaddress.png" height="400px">
 
@@ -180,9 +180,9 @@ Next, you will add a list element, which displays the address of the business pa
 
 8. Select **Data item in repeat**.
 
-9.  Choose **Current**.
+9.  Choose **current**.
 
-10. Scroll and select **Street Name**. Choose **Save**.
+10. Scroll and select **StreetName**. Choose **SAVE***.
 
     <img src="./streetname.png" height="400px">
 
@@ -192,9 +192,9 @@ Next, you will add a list element, which displays the address of the business pa
 
     <img src="./secondarylabel.png">
 
-13. Choose **Current**.
+13. Choose **current**.
 
-14. Scroll and select **Postal Code**. Choose **Save**.
+14. Scroll and select **PostalCode**. Choose **SAVE***.
 
      <img src="./postalcode.png">
 
