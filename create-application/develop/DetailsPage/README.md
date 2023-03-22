@@ -112,11 +112,11 @@ The detail page receives the Business partner ID from the main page. In this ste
 
     <img src="./bindingdatavariables.png">
 
-12. Select **Page Parameter**.
+12. Select **Page parameter**.
 
     <img src="./bindingpageparameter.png">
 
-13. Select **businesspartnerid** and choose **Save**.
+13. Select **businesspartnerId** and choose **SAVE**.
 
     <img src="./bpid.png">
 
@@ -143,11 +143,11 @@ Next, you will change the header of the details page, so it displays the current
 
    <img src="./bindingdatavariables.png">
 
-4. Select **PageParameter**.
+4. Select **Page parameter**.
 
    <img src="./bindingpageparameter.png">
 
-5. Select **businessPartnerName** and choose **Save**.
+5. Select **businesspartnerName** and choose **SAVE**.
 
 <img src="./editbinding.png">
 
@@ -167,7 +167,7 @@ Next, you will add a list element, which displays the address of the business pa
 
    <img src="./ba_detailspage6.png">
 
-1. In the popup, select **Data and Variables** &rarr; **Data Variable**.
+1. In the popup, select **Data and Variables** &rarr; **Data variable**.
 
     <img src="./objectdata.png">
 
@@ -195,7 +195,7 @@ Next, you will add a list element, which displays the address of the business pa
 
 13. Choose **current**.
 
-14. Scroll and select **PostalCode**. Choose **SAVE***.
+14. Scroll and select **PostalCode**. Choose **SAVE**.
 
      <img src="./postalcode.png">
 
@@ -219,11 +219,11 @@ Now, that your app is developed, Let's preview the application.
 
 4. Choose the list item to see the details page.
 
-5. The main page should look like:
+The main page should look like:
 
    ![main page](../images/preview1.png)
 
-6. The details page should look like:
+The details page should look like:
 
    <img src="./ba_deatilspagePreview.png">
 
