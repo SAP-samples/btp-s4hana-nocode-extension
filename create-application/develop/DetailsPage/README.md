@@ -8,11 +8,11 @@ You will add a new page to your application and add page parameters so you can a
 
 1. On the top left section, choose the name of your current page **Home**, which is highlighted in light blue to open the page menu of SAP Build Apps.
 
-2. Choose **ADD NEW PAGE** and then Select **OK**.
+2. Choose **ADD NEW PAGE**.
 
    <img src="./ba_createPage.png">
 
-3. Choose **Details** as **Page name**. Your new page will be created and open.
+3. Enter **Details** as **Page name**, and then Select **OK**. Your new page will be created and open.
 
 4. On the Details page, choose the toggle button to switch to **VARIABLES** tab.
 
@@ -28,18 +28,18 @@ You will add a new page to your application and add page parameters so you can a
 
 10. Change **Parameter name** to **businesspartnerName**.
 
-11. Choose **Save**.
+11. Choose **SAVE**.
 
     <img src="./ba_pageparameters1.png">
 
-12. Switch back to **View** via the toggle button.
+12. Switch back to **VIEW** via the toggle button.
 
 ### Enable Navigation from Home Page to Details Page
 
 To show the business partner details on the details page, you need to connect the **Home** page and the **Details** page. In this section, you will first create a new navigation logic to pass the page parameter created in the previous step.
 On the details page, you will then load the business partner address by passing the business partner id to the **A_BusinessPartnerAddress** entity.
 
-1. Select on the top Left Side mentioning **Details**. 
+1. On the top left section, choose the name of your current page **Details**, which is highlighted in light blue, to open the **PAGES** menu.  
 2. Select **Home** to switch to Home page to create a logic to pass the business partner and business partner full name parameters from Home page to Details page .
 3. Select the first row in the list.
 
