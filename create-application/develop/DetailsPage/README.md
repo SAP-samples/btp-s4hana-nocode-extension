@@ -51,11 +51,11 @@ On the details page, you will then load the business partner address by passing 
 
 6. Drag and drop it to the Logic canvas.
 
-7. Hover over the **Component tap** and choose the round dot. Connect the dots of the **Component tap** and the **Open page** component. It creates a new connection and sets the logic to open a new page on the event of tapping an item in the list item.
+7. Hover over the **Component tap** and choose the round dot. Connect the dots of the **Component tap** and the **Open page** components. It creates a new connection and sets the logic to open a new page on the event of tapping an item in the list item.
 
    <img src="./logiccanvas2.png">
 
-8. Choose the open page component.
+8. Choose the **Open page** component.
 
 9. On the right side of the screen, select **PROPERTIES** &rarr; **Parameters** &rarr; **businessPartnerId**.
 
