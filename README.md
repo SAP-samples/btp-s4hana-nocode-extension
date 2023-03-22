@@ -5,53 +5,30 @@ The main focus of this mission is to develop a custom UI application, which cons
 
 We will create a simple custom UI application using no-code tool **SAP Build Apps**, push the code to the HTML5 repository and show different options on how to expose this application - as a stand-alone or with the different SAP Build Work Zone environments.
 
-You can find this scenario as a mission in [SAP Discovery Center](https://discovery-center.cloud.sap/missiondetail/4024/4228/).
-
-## Business Scenario
-
-As a sample scenario, Jane a sales executive of ACME Corporation regularly meets different customers. She needs access to the latest customer information on the go. She needs a simplified web application, which can run on a portable device like smartphone or a tablet.
-
-ACME Corporation implements the application as an SAP S/4HANA extension on SAP Business Technology Platform (SAP BTP). This application is created with SAP Build Apps, a no-code user interface development tool.
-
-This scenario covers:
-
-* Building application with SAP Build Apps
-* Set up connectivity between SAP BTP and SAP S/4HANA Cloud or SAP S/4HANA on-premise
-* Deploying the application on SAP BTP, Cloud Foundry environment
-
-## Solution Architecture
-
-**SAP S/4HANA Cloud**
-
- ![Solution Architecture](./discover/images/ScenarioArchitecture.png)
-
 
 ### Start Discovery Center Mission 
+
 - Login to the Discovery Center with your SAP User and select **Start Mission** to start the mission: [SAP Discovery Center mission](https://discovery-center.cloud.sap/missiondetail/4024/4228/)
-- Choose tab **Project Board** to see the detailed step by step instructions. 
+- Understand the template business case which could be altered to fit to any business demands
+- Understand the Solution Architecture of this scenario 
+- Choose tab **Project Board** to see the detailed step by step instructions
 - Learn the cards in the **Discover** section
-
-
-## Discover
-
-* [The Mission Story](discover/business-story.md)
-* [Learn the Basics of SAP BTP](https://github.com/SAP-samples/cloud-extension-html5-sample/blob/mission/mission/discover/BTP.md)
-* [Learn About SAP S/4HANA](https://github.com/SAP-samples/cloud-extension-html5-sample/blob/mission/mission/discover/S4H.md)
-* [Learn About SAP S/4HANA Cloud](./discover/S4HC.md)
-* [Learn About HTML5 Applications](https://github.com/SAP-samples/cloud-extension-html5-sample/blob/mission/mission/discover/HTML5.md)
-* [Learn About SAP Build Apps](./discover/AppGyver.md)
-* [Learn About SAP Cloud Identity Services](https://github.com/SAP-samples/cloud-extension-html5-sample/blob/mission/mission/discover/IAS.md)
-* [Learn About SAP Work Zone](https://github.com/SAP-samples/cloud-extension-html5-sample/blob/mission/mission/discover/Launchpad.md)
-
-
+  
+  <img src="./dcBoard.png" height="500px">
   
 ## Landscape Setup for SAP BTP and Mock Server
 
-- For the workshop, a SAP BTP subaccount is precreated for you
+- For the workshop, a SAP BTP subaccount is precreated for you. You will receive the link to SAP BTP subaccount in the workshop.
 - You are provided with an user and initial password for the custom Identity & Authentication Tenant which is configured to the subaccount.
-- You will login to the SAP BTP cockpit and to the SAP Build Apps using your custom Identity user name and password.
+- You will login to the SAP BTP cockpit and to the SAP Build Apps using your SAP email address and initial password which was provided during the workshop
+  
+  <img src="./loginWithCustomIAS.png" height="400px">
+  
 - A mock server is deployed and already running in the SAP BTP subaccount. This mock server will act like an SAP S/4HANA backend giving the data for [Business Partners API](https://api.sap.com/api/API_BUSINESS_PARTNER/overview)
-- A SAP BTP destination is also preconfigured for you with the name **bupa**
+- A SAP BTP destination is also preconfigured for you with the name **bupa**. Check the destination **bupa** which points to the mock server URL. You will use this destination in the next step when building SAP Build Apps application
+
+  <img src="./bupa.png" height="400px">
+
 
 ## Implementation of an SAP Build Apps Extension Application
 
