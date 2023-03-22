@@ -11,7 +11,7 @@ In this section you will build the application that you created using SAP Build 
 
 ## Step-by-Step
 
-### Build
+### Build your application
 
 1. In **Application Development** choose **LAUNCH**.
 
@@ -54,7 +54,7 @@ In this section you will build the application that you created using SAP Build 
     ![choose Deploy_MTA](./images/ba_build_deploy_mta.png)
      
 
-### Deploy
+### Deploy your application to the SAP BTP, Cloud Foundry environment
 
 
 
