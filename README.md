@@ -58,7 +58,7 @@ This scenario covers:
   - [Set up the SAP Cloud Connector & Trust to the SAP S/4HANA System](https://github.com/SAP-samples/cloud-extension-html5-sample/blob/mission/mission/cloud-connector/README.md)
   - [Configure End-to-End Connectivity from SAP BTP to SAP S/4HANA System](./connectivity/s4hpp-connection.md)
   - [Configure Single Sign-On between SAP S/4HANA and SAP BTP](https://github.com/SAP-samples/cloud-extension-html5-sample/blob/mission/mission/custom-idp/README.md)
-  - [Map SAP BTP Role Collections to Identity Authentication Service Users](./setup/rolemapping/README.md)
+  
   
 ## Landscape Setup for SAP BTP and Mock Server
 
