@@ -11,7 +11,7 @@ This section contains the prerequisites that you have to fulfill before you get 
 
 ## Tools - (Optional for manual deployment to SAP BTP)
 
-* [Cloud Foundry command line interface (v7 version or later)](https://github.com/cloudfoundry/cli/wiki/V7-CLI-Installation-Guide).
+* [Cloud Foundry command line interface (v8 version or later)](https://github.com/cloudfoundry/cli/wiki/V8-CLI-Installation-Guide).
 * [Cloud MTA Build Tool](https://sap.github.io/cloud-mta-build-tool/) - you can install it using Node.js.
 
      ```cmd
