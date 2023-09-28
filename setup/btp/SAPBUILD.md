@@ -22,7 +22,7 @@ Select **Create Subaccount** and press **Next**.
 
 ![Booster](./images/newbooster03_steps.png)
 
-You can delete unecessary entitlements but make sure that **SAP Build Apps** and **SAP Build Workzone, standard edition** remain. For testing purpose you can choose the **free** service plan, for productive usage take the **standard** plan. Adjust the remaining fields as necessery and then press **Next**.
+You can delete unecessary entitlements but make sure that **SAP Build Apps** and **SAP Build Workzone, standard edition** remain. For testing purpose you can choose the **free** service plan, for productive usage take the **standard** plan. If you are using the mock server in this mission, you also need **Cloud Foundry Runtime**. Adjust the remaining fields as necessery and then press **Next**.
 
 ![Booster](./images/newbooster04_steps.png)
 
