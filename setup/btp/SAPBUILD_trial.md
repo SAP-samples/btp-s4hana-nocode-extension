@@ -28,21 +28,21 @@ Find the coniguration of your account and adjust the remaining fields if necesse
 
 In the section **Custom Identity Provider for Applications**, select the tenant you want to use, provide your email, then press **Next**.
 
-![Booster](./images/newbooster05_steps.png)
+![Booster](./images/trialbooster05_steps.png)
 
 Check your settings and press **Finish**
 
-![Booster](./images/newbooster06_steps.png)
+![Booster](./images/trialbooster06_steps.png)
 
 Choose **Navigate to subaccount**, which will open the subaccount on another tab. Come back to this tab and press **Close**.
 
 Go to your email inbox and find the activation mail for your IAS account. Choose **Click here to activate your account**
 
-![Booster](./images/newbooster08_steps.png)
+![Booster](./images/trialbooster08_steps.png)
 
 This will open a new webpage where you can configure your IAS Profile. Set a password, which you can use to access SAP Build Apps. Choose **Continue**
 
-![Booster](./images/newbooster09_steps.png)
+![Booster](./images/trialbooster09_steps.png)
 
 ## Result
 
