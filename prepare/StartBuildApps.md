@@ -15,10 +15,17 @@ Open the **SAP Build Apps Application Development** link if you have it already 
 
  4. You might be prompted with a log in screen of either default Identity Provider or custom Identity Provider depending on what you have configured.
 
- 5. Log in to the Application using your custom Identity Provider credentials.
+ 5. Log in to the Application using your custom Identity Provider credentials and the SAP Build Lobby shows up.
+    <img src="../create-application/develop/images/sap-build-lobby.png">
 
 ## Implement a simple Application
-To get an introduction to SAP Build Apps you can take a look to the first part of this starter tutorial: [Create an Application with SAP Build Apps](https://developers.sap.com/tutorials/appgyver-create-application.html)
+To get an introduction to SAP Build Apps you can take a look to the first part of this starter tutorial: [Create an Application with SAP Build Apps](https://developers.sap.com/tutorials/appgyver-create-application.html). As you already have a running developer environment you don't need to use the Sandbox account as described in the tutorial.
+
+## Summary
+You got a first impression of SAP Build Apps In the next step you have to choose one of the optional backend environments:
+1. SAP S/4HANA Cloud 
+2. SAP S/4HANA on-premise
+3. Mock Server
 
 
-## 
+
