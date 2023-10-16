@@ -16,7 +16,7 @@ Open **SAP Build Apps Application Development** link if you have it already book
 
  3. In the tab **Subscriptions**, find **SAP Build Apps** and choose **Go to Application** to open the entry page for Application Development.
 
-     <img src="./images/ba_subscription.png" width="500px">
+     <img src="./images/ba_subscription.png" width="750px">
 
 
  4. You might be prompted with a log in screen of either default Identity Provider or custom Identity Provider depending on what you have configured.
@@ -29,34 +29,35 @@ Open **SAP Build Apps Application Development** link if you have it already book
 
 1. On the Build, app dashboard choose **Create** and choose **Build an Application**.
 
-   <img src="./images/ba_createapp.png" width="500px">
+   <img src="./images/ba_createapp.png" width="750px">
 
-2. Choose **Web & Mobile Application**. 
-   <img src="./images/ba_chooseApp.png" width="500px">
+2. Choose **Web & Mobile Application**.
+   
+   <img src="./images/ba_chooseApp.png" width="750px">
 
-3. Enter a **Project Name**, for example **test\<Your D/I Number\>**
+4. Enter a **Project Name**, for example **test\<Your D/I Number\>**
 
-4. Enter a **Short Description**.
+5. Enter a **Short Description**.
 
-5. Choose **Create**.
+6. Choose **Create**.
 
-   <img src="./images/ba_createApp_1.png" width="750px">
+   <img src="./images/ba_createApp_1.png" width="500px">
 
-6. Your created project will be opened in **App Builder** which is the central page to build your application including a user interface, logic, as well as data integration.
+7. Your created project will be opened in **App Builder** which is the central page to build your application including a user interface, logic, as well as data integration.
 
-7. Choose **Headline**.
+8. Choose **Headline**.
 
-8. Find the **Properties** tab in the menu on the right to change the content of the title. Choose **Content** and change the content from **Headline** to **Extend UI Application**.
+9. Find the **Properties** tab in the menu on the right to change the content of the title. Choose **Content** and change the content from **Headline** to **Extend UI Application**.
 
    <img src="./images/ba_title.png" width="550px">
 
-9. Find the text field in the UI canvas in the center of your screen and choose **x** to remove this component.
+10. Find the text field in the UI canvas in the center of your screen and choose **x** to remove this component.
 
    <img src="./images/ba_removeTextField.png" width="250px">
 
-10. Choose the blank page. On the right side under the **Properties**, choose **Page name**.
+11. Choose the blank page. On the right side under the **Properties**, choose **Page name**.
 
-11. Change the page name to **Home**.
+12. Change the page name to **Home**.
 
     <img src="./images/ba_pageRename.png" width="400px">
 
