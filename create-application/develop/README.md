@@ -26,12 +26,12 @@ Open **SAP Build Apps Application Development** link if you have it already book
 
 ### Create a Project
 
-1. On the Build, app dashboard choose to **Create** and choose **Build an Application**.
+1. On the Build, app dashboard choose **Create** and choose **Build an Application**.
 
-   <img src="./images/ba_createapp.png" width="250px">
+   <img src="./images/ba_createapp.png" width="750px">
 
 2. Choose **Web & Mobile Application**. 
-   <img src="./images/ba_chooseApp.png" witdh="250px">
+   <img src="./images/ba_chooseApp.png" width="750px">
 
 3. Enter a **Project Name**, for example **test\<Your D/I Number\>**
 
@@ -39,7 +39,7 @@ Open **SAP Build Apps Application Development** link if you have it already book
 
 5. Choose **Create**.
 
-   <img src="./images/ba_createApp_1.png"  >
+   <img src="./images/ba_createApp_1.png" width="750px">
 
 6. Your created project will be opened in **App Builder** which is the central page to build your application including a user interface, logic, as well as data integration.
 
