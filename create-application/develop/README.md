@@ -16,7 +16,8 @@ Open **SAP Build Apps Application Development** link if you have it already book
 
  3. In the tab **Subscriptions**, find **SAP Build Apps** and choose **Go to Application** to open the entry page for Application Development.
 
-     <img src="./images/ba_subscription.png">
+     <img src="./images/ba_subscription.png" width="500px">
+
 
  4. You might be prompted with a log in screen of either default Identity Provider or custom Identity Provider depending on what you have configured.
 
@@ -28,10 +29,10 @@ Open **SAP Build Apps Application Development** link if you have it already book
 
 1. On the Build, app dashboard choose **Create** and choose **Build an Application**.
 
-   <img src="./images/ba_createapp.png" width="750px">
+   <img src="./images/ba_createapp.png" width="500px">
 
 2. Choose **Web & Mobile Application**. 
-   <img src="./images/ba_chooseApp.png" width="750px">
+   <img src="./images/ba_chooseApp.png" width="500px">
 
 3. Enter a **Project Name**, for example **test\<Your D/I Number\>**
 
