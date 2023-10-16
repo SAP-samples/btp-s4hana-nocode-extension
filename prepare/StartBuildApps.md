@@ -22,7 +22,7 @@ Open the **SAP Build Apps Application Development** link if you have it already 
 To get an introduction to SAP Build Apps you can take a look to the first part of this starter tutorial: [Create an Application with SAP Build Apps](https://developers.sap.com/tutorials/appgyver-create-application.html). As you already have a running developer environment you don't need to use the Sandbox account as described in the tutorial.
 
 ## Summary
-You got a first impression of SAP Build Apps In the next step you have to choose one of the optional backend environments:
+You got a first impression of SAP Build Apps. In the next step you have to choose one of the optional backend environments:
 1. SAP S/4HANA Cloud 
 2. SAP S/4HANA on-premise
 3. Mock Server
