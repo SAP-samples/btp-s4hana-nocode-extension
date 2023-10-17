@@ -44,13 +44,13 @@ In this section you will use a booster to setup the landscape for using **SAP Bu
 
     ![Detailed Setup](./images/detail_setup2.png)
 
-3 Set **SAP Build Apps** and **SAP Build Workzone, standard edition** remain. For testing purpose you can choose the **free** service plan, for productive usage take the **standard** plan.
+3 Set **SAP Build Apps** and **SAP Build Workzone, standard edition**. For testing purpose you can choose the **free** service plan, for productive usage take the **standard** plan.
 
-    ![Detailed Setup](./images/detail_setup3.png)
+   ![Detailed Setup](./images/detail_setup3.png)
 
 4. In the section **Custom Identity Provider for Applications**, select the tenant you want to use. You can add additional administrator and developer user, then press **Next**.
 
-     ![Detailed Setup](./images/detail_setup4.png)
+    ![Detailed Setup](./images/detail_setup4.png)
 
 5.  Check your settings and press **Finish**
 
