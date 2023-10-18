@@ -17,7 +17,7 @@ In this section you will use a booster to setup the landscape for using **SAP Bu
    
    ![Quick Setup](./images/quick_setup2.png)
 
-4. The prerequisites will be checked. By choosing the pencil icon you can change the naming of the subaccount and the plan of the service entitlements. If you are fine with those settings choose **Setup my Account**. If you like to use an existing subaccount or need to add additional users select **Switch to Detailed Setup** (see next sectiond)
+4. The prerequisites will be checked. By choosing the pencil icon you can change the naming of the subaccount and the plan of the service entitlements. If you are fine with those settings choose **Setup my Account**. If you like to use an existing subaccount or need to add additional users select **Switch to Detailed Setup** - [see next section](./QUICKSETUP.md#detailed-setup)
    
    ![Quick Setup](./images/quick_setup3.png)
 
