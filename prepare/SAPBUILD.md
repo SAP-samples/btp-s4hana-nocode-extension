@@ -8,8 +8,8 @@ This section contains the prerequisites that you have to fulfill before you get 
 * Please check in the [SAP Build Apps - Pricing section](https://discovery-center.cloud.sap/serviceCatalog/sap-appgyver) in which SAP BTP regions SAP Build Apps is available.
 * For running SAP Build Apps the [SAP Cloud Identity Service - Identiy Authentication](https://help.sap.com/docs/IDENTITY_AUTHENTICATION?locale=en-US) is required
 * Depending on the 3 backend options, you need:
-    -  Option 1: a [SAP S/4HANA Cloud](https://www.sap.com/products/erp/s4hana-erp.html) system
-    -  Option 2: a [SAP S/4HANA on-premise](https://community.sap.com/topics/s4hana) system
+    -  Option 1: an [SAP S/4HANA Cloud](https://www.sap.com/products/erp/s4hana-erp.html) system
+    -  Option 2: an [SAP S/4HANA on-premise](https://community.sap.com/topics/s4hana) system
     -  Option 3: If you don't have an SAP S/4HANA system you can run this mission by installing a mock server. For this option, you need 256MB of Cloud Foundry runtime and a tool for deployment, e.g. the [Cloud Foundry command line interface (v8 version or later)](https://github.com/cloudfoundry/cli/wiki/V8-CLI-Installation-Guide) or [Cloud MTA Build Tool](https://sap.github.io/cloud-mta-build-tool/). (The latter can be installed using Node.js with `npm install -g mbt`.)
           
 ### Entitlements
