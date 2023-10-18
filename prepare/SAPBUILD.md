@@ -8,9 +8,9 @@ This section contains the prerequisites that you have to fulfill before you get 
 * Please check in the [SAP Build Apps - Pricing section](https://discovery-center.cloud.sap/serviceCatalog/sap-appgyver) in which SAP BTP regions SAP Build Apps is available.
 * For running SAP Build Apps the [SAP Cloud Identity Service - Identiy Authentication](https://help.sap.com/docs/IDENTITY_AUTHENTICATION?locale=en-US) is required
 * You have 3  backend options to run this tutorial
-    -  Option 1: Using a [SAP S/4HANA Cloud](https://www.sap.com/products/erp/s4hana-erp.html) system.
-    -  Option 2: Using a [SAP S/4HANA on-premise](https://community.sap.com/topics/s4hana) system.
-    -  Option 3: If you don't have an SAP S/4HANA system you can run this mission by installing a mock server. For the mock server you would need to enable the Cloud Foundry environment and 256MB of Cloud Foundry runtime.
+    -  Option 1: Using an [SAP S/4HANA Cloud, public edition](https://www.sap.com/products/erp/s4hana-erp.html) system.
+    -  Option 2: Using an [SAP S/4HANA on-premise](https://community.sap.com/topics/s4hana) system.
+    -  Option 3: If you don't have an SAP S/4HANA system you can run this mission by installing a mock server. For the mock server you would need to enable the [Cloud Foundry environment](https://help.sap.com/docs/btp/sap-business-technology-platform/cloud-foundry-environment) and 256MB of Cloud Foundry runtime.
 
 ## Tools
 optional for mock server installation:
@@ -20,12 +20,6 @@ optional for mock server installation:
      ```cmd
      npm install -g mbt
      ```
-
-
-## SAP BTP Provider Account
-
-* SAP BTP [subaccount](https://help.sap.com/products/BTP/65de2977205c403bbc107264b8eccf4b/8ed4a705efa0431b910056c0acdbf377.html?locale=en-US#loio8d6e3a0fa4ab43e4a421d3ed08128afa)
-* Enable SAP BTP Cloud Foundry [global account](https://developers.sap.com/tutorials/cp-cf-entitlements-add.html) and Cloud Foundry space - optional for mock server installation
 
 ### Entitlements
 
