@@ -34,7 +34,7 @@ The application requires the following [Entitlements and Quotas](https://help.sa
 |-----------------------------------|------------|:-------------------:|
 | SAP Build Apps                    | free or standard |    1          |
 | SAP Build Workzone - standard edition | free or standard |    1          |
-| SAP Cloud Identity Service - Identiy Authentication  | MEMORY     |          1          |
+| SAP Cloud Identity Service - Identity Authentication  | MEMORY     |          1          |
 | Cloud Foundry runtime (optional)  | MEMORY     |          1          |
 | Destination service               | lite       |          1          |
 
