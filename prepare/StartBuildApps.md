@@ -13,7 +13,8 @@ Open the **SAP Build Apps** link if you have it already bookmarked, otherwise op
 
      <img src="../create-application/develop/images/ba_subscription.png">
 
- 4. You might be prompted with a logon screen where you have to choose between the default Identity Provider or your custom Identity Provider. Log in to the Application using your custom Identity Provider credentials and the SAP Build Lobby shows up.
+ 4. Log in to the Application using your custom Identity Provider credentials and the SAP Build Lobby shows up.
+    > If you have setup trusts to multiple identity providers in the subaccount, then you have to select the Identity Provider you have choosen at the SAP Build Apps setup.
     <img src="../create-application/develop/images/sap-build-lobby.png">
 
 ## Implement a simple Application
