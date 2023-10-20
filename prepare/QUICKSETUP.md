@@ -6,30 +6,26 @@ If you have already set up your SAP BTP account for SAP Build Apps by using the 
 Otherwise, use the following steps to set up your account:
 
 ## Quick Setup
-In this section you will use a booster to (create and) set up a subaccount for using **SAP Build Apps**. To do this, you must be **administrator** of your global account on SAP BTP. 
-
-1. Logon to the **SAP BTP Cockpit** and select your global account.
-2. Select **Boosters** and search for **Get Started with SAP Build Apps - Quick Account Setup**
-
-   ![Quick Setup](./images/quick_setup1.png)
-
-3. In the overview page press **Start**
-   
-   ![Quick Setup](./images/quick_setup2.png)
-
-4. The prerequisites will be checked. By choosing the pencil icon you can change the naming of the subaccount and the plan of the service entitlements. If you are fine with those settings choose **Setup my Account**. If you like to use an existing subaccount or need to add additional users select **Switch to Detailed Setup** - [see next section](./QUICKSETUP.md#detailed-setup)
+In this section you will use a booster to (create and) set up a subaccount for using **SAP Build Apps**. To do this, you must be **administrator** of your global account on SAP BTP. You can start the booster by selecting the booster icon at this tile.
+  
+  > You can also start the booster from the SAP BTP Cockpit:
+  > * Logon to the **SAP BTP Cockpit** and select your global account.
+  > * Select **Boosters** and search for **Get Started with SAP Build Apps - Quick Account Setup**    
+  > * In the overview page press **Start**
+ 
+1. The prerequisites will be checked. By choosing the pencil icon you can change the naming of the subaccount and the plan of the service entitlements. If you are fine with those settings choose **Setup my Account**. If you like to use an existing subaccount or need to add additional users select **Switch to Detailed Setup** - [see next section](./QUICKSETUP.md#detailed-setup)
    
    ![Quick Setup](./images/quick_setup3.png)
 
-5. The setup will take a couple of minutes.
+2. The setup will take a couple of minutes.
 
    ![Quick Setup](./images/quick_setup4.png)
 
-6. Upon successful setup, you can **Open SAP Build Apps**.
+3. Upon successful setup, you can **Open SAP Build Apps**.
    
    ![Quick Setup](./images/quick_setup5.png)
 
-7. The SAP Build lobby appears.
+4. The SAP Build lobby appears.
    
    ![Build Apps](../create-application/develop/images/sap-build-lobby.png)
 
