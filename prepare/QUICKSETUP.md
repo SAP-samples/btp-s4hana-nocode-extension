@@ -13,19 +13,26 @@ In this section you will use a booster to (create and) set up a subaccount for u
   > * Select **Boosters** and search for **Get Started with SAP Build Apps - Quick Account Setup**    
   > * In the overview page press **Start**
  
-1. The prerequisites will be checked. By choosing the pencil icon you can change the naming of the subaccount and the plan of the service entitlements. If you are fine with those settings choose **Setup my Account**. If you like to use an existing subaccount or need to add additional users select **Switch to Detailed Setup** - [see next section](./QUICKSETUP.md#detailed-setup)
+1. After starting the booster choose the Identity Provider you are using for the user authentication of your global SAP BTP account. If you are using  a **Custom IAS Tenant** you have to set the URL for the tenant. Then press **Launch**
+   ![Quick Setup IAS](./images/quick_setup01.png)
+
+2. If you have access to mulitple global accounts select the one that you like to use for this installation.
+
+   ![Quick Setup](./images/quick_setup02.png)   
+
+3. The prerequisites will be checked. By choosing the pencil icon you can change the naming of the subaccount and the plan of the service entitlements. If you are fine with those settings choose **Setup my Account**. If you like to use an existing subaccount or need to add additional users select **Switch to Detailed Setup** - [see next section](./QUICKSETUP.md#detailed-setup)
    
    ![Quick Setup](./images/quick_setup3.png)
 
-2. The setup will take a couple of minutes.
+4. The setup will take a couple of minutes.
 
    ![Quick Setup](./images/quick_setup4.png)
 
-3. Upon successful setup, you can **Open SAP Build Apps**.
+5. Upon successful setup, you can **Open SAP Build Apps**.
    
    ![Quick Setup](./images/quick_setup5.png)
 
-4. The SAP Build lobby appears.
+6. The SAP Build lobby appears.
    
    ![Build Apps](../create-application/develop/images/sap-build-lobby.png)
 
