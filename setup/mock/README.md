@@ -86,7 +86,7 @@ Also you have to create a [destination](#create-destination-for-mock-server) to 
 For building and deploying the mock server, you need to install the following tools on your device:
 
 * [Node.js](https://nodejs.org/en/download/) - find the latest Node.js version supported by [CAP](https://cap.cloud.sap/docs/advanced/troubleshooting#node-version).
-* [Cloud Foundry command line interface (v7 version or later)](https://github.com/cloudfoundry/cli/wiki/V7-CLI-Installation-Guide).
+* [Cloud Foundry command line interface (v8 version or later)](https://github.com/cloudfoundry/cli/wiki/V8-CLI-Installation-Guide).
 * [Cloud MTA Build Tool](https://sap.github.io/cloud-mta-build-tool/) - you can install it using Node.js.
 
      ```cmd
@@ -163,7 +163,7 @@ If the deployment was successful, you will see the following log:
 
   * **Name** = bupa
   * **Type** = HTTP
-  * **URL** = https://\<The application route of the mock server\>/v2/op-api-business-partner-srv/
+  * **URL** = https://\<The application route of the mock server\>/v2/odata/v4/op-api-business-partner-srv/
   * **Proxy Type** = Internet
   * **Authentication** = NoAuthentication
 
