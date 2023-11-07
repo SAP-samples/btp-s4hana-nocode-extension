@@ -3,7 +3,7 @@
 
 If you have already set up your SAP BTP account for SAP Build Apps by using the _Get Started with SAP Build Apps - Quick Account Setup_ link the mission overview or in the previous tile, you can skip this tutorial.
 
-Otherwise, use the following steps to set up your account:
+Otherwise, use the following steps to set up your account. As an alternative you could also use the provided [Terraform script](https://github.com/SAP-samples/btp-terraform-samples/blob/main/released/discovery_center/mission_4024/README.md).
 
 ## Quick Setup
 In this section you will use a booster to (create and) set up a subaccount for using **SAP Build Apps**. To do this, you must be **administrator** of your global account on SAP BTP. You can start the booster by selecting the booster icon at this tile.
@@ -58,6 +58,10 @@ In this section you will use a booster to (create and) set up a subaccount for u
 5.  Check your settings and press **Finish**.
 
 6. Choose **Navigate to subaccount**, which will open the subaccount on another tab. Come back to this tab and press **Close**.
+
+
+
+
 
 
 
