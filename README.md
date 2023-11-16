@@ -40,20 +40,19 @@ This scenario covers:
 * [Learn About SAP Cloud Identity Services](https://github.com/SAP-samples/cloud-extension-html5-sample/blob/mission/mission/discover/IAS.md)
 * [Learn About SAP Work Zone](https://github.com/SAP-samples/cloud-extension-html5-sample/blob/mission/mission/discover/Launchpad.md)
 
-
+## Prepare
+  - [Prerequisites and Required Systems](./prepare/README.md)
+  - [Get Started with SAP Build Apps - Quick Account Setup](./prepare/QUICKSETUP.md)
+  - [Launch SAP Build Apps](./prepare/StartBuildApps.md)
+  
 
 ## Landscape Setup for SAP BTP and SAP S/4HANA Cloud
-
-  - [Set up the SAP Build Apps Service](./setup/btp/SAPBUILD.md)
-  - [Assign roles for SAP Build Work Zone, standard edition](./setup/launchpad/README.md)
   - [Onboard SAP S/4HANA Cloud System](./setup/s4hc-onboarding/README.md)
   - [Configure Communication Settings in SAP S/4HANA Cloud](./setup/s4hc-setup/setup-s4hc-system.md)
   - [Configure End-to-End Communication from SAP BTP to SAP S/4HANA Cloud System](./connectivity/end-to-end-connection.md)
   
 ## Landscape Setup for SAP BTP and SAP S/4HANA on-premise
   - [OPTIONAL: Create an SAP S/4HANA Test System using the SAP Cloud Appliance Library](https://github.com/SAP-samples/cloud-extension-ecc-business-process/blob/mission/mission/cal-setup/CALS4H.md)
-  - [Set up the SAP Build Apps Service](./setup/btp/SAPBUILD.md)
-  - [Assign roles for SAP Build Work Zone, standard edition](./setup/launchpad/README.md)
   - [Set up the SAP S/4HANA on-premise System](https://github.com/SAP-samples/cloud-extension-html5-sample/blob/mission/mission/s4h-setup/README.md)
   - [Set up the SAP Cloud Connector & Trust to the SAP S/4HANA System](https://github.com/SAP-samples/cloud-extension-html5-sample/blob/mission/mission/cloud-connector/README.md)
   - [Configure End-to-End Connectivity from SAP BTP to SAP S/4HANA System](./connectivity/s4hpp-connection.md)
@@ -64,8 +63,6 @@ This scenario covers:
 
 If you don't have an SAP S/4HANA system, you can use a mock server setup instead.
 
-  - [Set up the SAP Build Apps Service](./setup/btp/SAPBUILD.md)
-  - [Assign roles for SAP Build Work Zone, standard edition](./setup/launchpad/README.md)
   - [Install Mock Server](./setup/mock/README.md)
 
 
