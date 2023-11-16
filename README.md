@@ -70,7 +70,7 @@ If you don't have an SAP S/4HANA system, you can use a mock server setup instead
 
 Once you have set up the landscape, you can develop, test, and run a simple UI application. We will show the steps to implement the simple UI application using the SAP BTP-managed HTML5 repository. This is a kind of PoC to see if and how the whole landscape setup is working.
 
-* Develop a simple UI application:
+### Develop a simple UI application:
   * [Create a No-Code Application with SAP Build Apps](./create-application/develop/README.md)
   * [Create a Business Partner List Page](./create-application/develop/ListPage/README.md)
   * [Create a Business Partner Details Page](./create-application/develop/DetailsPage/README.md)
