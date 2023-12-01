@@ -10,41 +10,46 @@ In this section, the application will be connected with SAP Build Work Zone, sta
 
 2. Search for the application **SAP Build Work Zone, standard edition** and choose the icon to open it.
 
-3. In the menu on the left side choose the icon for **Channel Manager**.
+3.  Now are on the home page of SAP Build Work Zone, standard edition. In the menu on the left side click on the icon for **Content Channels**
+4.  Click on the refresh icon to fetch the updated content
 
-4. Choose the refresh icon to fetch the updated content.
+    <img src="./images/integrate_launchpad_1.png" width="80%">
+    
+5.  Choose **Content Manager** in the menu on the left and choose **Content Explorer** button
 
-    <img src="././images/content_channels_refresh.png" width="80%">
+    <img src="./images/integrate_launchpad_2.png" width="80%">
 
-5. Choose **Content Manager** in the menu on the left and open tab **Content Explorer**.
+ 6. Select the tile **HTML5 Apps** with your respective subdomain name.
 
-6. Select the tile _HTML5 Apps_ with your respective subdomain name.
+    <img src="./images/integrate_launchpad_3.png" width="80%">
 
-    <img src="././images/content_explorer_tile.png" width="70%">
+7. In the table, set checkmark for your applications *Business Partner* and choose the **Add** button.
 
-7. In the items table, set checkmark for your application and choose the button **Add to My Content**.
+    <img src="./images/integrate_launchpad_4.png" width="80%">
 
-    <img src="././images/add_to_my_content.png" width="80%">
+8. Navigate back to **My Content** and choose on role **Everyone** in items table 
 
-8. Go to the **My Content** tab, choose **New** and select **Group** from dropdown.
+    <img src="./images/integrate_launchpad_5.png" width="80%">
 
-    <img src="././images/my_content_new_group.png" width="80%">
+9. Choose **Edit** button
 
-9. Add a title.
+    <img src="./images/integrate_launchpad_6.png" width="80%">
 
-10. Assign items on the right section of your screen. Search for your application and choose the '+' icon to assign the apps.
+10. Find your application *Business Partner* in the table. In row Assignment Status switch toggle button to on. Choose **Save**
 
-11. Choose **Save**.
+    <img src="./images/integrate_launchpad_6a.png" width="80%">
 
-    <img src="././images/assign_items_save.png" width="80%">
+11. Go back to **Content Manager** tab, choose Create button and select **Group** from the dropdown
 
-12. Back in the **Content Manager**, choose role **Everyone** and **Edit**.
+    <img src="./images/integrate_launchpad_6b.png" width="80%">
 
-13. Assign items on the right section of your screen. Search for your application and choose the '+' icon to assign the apps.
+12. Add the title *Business Partner*.
 
-14. Choose **Save**.
+13. Find your application *Business Partner* in the table. In row *Assignment Status* switch toggle button to on.
 
-    <img src="././images/role_assign_items_save.png" width="80%">
+14. Choose Save.
+
+    <img src="./images/integrate_launchpad_6c.png" width="80%">
 
 15. In the menu on the left side navigate to **Site Directory**.
 
