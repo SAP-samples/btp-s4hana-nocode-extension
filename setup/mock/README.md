@@ -14,11 +14,15 @@ Also you have to create a [destination](#create-destination-for-mock-server) to 
 
 ### Create Workspace
 
-1. Open the SAP Business Application Studio and create a new **Dev Space** using the **Full Stack Cloud Application** type.
+1. Open the SAP Business Application Studio and create a new **Dev Space**
+
+2.  Choose type **Full Stack Cloud Application** and select **Create Dev Space**.
 
    ![dev space](images/bas1.png)
 
-2. Open a new terminal.
+3. Choose the burger menu and **Terminal** &rarr; **New Terminal**.
+
+   ![dev space](images/bas2.png)
 
 ### Log In to Cloud Foundry in SAP Business Application Studio
 
@@ -31,14 +35,14 @@ Also you have to create a [destination](#create-destination-for-mock-server) to 
     ![copy Cloud Data](./images/copyCloudData.png)
 
 4. From the left-side subaccount menu, navigate to **Cloud Foundry** &rarr; **Spaces** and write down the space name as well to a text editor of your choice.
-
-    ![copy Space Name](./images/copySpaceName.png)
+ 
+    <img src="./images/copySpaceName.png" width="70%">
 
 5. Switch to the tab where you have opened **SAP Business Application Studio**. In the tabs, choose **View** and select **Find Command**.
 
 6. Search for **CF Login** and select **CF: Login on to Cloud Foundry**.
 
-    ![Log in to CF](./images/loginToCF.png)
+    <img src="./images/loginToCF.png" width="100%">
 
 7. Enter the CF API endpoint, which you have copied in step 3 or take the default suggested API endpoint.
 
