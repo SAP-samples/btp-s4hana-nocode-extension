@@ -28,7 +28,7 @@ Find the configuration of your account and adjust the remaining fields if necess
 ![Trial Detailed](./images/trial_detail_05.jpg)
 
 In the section **Custom Identity Provider for Applications**, select the tenant you want to use, provide your **email**, then press **Next**.
-![Trial Detailed](./images/trial_detail_06.jpg
+![Trial Detailed](./images/trial_detail_06.jpg)
 
 Check your settings and press **Finish**.
 ![Trial Detailed](./images/trial_detail_07.jpg)
