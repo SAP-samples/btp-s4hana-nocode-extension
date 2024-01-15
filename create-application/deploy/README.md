@@ -27,9 +27,9 @@ In this section you will build the application that you created using SAP Build 
 
    ![choose MTAR](./images/ba_build_mtar.png)
 
-6. On **Image Assets** tab, choose **SAVE & NEXT**.
+6. On **Image Assets** tab, choose **NEXT**.
 
-7. On **Permissions**, choose **SAVE & NEXT**.
+7. On **Plugins**, choose **NEXT**.
 
    ![choose Build](./images/ba_build_build.png)
 
