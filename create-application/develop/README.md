@@ -35,7 +35,7 @@ Open **SAP Build Apps Application Development** link if you have it already book
    
    <img src="./images/ba_chooseApp.png" width="750px">
 
-4. Enter a **Project Name**, for example **test\<Your D/I Number\>**
+4. Enter a **Project Name**, for example **Extend UI**
 
 5. Enter a **Short Description**.
 
