@@ -167,7 +167,7 @@ If the deployment was successful, you will see the following log:
 
   * **Name** = bupa
   * **Type** = HTTP
-  * **URL** = https://\<The application route of the mock server\>/v2/odata/v4/op-api-business-partner-srv/
+  * **URL** = https://\<The application route of the mock server\>/odata/v2/op-api-business-partner-srv
   * **Proxy Type** = Internet
   * **Authentication** = NoAuthentication
 

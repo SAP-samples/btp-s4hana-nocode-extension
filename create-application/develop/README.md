@@ -27,7 +27,11 @@ Open **SAP Build Apps Application Development** link if you have it already book
 
 ### Create a Project
 
-1. On the Build, app dashboard choose **Create** and choose **Build an Application**.
+1. On the Build, app dashboard choose **Create** 
+
+   <img src="./images/ba_createapp1.png" width="80%">
+
+2. Choose **Build an Application** to create a new business application.
 
    <img src="./images/ba_createapp.png" width="750px">
 
@@ -35,7 +39,7 @@ Open **SAP Build Apps Application Development** link if you have it already book
    
    <img src="./images/ba_chooseApp.png" width="750px">
 
-4. Enter a **Project Name**, for example **Extend UI**
+4. Enter a **Project Name**, for example **Business Partner**
 
 5. Enter a **Short Description**.
 
@@ -101,5 +105,9 @@ To add a data source, you need to add the following steps to your project.
 
 8. Now, search for **A_BusinessPartnerAddress** and choose **Enable Data Entity**.
 
-9. Choose **Save** at top of the app builder. This adds the data source to your project. Choose **UI Canvas** to go back to the UI designer view.
-10. Now you have added a data source for your SAP Build Apps application.
+9. Confirm that both entities have the status _Enabled_
+
+   <img src="./images/ba_enabled.png" width="400px">
+
+10. Choose **Save** at top of the app builder. This adds the data source to your project. Choose **UI Canvas** to go back to the UI designer view.
+11. Now you have added a data source for your SAP Build Apps application.

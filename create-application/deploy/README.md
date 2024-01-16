@@ -31,11 +31,9 @@ In this section you will build the application that you created using SAP Build 
 
 7. On **Plugins**, choose **NEXT**.
 
-   ![choose Build](./images/ba_build_build.png)
-
 8. In the **Web App** section, choose **BUILD**.
 
-   ![choose Build](./images/ba_build_building_web_app.png)
+   ![choose Build](./images/ba_build_build.png)
 
 9. Choose file type **MTAR**.
 
@@ -45,24 +43,30 @@ In this section you will build the application that you created using SAP Build 
 
 12. Choose **BUILD**.
 
+   ![choose Build](./images/ba_build_building_web_app.png)
+
+13. Refresh the browser until the status changes from **created** to **queued** and then finally to **delivered**, at which point a **DEPLOY MTA** button appears. This can take several minutes.
+
     ![choose Refresh Browser](./images/ba_build_status.png)
 
     The Build page will not notify via e-mail once the build has been completed. You have to refresh the browser to check if the build has been completed. The build can take more than 10 minutes.
-
-13. Refresh the browser until the status changes from **created** to **queued** and then finally to **delivered**, at which point a **DEPLOY MTA** button appears. This can take several minutes.
 
     ![choose Deploy_MTA](./images/ba_build_deploy_mta.png)
      
 
 ### Deploy
 
+1. In **Web App** choose **Deploy MTA**.
 
-
-1. In **Web App** choose **DEPLOY_MTA**.
+2. Choose the Endpoint of your account where you want to deploy your application
    
-   You will need to authorize with your identity provider the first time you do this.
+3. You will need to authorize with your identity provider the first time you do this. Choose **Authorize BTP Deployments**
 
-3. Select the organization and space and then choose **DEPLOY_MTA**.
+   ![choose_authorize](./images/authorize.png)
+
+4. Choose **Authorize**
+
+3. Select the organization and space and then choose **Deploy MTA**.
 
     ![choose_DEPLOY_MTA](./images/ba_deploy_org_space.png)
 
