@@ -1,13 +1,3 @@
-# Prerequisites and Required Systems
-
-This section contains the prerequisites that you have to fulfill before you get started. Make sure that the prerequisites are fulfilled, and all required systems are in place.
-
-## Systems and Accounts
-
-*	[…]
-*	[Optional] If you don't have a Global account in SAP BTP you can run this mission on the SAP BTP Trial account.
-* [….]
-
 # Setup the SAP Build Apps Service
 In this section you will use a booster to setup the landscape in your **SAP BTP Trial Account** for using **SAP Build Apps**. The process described here will use the already existing subaccount, because of the limitations in the Trial Account.
 
