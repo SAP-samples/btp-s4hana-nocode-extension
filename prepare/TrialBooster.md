@@ -7,33 +7,42 @@ Logon to your trial account
 
 ## Run the Booster (Detailed Account Setup)
 Select **Boosters**. Search for SAP Build Apps. Press **Start**.
-![Trial Detailed](./images/trial_detail_02.jpg)
+
+<img src="./images/trial_detail_02.jpg" width="80%">
 
 When the prerequisites are checked successfully, press **Next**.
-![Trial Detailed](./images/trial_detail_03.jpg)
+
+<img src="./images/trial_detail_03.jpg" width="80%">
 
 Choose **Select Subaccount** and press **Next**.
-![Trial Detailed](./images/trial_detail_04.jpg)
+
+<img src="./images/trial_detail_04.jpg" width="80%">
 
 Find the configuration of your account and adjust the remaining fields if necessary and then press **Next**.
-![Trial Detailed](./images/trial_detail_05.jpg)
+
+<img src="./images/trial_detail_05.jpg" width="80%">
 
 In the section **Custom Identity Provider for Applications**, select the tenant you want to use, provide your **email**, then press **Next**.
-![Trial Detailed](./images/trial_detail_06.jpg)
+
+<img src="./images/trial_detail_06.jpg" width="80%">
 
 Check your settings and press **Finish**.
-![Trial Detailed](./images/trial_detail_07.jpg)
+
+<img src="./images/trial_detail_07.jpg" width="80%">
 
 Choose **Navigate to subaccount**, which will open the subaccount on another tab. Come back to this tab and press **Close**.
 Go to your email inbox and find the activation mail for your IAS account. Choose **Click here to activate your account**.
-![Trial Detailed](./images/trial_detail_08.jpg)
+
+<img src="./images/trial_detail_08.jpg" width="80%">
 
 This will open a new webpage where you can configure your IAS Profile. Set a password, which you can use to access SAP Build Apps. Choose **Continue**.
+
 ![Trial Detailed](./images/trial_detail_09.jpg)
 
 ## Result
 The subaccount has been configured with a custom IAS tenant and your user has been assigned the relevant role collections.
-![Trial Detailed](./images/trial_detail_10.jpg)
+
+<img src="./images/trial_detail_10.jpg" width="80%">
 
 In the next step you will learn how to Open the SAP Build Apps via the SAP BTP Cockpit.
 
