@@ -2,7 +2,8 @@
 In this section you will use a booster to setup the landscape in your **SAP BTP Trial Account** for using **SAP Build Apps**. The process described here will use the already existing subaccount, because of the limitations in the Trial Account.
 
 Logon to your trial account
-![Trial Detailed](./images/trial_detail_01.jpg)
+
+<img src="./images/trial_detail_01.jpg" width="80%">
 
 ## Run the Booster (Detailed Account Setup)
 Select **Boosters**. Search for SAP Build Apps. Press **Start**.
