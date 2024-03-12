@@ -44,6 +44,7 @@ This scenario covers:
   - [Prerequisites and Required Systems](./prepare/README.md)
   - [Get Started with SAP Build Apps - Quick Account Setup](./prepare/QUICKSETUP.md)
   - [Launch SAP Build Apps](./prepare/StartBuildApps.md)
+  - [Optional - Set up SAP Build Apps in SAP BTP Trial](https://github.com/SAP-samples/btp-s4hana-nocode-extension/blob/main/setup/btp/SAPBUILD_trial.md)
   
 
 ## Landscape Setup for SAP BTP and SAP S/4HANA Cloud
