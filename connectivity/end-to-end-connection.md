@@ -50,11 +50,14 @@ You can propagate the user from the SAP BTP custom Identity Provider to SAP S/4H
 
    * Name: **WebIDEUsage** - value: **odata_gen**
 
+   * Name: **BuildApps.RequiresCsrf** - value: **true**
+
+
 6. Check **Use default JDK truststore**.
 
 7. **Save** your settings.
 
-   ![save Destination](./images/destinations_save.png)
+   ![save Destination](./images/destination_saml.png)
    
 8. Choose **Check Connection**, you would get a **401 Unauthorized** response which is ok.
    

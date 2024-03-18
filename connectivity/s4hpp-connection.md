@@ -144,9 +144,10 @@ With this step the on-premise setup is finished.
     * Name: **AppgyverEnabled** - value: **true**
     * Name: **WebIDESystem** - value: **System ID of your SAP S/4HANA system**
     * Name: **WebIDEUsage** - value: **odata\_gen**
+    * Name: **BuildApps.RequiresCsrf** - value: **true**
     
 
-   ![destination](./images/scp-destination3a.png)
+   ![destination](./images/destination_pp.png)
 
 4. Choose **Save** and then select **Check Connection**
       
