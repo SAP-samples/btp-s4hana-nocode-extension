@@ -1,6 +1,8 @@
 # Setup the SAP Build Apps Service
 In this section you will use a booster to setup the landscape in your **SAP BTP Trial Account** for using **SAP Build Apps**. The process described here will use the already existing subaccount, because of the limitations in the Trial Account.
 
+**Important:** Currently, you cannot deploy applications with SAP Build Workzone on your trial landscape! 
+
 Logon to your trial account
 
 <img src="./images/trial_detail_01.jpg" width="80%">
