@@ -58,7 +58,9 @@ For apps installed on mobile devices, SAP Build Apps uses SAP Mobile Services fo
 
     ![Configuration](./images/android_configuration_09.png)
 
-12. Choose **Enable SAP Mobile Services**.   
+12. Choose **Enable SAP Mobile Services**. 
+
+    It can take some minutes for Mobile Services to be ready.
 
     ![Configuration](./images/android_configuration_10.png)
     ![Configuration](./images/android_configuration_11.png)
@@ -90,13 +92,20 @@ For apps installed on mobile devices, SAP Build Apps uses SAP Mobile Services fo
 
 1. Install the APK on your Android device.
 
+    This will vary according to the device you are using. If you are using a physical device, you will transfer the APK from your computer to the device (via USB usually). You will then locate the file on the device and start the installation. If you are using an emulator as shown below, simply draging the APK file onto the emulator might start the installation.
+
     ![Install](./images/APK_01.png)
+
+2. Find the app on your device.
+
     ![Installed](./images/APK_02.png)
 
-2. Start the app.
+3. Start the app.
 
     ![Start Setup](./images/APK_03.png)
 
-3. Choose **GET STARTED** and follow the instructions. Once you have finished the configuration process, the deployed app should start automatically.
+4. Choose **GET STARTED** and follow the instructions. Once you have finished the configuration process, the deployed app should start automatically.
 
     ![Running](./images/APK_04.png)
+
+The app should behave as before, with live data displayed that is read from the backend system and navigation to the details page by clicking on a record.
