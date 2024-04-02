@@ -2,8 +2,10 @@
 
 ## Introduction
 
-In this section, you will use the build service to build an APK file that can be deployed on an Android device for testing.
+For apps installed on mobile devices, SAP Build Apps uses SAP Mobile Services for authenticating mobile users with Cloud Identity Services. This allows integration with S4HANA Cloud services via destinations on SAP BTP. In this section, you will use the build service to build an APK file that can be deployed on an Android device for local testing.
 
+* If you want to build and deploy to Google Play, see [Android builds](https://help.sap.com/docs/build-apps/service-guide/android-builds).
+* If you want use an iOS device, see [IOS builds](https://help.sap.com/docs/build-apps/service-guide/ios-builds).
 
 ## Prerequisites
 
