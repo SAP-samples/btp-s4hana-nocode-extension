@@ -77,6 +77,7 @@ Once you have set up the landscape, you can develop, test, and run a simple UI a
   * [Create a Business Partner Details Page](./create-application/develop/DetailsPage/README.md)
   * [Build and Deploy Your SAP Build Apps Application to SAP BTP](./create-application/deploy/README.md)
   * [Integrate the Application with SAP Build Work Zone, standard edition](./create-application/workzone/README.md)
+  * [Build Your App and Install it on a Mobile Device](./create-application/mobile_services/README.md)
 
 ## How to Obtain Support
 
