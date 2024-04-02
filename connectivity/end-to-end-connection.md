@@ -52,6 +52,8 @@ You can propagate the user from the SAP BTP custom Identity Provider to SAP S/4H
 
    * Name: **BuildApps.RequiresCsrf** - value: **true**
 
+   * Name: **MobileEnabled** - value: **true**
+
 
 6. Check **Use default JDK truststore**.
 
