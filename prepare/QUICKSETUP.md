@@ -5,6 +5,8 @@ If you have already set up your SAP BTP account for SAP Build Apps by using the 
 
 Otherwise, use the following steps to set up your account. As an alternative you could also use the provided [Terraform script](https://github.com/SAP-samples/btp-terraform-samples/blob/main/released/discovery_center/mission_4024/README.md).
 
+The quick set up below does not offer the **Mobile Services** configuration, so if you intend to [Build Your App and Install it on a Mobile Device](../create-application/mobile_services/README.md), you should use the detailed setup below.
+
 ## Quick Setup
 In this section you will use a booster to (create and) set up a subaccount for using **SAP Build Apps**. To do this, you must be **administrator** of your global account on SAP BTP. You can start the booster by selecting the booster icon at this tile.
   
@@ -49,7 +51,7 @@ After the Setup, you need to enable the **Identity Authentication for SAP Build 
 
     ![Detailed Setup](./images/detail_setup2.png)
 
-3. Set **SAP Build Apps** and **SAP Build Workzone, standard edition**. For testing purpose you can choose the **free** service plan, for productive usage take the **standard** plan.
+3. Set **SAP Build Apps** and **SAP Build Workzone, standard edition**. For testing purpose you can choose the **free** service plan, for productive usage take the **standard** plan. Set **Mobile Services** with the **resources** plan.
 
    ![Detailed Setup](./images/detail_setup3.png)
 
