@@ -40,19 +40,21 @@ You can propagate the user from the SAP BTP custom Identity Provider to SAP S/4H
 
 5. Add the following **Additional Properties** by choosing the **New Property** button. If you have imported the sample destination file, the following properties are automatically added:
 
-   * Name: **WebIDEEnabled** - value: **true**
+   * Name: **BuildApps.RequiresCsrf** - value: **true**
    
    * Name: **HTML5.DynamicDestination** - value: **true**
    
    * Name: **HTML5.Timeout** - value: **60000**
 
+   * Name: **MobileEnabled** - value: **true**
+
    * Name: **nameIdFormat** - value: **urn\:oasis\:names\:tc\:SAML\:1.1\:nameid-format\:emailAddress**  
+
+   * Name: **WebIDEEnabled** - value: **true**
 
    * Name: **WebIDEUsage** - value: **odata_gen**
 
-   * Name: **BuildApps.RequiresCsrf** - value: **true**
-
-   * Name: **MobileEnabled** - value: **true**
+ 
 
 
 6. Check **Use default JDK truststore**.
@@ -61,7 +63,7 @@ You can propagate the user from the SAP BTP custom Identity Provider to SAP S/4H
 
    ![save Destination](./images/destination_saml.png)
    
-8. Choose **Check Connection**, you would get a **401 Unauthorized** response which is ok.
+8. Choose **Check Connection**. You should get a **401 Unauthorized** response.
    
    ![check conn](./images/checkConnection.png)
 
