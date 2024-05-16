@@ -23,5 +23,4 @@ The application requires the following [Entitlements and Quotas](https://help.sa
 | SAP Cloud Identity Service - Identity Authentication  | MEMORY     |          1          |
 | Cloud Foundry runtime (optional)  | MEMORY     |          1          |
 | Destination service               | lite       |          1          |
-
-
+| Mobile Services                   | Resources  |          1          |
