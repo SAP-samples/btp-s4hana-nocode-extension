@@ -23,11 +23,11 @@ This scenario covers:
 
 **SAP S/4HANA Cloud**
 
- ![Solution Architecture](./discover/images/ScenarioArchitecture.png)
+ ![Solution Architecture](./discover/images/Keep_the_Core_clean_SD.drawio.png)
 
 **SAP S/4HANA on-premise**
 
- ![Solution Architecture](./discover/images/s4hop.png)
+ ![Solution Architecture](./discover/images/Keep_the_Core_clean_OnPremise.drawio.png)
 
 ## Discover
 
@@ -45,6 +45,7 @@ This scenario covers:
   - [Get Started with SAP Build Apps - Quick Account Setup](./prepare/QUICKSETUP.md)
   - [Launch SAP Build Apps](./prepare/StartBuildApps.md)
   - [Optional - Set up SAP Build Apps in SAP BTP Trial](https://github.com/SAP-samples/btp-s4hana-nocode-extension/blob/main/setup/btp/SAPBUILD_trial.md)
+  - [Optional - Set up your SAP BTP account using Terraform scripts](https://github.com/SAP-samples/btp-terraform-samples/blob/main/released/discovery_center/mission_4024/README.md)
   
 
 ## Landscape Setup for SAP BTP and SAP S/4HANA Cloud

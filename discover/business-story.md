@@ -18,8 +18,8 @@ If you don't have an SAP S/4HANA system, you have the option to choose a mock se
 
 **SAP S/4HANA Cloud**
 
-   ![Solution Architecture](./images/ScenarioArchitecture.png)
+   ![Solution Architecture](./images/Keep_the_Core_clean_SD.drawio.png)
 
 **SAP S/4HANA on-premise**
 
-   ![Solution Architecture](./images/s4hop.png)
+   ![Solution Architecture](./images/Keep_the_Core_clean_OnPremise.drawio.png)
