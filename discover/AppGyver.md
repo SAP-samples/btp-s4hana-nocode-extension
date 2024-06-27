@@ -30,4 +30,4 @@ Eliminate coding effort to increase development efficiency by building apps visu
 
 ## Links
 
-* [SAP Build Apps Documentation](https://www.sap.com/products/technology-platform/no-code-app-builder.html)
+* [SAP Build Apps Documentation](https://www.sap.com/products/technology-platform/low-code-app-builder.html)
