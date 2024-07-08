@@ -16,6 +16,8 @@ When the prerequisites are checked successfully, press **Next**.
 
 <img src="./images/trial_detail_03.jpg" width="80%">
 
+> Hint: If you there is an error, please try to rerun the booster again
+
 Choose **Select Subaccount** and press **Next**.
 
 <img src="./images/trial_detail_04.jpg" width="80%">
