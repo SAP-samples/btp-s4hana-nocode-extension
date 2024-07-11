@@ -131,9 +131,9 @@ Now, your application loads the business partner's address and stores it to the 
 
 Next, you will change the header of the details page, so it displays the current Business Partner.
 
-1. Select the default description on the page and delete it by pressing **X**.
+1. Select the default description on the page and delete it by pressing the trash bin icon.
 
-   <img src="./ba_datailspage3.png">
+   <img src="./ba_removeTextField.png">
 
 2. Select headline component. On the right side of the screen, choose **ABC** button in **Content** section.
 

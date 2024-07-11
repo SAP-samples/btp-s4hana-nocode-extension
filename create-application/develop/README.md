@@ -59,7 +59,7 @@ Open **SAP Build Apps Application Development** link if you have it already book
 
    <img src="./images/ba_title.png" width="550px">
 
-11. Find the text field in the UI canvas in the center of your screen and choose **x** to remove this component.
+11. Find the text field in the UI canvas in the center of your screen and choose the trash can icon to remove this component.
 
    <img src="./images/ba_removeTextField.png" width="250px">
 
@@ -69,7 +69,7 @@ Open **SAP Build Apps Application Development** link if you have it already book
 
     <img src="./images/ba_pageRename.png" width="400px">
 
-
+<!--
 ### Enable Authentication
 
 To consume data from your SAP backend system or mock data that is configured as a SAP BTP destination in the previous section, you need to enable authentication.
@@ -83,7 +83,7 @@ To consume data from your SAP backend system or mock data that is configured as 
 3. Select **SAP BTP Authentication** and choose **OK**. This enables authentication for the project.
 
    <img src="./images/ba_enableauth2.png" width="400px">
-
+-->
 
 ### Add a Data Source
 
@@ -103,9 +103,11 @@ To add a data source, you need to add the following steps to your project.
 
 6. Choose **Install Integration**.
 
-   <img src="./images/ba_dataintegration2.png" width="400px">
+   <img src="./images/ba_dataintegration2.png" width="600px">
 
 7. After installing integration, you'll see **Enable Data Entity**. Select **Enable Data Entity** to enable it.
+
+   <img src="./images/ba_dataintegration3.png" width="600px">
 
 8. Now, search for **A_BusinessPartnerAddress** and choose **Enable Data Entity**.
 
