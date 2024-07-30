@@ -33,15 +33,15 @@ Open **SAP Build Apps Application Development** link if you have it already book
 
 2. Choose **Build an Application** to create a new business application.
 
-   <img src="./images/ba_createapp.png" width="750px">
+   <img src="./images/ba_createapp.png" width="80%">
 
 3. Select **SAP Build Apps**
 
-    <img src="./images/ba_createapp2.png" width="750px">
+    <img src="./images/ba_createapp2.png" width="80%">
    
 5. Choose **Web & Mobile Application**.
    
-   <img src="./images/ba_chooseApp.png" width="750px">
+   <img src="./images/ba_chooseApp.png" width="80%"">
 
 6. Enter a **Project Name**, for example **Business Partner**
 
@@ -49,7 +49,7 @@ Open **SAP Build Apps Application Development** link if you have it already book
 
 8. Choose **Create**.
 
-   <img src="./images/ba_createApp_1.png" width="500px">
+   <img src="./images/ba_createApp_1.png" width="80%">
 
 9. Your created project will be opened in **App Builder** which is the central page to build your application including a user interface, logic, as well as data integration.
 
@@ -57,17 +57,17 @@ Open **SAP Build Apps Application Development** link if you have it already book
 
 11. Find the **Properties** tab in the menu on the right to change the content of the title. Choose **Content** and change the content from **Headline** to **Extend UI Application**.
 
-   <img src="./images/ba_title.png" width="550px">
+   <img src="./images/ba_title.png" width="80%"">
 
 11. Find the text field in the UI canvas in the center of your screen and choose the trash can icon to remove this component.
 
-   <img src="./images/ba_removeTextField.png" width="250px">
+   <img src="./images/ba_removeTextField.png" width="80%">
 
 12. Choose the blank page. On the right side under the **Properties**, choose **Page name**.
 
 13. Change the page name to **Home**.
 
-    <img src="./images/ba_pageRename.png" width="400px">
+    <img src="./images/ba_pageRename.png" width="80%">
 
 <!--
 ### Enable Authentication
@@ -78,11 +78,11 @@ To consume data from your SAP backend system or mock data that is configured as 
 
 2. Choose **Enable Authentication**.
 
-   <img src="./images/ba_enableauth1.png" width="400px">
+   <img src="./images/ba_enableauth1.png" width="80%">
 
 3. Select **SAP BTP Authentication** and choose **OK**. This enables authentication for the project.
 
-   <img src="./images/ba_enableauth2.png" width="400px">
+   <img src="./images/ba_enableauth2.png" width="80%">
 -->
 
 ### Add a Data Source
@@ -93,7 +93,7 @@ To add a data source, you need to add the following steps to your project.
 
 2. Find section **No systems integrated** and choose **Add Integration**.
 
-   <img src="./images/ba_dataintegration.png" width="400px">
+   <img src="./images/ba_dataintegration.png" width="80%">
 
 3. On the next screen **SAP Systems**, select **BTP Destinations**.
 
@@ -103,17 +103,17 @@ To add a data source, you need to add the following steps to your project.
 
 6. Choose **Install Integration**.
 
-   <img src="./images/ba_dataintegration2.png" width="600px">
+   <img src="./images/ba_dataintegration2.png" width="80%">
 
 7. After installing integration, you'll see **Enable Data Entity**. Select **Enable Data Entity** to enable it.
 
-   <img src="./images/ba_dataintegration3.png" width="600px">
+   <img src="./images/ba_dataintegration3.png" width="80%">
 
 8. Now, search for **A_BusinessPartnerAddress** and choose **Enable Data Entity**.
 
 9. Confirm that both entities have the status _Enabled_
 
-   <img src="./images/ba_enabled.png" width="400px">
+   <img src="./images/ba_enabled.png" width="80%">
 
 10. Choose **Save** at top of the app builder. This adds the data source to your project. Choose **UI Canvas** to go back to the UI designer view.
 11. Now you have added a data source for your SAP Build Apps application.
