@@ -19,60 +19,61 @@ In this section you will build the application that you created using SAP Build 
 
    ![choose Open Build Service](./images/ba_build_open_build_service.png)
 
-3. Under **Web App**, choose **CONFIGURE**.
+3. Choose **New Configuration**
 
-   ![choose Configure](./images/ba_build_configure.png)
+   ![New Configuration](./images/deploy-1.png)
 
-5. On **Bundle Settings** tab, choose **MTAR** and then choose **SAVE & NEXT**.
+4. Select **SAP Builld Workzone** as a target platform
 
-   ![choose MTAR](./images/ba_build_mtar.png)
+   ![target platform](./images/deploy-2.png)
 
-6. On **Image Assets** tab, choose **NEXT**.
+5. Give a Name for the configuration e.g. *BusinessPartners* and choose **Create**
 
-7. On **Plugins**, choose **NEXT**.
+   ![configuration](./images/deploy-3.png)
 
-8. In the **Web App** section, choose **BUILD**.
+6. Back in the configuration page, choose **...** from your newly build configuration
 
-   ![choose Build](./images/ba_build_build.png)
+   ![Open Configuration](./images/deploy-4.png)
 
-9. Choose file type **MTAR**.
+7. In the pop-up choose a Build Process Number e.g. *0.0.1* and choose **Build**
 
-10. Choose the latest runtime version.
+   ![Build Process](./images/deploy-5.png)
 
-11. Enter a version number, for example, **0.0.1**.
+8. In the Build History you can see your build with the status *Building*
 
-12. Choose **BUILD**.
+   ![Build History](./images/deploy-6.png)
 
-   ![choose Build](./images/ba_build_building_web_app.png)
+9. As soon as your build is status *Delivered* click on line to open Build Details
 
-13. Refresh the browser until the status changes from **created** to **queued** and then finally to **delivered**, at which point a **DEPLOY MTA** button appears. This can take several minutes.
+   ![Build Delivered](./images/deploy-7.png)
 
-    ![choose Refresh Browser](./images/ba_build_status.png)
+10. Choose **Deploy** to deploy your application
 
-    The Build page will not notify via e-mail once the build has been completed. You have to refresh the browser to check if the build has been completed. The build can take more than 10 minutes.
+   ![Deploy App](./images/deploy-8.png)
 
-    ![choose Deploy_MTA](./images/ba_build_deploy_mta.png)
-     
+11. In the pop-ip, choose the API endpoint of your subaccount
 
-### Deploy
+> Hint: You can find the API endpoint in the overview section of your  of your subaccount
 
-1. In **Web App** choose **Deploy MTA**.
+12. In case you are not logged in yet, choose **Login with BTP**
 
-2. Choose the Endpoint of your account where you want to deploy your application
-   
-3. You will need to authorize with your identity provider the first time you do this. Choose **Authorize BTP Deployments**
+   ![API Endpoint](./images/deploy-9.png)
 
-   ![choose_authorize](./images/authorize.png)
+13. In the pop-up choose **Sign in the the default identity provider**
 
-4. Choose **Authorize**
+   ![Identity Provider](./images/deploy-10.png)
 
-3. Select the organization and space and then choose **Deploy MTA**.
+14. Back in the **Deploy to Work Zone** view choose your **Organization** and **Space**
 
-    ![choose_DEPLOY_MTA](./images/ba_deploy_org_space.png)
+> Hint: You can find the Organization and Space in the overview section of your  of your subaccount
 
-4. Wait until the deployment is completed and choose **CLOSE**.
+15. Choose **Continue**
 
-    ![choose_CLOSE](./images/ba_deploy_deploying.png)
+   ![Org & Space](./images/deploy-11.png)
+
+16. Your application in now being deployed. This can take up to 5 minutes. As soon as the status is 'Your web build is now live at' you can click on the link to open your app.
+
+   ![Org & Space](./images/deploy-12.png)
 
 
 
@@ -84,9 +85,9 @@ In this section you will build the application that you created using SAP Build 
 
 3. Under **Managed Application Router provided by SAP Build Work Zone, standard edition**, you will find a list of applications.
 
-   ![show Applications](./images/ba_html5_applications.png)
-
 4. Click the **Application Name** (this will be the build number).
+
+   ![Org & Space](./images/deploy-13.png)
 
 5. Your application opens. Depending on how your subaccount is configured, you might need to choose the IAS and login.
 
