@@ -16,7 +16,7 @@ Please make sure that you have fulfilled the prerequisites for the Quick Account
 
   ![QAS](./images/qas_1.png)
 
-2. Choose your account type **Trial** or **Enterprise** and choose **Continue**
+2. Choose your account type **Enterprise** and choose **Continue**
 
   ![QAS](./images/qas_2.png)
 
@@ -39,11 +39,6 @@ What we’ll setup for you (Enterprise):
 - Create a new subaccount.
 - Add 4 service plans to entitle new subaccount.
 - Add a instance for service: SAP Destination service.
-- Add 3 subscriptions for services: SAP Build Apps, SAP Cloud Identity Services, SAP Build Work Zone, standard edition.
-- Assign 6 role collections to user(s).
- 
- 
-What we’ll setup for you (Trial):
 - Add 3 subscriptions for services: SAP Build Apps, SAP Cloud Identity Services, SAP Build Work Zone, standard edition.
 - Assign 6 role collections to user(s).
 
