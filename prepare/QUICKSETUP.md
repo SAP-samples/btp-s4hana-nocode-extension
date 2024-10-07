@@ -14,23 +14,23 @@ Please make sure that you have fulfilled the prerequisites for the Quick Account
 
 1.Choose **Start Quick Account Setup** button on the top right of this card
 
-  ![QAS](./images/QAS_1.png)
+  ![QAS](./images/qas_1.png)
 
 2. Choose your account type **Trial** or **Enterprise** and choose **Continue**
 
-  ![QAS](./images/QAS_2.png)
+  ![QAS](./images/qas_2.png)
 
 3. In the popup select your **Global Account** and choose **Continue**
 
- ![QAS](./images/QAS_3.png)
+ ![QAS](./images/qas_3.png)
 
 4. Your account will now be created
 
- ![QAS](./images/QAS_4.png)
+ ![QAS](./images/qas_4.png)
 
  5. As soon as your account is created choose **Continue to Use Case**
 
-  ![QAS](./images/QAS_5.png)
+  ![QAS](./images/qas_5.png)
 
 
 ## What did the QAS do?
