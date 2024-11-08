@@ -9,25 +9,22 @@ In this section, you will create an SAP Build Apps application.
 
 ## Open SAP Build Apps
 
-Open **SAP Build Apps Application Development** link if you have it already bookmarked, otherwise open it via the **SAP BTP Cockpit** as described below.
+Open **SAP Build Apps** link if you have it already bookmarked, otherwise open it via the **SAP BTP Cockpit** as described below.
 
- 1. To open **SAP Build Apps Application Development** via SAP cockpit, navigate to your SAP BTP subaccount.
+ 1. To open **SAP Build Apps** via SAP cockpit, navigate to your SAP BTP subaccount.
  2. From the left-side of your subaccount menu, navigate from **Services** &rarr; **Instances and Subscriptions**.
 
- 3. In the tab **Subscriptions**, find **SAP Build Apps** and choose **Go to Application** to open the entry page for Application Development.
+ 3. In the tab **Subscriptions**, find **SAP Build Apps** and choose **Go to Application** to open the entry page for SAP Build Apps.
 
      <img src="./images/ba_subscription.png" width="750px">
 
-
- 4. You might be prompted with a log in screen of either default Identity Provider or custom Identity Provider depending on what you have configured.
-
- 5. Log in to the Application using your custom Identity Provider credentials.
+ 4. Log in to the Application using your custom Identity Provider credentials.
 
 ## Create an Application Using SAP Build Apps
 
 ### Create a Project
 
-1. On the Build, app dashboard choose **Create** 
+1. On the SAP Build Lobby choose **Create** 
 
    <img src="./images/ba_createapp1.png" width="80%">
 
@@ -89,13 +86,14 @@ To consume data from your SAP backend system or mock data that is configured as 
 
 To add a data source, you need to add the following steps to your project.
 
-1. Choose the tab **Data** at the top of App builder.
+1. Choose the tab **Integrations** at the top of App builder.
 
 2. Find section **No systems integrated** and choose **Add Integration**.
 
-   <img src="./images/ba_dataintegration.png" width="80%">
+   ![apps_1](https://github.com/user-attachments/assets/f1c089bd-6a03-4753-8dde-a95b4c3d4563)
 
-3. On the next screen **SAP Systems**, select **BTP Destinations**.
+
+3. On the next screen select in **SAP Systems** the **BTP Destinations** button.
 
 4. Select the destination that you have created in the previous section from the list.
 
