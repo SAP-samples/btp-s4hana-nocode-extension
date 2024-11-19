@@ -37,10 +37,10 @@ In this section, you will create some user groups in the Identity Authentication
 7.  Map the group to all user which should have the AppGyver developer role:
     * Open User Management
     * Select your user
-    * Choose **User Groups**
-    * Select **Assign Groups**
+    * Choose **Groups**
+    * Select **Assign**
 
-   ![User Groups](./images/CustIDP-assertGroup.png)
+      ![User Groups](./images/CustIDP-assertGroup.png)
 
 8. Check the **AppGyverDeveloper** group and choose **Save**.
 
