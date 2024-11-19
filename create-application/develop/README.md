@@ -89,7 +89,7 @@ To consume data from your SAP backend system or mock data that is configured as 
 
 To add a data source, you need to add the following steps to your project.
 
-1. Choose the tab **Data** at the top of App builder.
+1. Choose the tab **Integration** at the top of App builder.
 
 2. Find section **No systems integrated** and choose **Add Integration**.
 
