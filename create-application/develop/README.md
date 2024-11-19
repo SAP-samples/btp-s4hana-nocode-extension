@@ -41,7 +41,7 @@ Open **SAP Build Apps Application Development** link if you have it already book
    
 5. Choose **Web & Mobile Application**.
    
-   <img src="./images/ba_chooseApp.png" width="80%"">
+   <img src="./images/ba_chooseApp.png" width="80%">
 
 6. Enter a **Project Name**, for example **Business Partner**
 
@@ -57,7 +57,7 @@ Open **SAP Build Apps Application Development** link if you have it already book
 
 11. Find the **Properties** tab in the menu on the right to change the content of the title. Choose **Content** and change the content from **Headline** to **Extend UI Application**.
 
-   <img src="./images/ba_title.png" width="80%"">
+   <img src="./images/ba_title.png" width="80%">
 
 11. Find the text field in the UI canvas in the center of your screen and choose the trash can icon to remove this component.
 
