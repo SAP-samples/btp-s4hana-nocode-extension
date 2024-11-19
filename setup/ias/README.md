@@ -53,13 +53,10 @@ You can manage trust configurations for a global account only if you have create
 
 11. Choose **Save**.
 
-12. Choose **Subject Name Identifier**.
+12. Choose **Subject Name Identifier**. Select Identity Directory and email. Press **Save**.
 
     ![Subject NameID](./images/CustIDP-subjectNameID.png)
 
-13. Select basic attribute **E-Mail** and choose **Save**.
-
-    ![Save Subject NameID](./images/CustIDP-subjectNameIDSave.png)
 
 
 ### Establish Trust with your SAP S/4HANA Cloud SAML 2.0 Identity Provider in your SAP BTP Subaccount
