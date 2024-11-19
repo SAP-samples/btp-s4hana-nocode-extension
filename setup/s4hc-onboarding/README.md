@@ -101,15 +101,19 @@ You now have to import the newly created business users in the SAP Cloud Identit
 
    ![](./images/importUsersToIAS01.png)
 
-2. Log on to SAP Cloud Identity Service - Identity Authentication with your administrator user.
+2. Log on to SAP Cloud Identity Service with your administrator user.
 
-3. Access the **Import Users** application and choose the CSV file, which you have downloaded in step 1 and choose **Import** to import the users.
+3. Access the **Import Users** application.
+   
+   ![](./images/importUsersToIAS04.png)
+   
+4. Select the S/4HANA system and choose the CSV file, which you have downloaded in step 1. Press **Import** to import the users.
 
    ![](./images/importUsersToIAS02.png)
 
-   ![](./images/importUsersToIAS04.png)
 
-4. Select **Send E-Mails** and choose **Send** to send activation e-mails to the newly imported users. The business users can now access the SAP S/4HANA system.
+
+5. Select **Send E-Mails** and choose **Send** to send activation e-mails to the newly imported users. The business users can now access the SAP S/4HANA system.
 
 
 ## Summary
