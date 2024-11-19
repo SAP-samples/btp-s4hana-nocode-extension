@@ -19,9 +19,9 @@ In this section you will build the application that you created using SAP Build 
 
    ![choose Open Build Service](./images/ba_build_open_build_service.png)
 
-3. Choose **New Configuration**
+3. Choose **Create Configuration**
 
-   ![New Configuration](./images/deploy-1.png)
+   ![New Configuration](./images/createConfiguration.png)
 
 4. Select **SAP Builld Workzone** as a target platform
 
