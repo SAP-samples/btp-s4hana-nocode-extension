@@ -10,15 +10,6 @@ This section contains the prerequisites that you have to fulfill before you get 
 * [Optional] If you don't have a Global account in SAP BTP you can run this mission on the SAP BTP Trial account.
 * [Optional] If you don't have an SAP S/4HANA Cloud system you can run this mission by installing a mock server. For the mock server, you would need 256MB of Cloud Foundry runtime.
 
-## Tools - (Optional for manual deployment to SAP BTP)
-
-* [Cloud Foundry command line interface (v8 version or later)](https://github.com/cloudfoundry/cli/wiki/V8-CLI-Installation-Guide).
-* [Cloud MTA Build Tool](https://sap.github.io/cloud-mta-build-tool/) - you can install it using Node.js.
-
-     ```cmd
-     npm install -g mbt
-     ```
-
 
 ## SAP BTP Provider Account
 
