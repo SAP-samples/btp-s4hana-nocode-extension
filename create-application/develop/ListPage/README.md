@@ -85,11 +85,13 @@ Let us now define what fields we would like to show in the UI in the business pa
 
 1. Choose **LAUNCH**.
 
-2. Choose **OPEN APP IN PREVIEW PORTAL**.
+2. Choose **OPEN PREVIEW PORTAL**.
 
-3. A new tab opens. Select the application you have created.
+3. Choose **Open web preview**.
 
-4. The application is launched in the preview portal.
+4. A new tab opens. Select the application you have created.
+
+5. The application is launched in the preview portal.
 
     ![Preview](../images/preview1.png)
 
