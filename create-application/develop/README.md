@@ -27,9 +27,9 @@ Open **SAP Build Apps Application Development** link if you have it already book
 
 ### Create a Project
 
-1. On the Build, app dashboard choose **Create** 
+1. On the SAP Build Lobby choose **Create** 
 
-   <img src="./images/ba_createapp1.png" width="80%">
+   ![image](https://github.com/user-attachments/assets/e1531823-9d94-4ac0-9c6f-02aede19bfe7)
 
 2. Choose **Build an Application** to create a new business application.
 
@@ -37,11 +37,11 @@ Open **SAP Build Apps Application Development** link if you have it already book
 
 3. Select **SAP Build Apps**
 
-    <img src="./images/ba_createapp2.png" width="80%">
+    ![image](https://github.com/user-attachments/assets/fab69bd4-2e99-4750-979d-bd306fb53763)
    
 5. Choose **Web & Mobile Application**.
    
-   <img src="./images/ba_chooseApp.png" width="80%"">
+   ![image](https://github.com/user-attachments/assets/814d603f-c0d9-46d8-89cf-21892a7eb794)
 
 6. Enter a **Project Name**, for example **Business Partner**
 
@@ -51,39 +51,19 @@ Open **SAP Build Apps Application Development** link if you have it already book
 
    <img src="./images/ba_createApp_1.png" width="80%">
 
-9. Your created project will be opened in **App Builder** which is the central page to build your application including a user interface, logic, as well as data integration.
+9. Your created project will be opened in **App Editor** which is the central place to build your application including a user interface, logic, as well as data integration.
 
-10. Choose **Headline**.
-
-11. Find the **Properties** tab in the menu on the right to change the content of the title. Choose **Content** and change the content from **Headline** to **Extend UI Application**.
-
-   <img src="./images/ba_title.png" width="80%"">
+10. Choose **Headline** and change the content from **Headline** to **Extend UI Application**.
+   ![image](https://github.com/user-attachments/assets/4461e6dd-75c2-4f9d-b8a3-7f23d1d13fd3)
 
 11. Find the text field in the UI canvas in the center of your screen and choose the trash can icon to remove this component.
-
-   <img src="./images/ba_removeTextField.png" width="80%">
+   ![image](https://github.com/user-attachments/assets/749e834e-d442-42fc-83d1-4edec6d03f0e)
 
 12. Choose the blank page. On the right side under the **Properties**, choose **Page name**.
 
 13. Change the page name to **Home**.
+    ![image](https://github.com/user-attachments/assets/d31853b5-1a5f-4c88-86b0-88513a48e2ae)
 
-    <img src="./images/ba_pageRename.png" width="80%">
-
-<!--
-### Enable Authentication
-
-To consume data from your SAP backend system or mock data that is configured as a SAP BTP destination in the previous section, you need to enable authentication.
-
-1. Choose **AUTH** at the top section of the app builder.
-
-2. Choose **Enable Authentication**.
-
-   <img src="./images/ba_enableauth1.png" width="80%">
-
-3. Select **SAP BTP Authentication** and choose **OK**. This enables authentication for the project.
-
-   <img src="./images/ba_enableauth2.png" width="80%">
--->
 
 ### Add a Data Source
 
@@ -93,7 +73,7 @@ To add a data source, you need to add the following steps to your project.
 
 2. Find section **No systems integrated** and choose **Add Integration**.
 
-   <img src="./images/ba_dataintegration.png" width="80%">
+   ![image](https://github.com/user-attachments/assets/9708f7bb-9ecb-40c4-9a44-11dfe373ffb3)
 
 3. On the next screen **SAP Systems**, select **BTP Destinations**.
 
