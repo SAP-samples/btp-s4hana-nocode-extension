@@ -4,7 +4,7 @@ If you have already set up your SAP BTP account for SAP Build Apps by using the 
 
 Otherwise, use the following steps to set up your account. As an alternative you could also use the provided [Terraform script](https://github.com/SAP-samples/btp-terraform-samples/blob/main/released/discovery_center/mission_4024/README.md).
 
-The quick set up below does not offer the **Mobile Services** configuration, so if you intend to [Build Your App and Install it on a Mobile Device](../create-application/mobile_services/README.md), you should use the detailed setup below.
+The quick set up does not offer the **Mobile Services** configuration, so if you intend to build your app and install it on a mobile device, you should use the detailed setup below, and this is also the preferred optionto set it up on your SAP BTP subaccount.
 
 ## Manual Setup
 
