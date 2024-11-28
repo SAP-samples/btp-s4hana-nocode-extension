@@ -20,7 +20,9 @@ Also you have to create a [destination](#create-destination-for-mock-server) to 
 
    ![dev space](images/bas1.png)
 
-3. Choose the burger menu and **Terminal** &rarr; **New Terminal**.
+3. Open the newly created space.
+
+4. Choose the burger menu and **Terminal** &rarr; **New Terminal**.
 
    ![dev space](images/bas2.png)
 
@@ -38,7 +40,8 @@ Also you have to create a [destination](#create-destination-for-mock-server) to 
  
     <img src="./images/copySpaceName.png" width="70%">
 
-5. Switch to the tab where you have opened **SAP Business Application Studio**. In the tabs, choose **View** and select **Find Command**.
+5. Switch to the tab where you have opened **SAP Business Application Studio**. In the tabs, choose **View** and select **Command Palette**.
+   ![image](https://github.com/user-attachments/assets/21c473d2-6506-4ad6-ac93-f592588bab61)
 
 6. Search for **CF Login** and select **CF: Login on to Cloud Foundry**.
 
@@ -46,13 +49,15 @@ Also you have to create a [destination](#create-destination-for-mock-server) to 
 
 7. Enter the CF API endpoint, which you have copied in step 3 or take the default suggested API endpoint.
 
-8. Enter your SAP BTP account **Email** and **Password** when prompted.
+8. Enter your SAP BTP account **user ID** and **Password** when prompted. 
+   You can find the user ID in the Settings:
+      ![image](https://github.com/user-attachments/assets/2ff57f3c-d2ba-4949-9ed3-da81ad5ecb54)
 
-9. Select your Cloud Foundry **Org**, which you have noted down in step 3.
+10. Select your Cloud Foundry **Org**, which you have noted down in step 3.
 
-10. Select the space name, which you have noted down in step 4. Once you have selected the Org and Space, you would log in to Cloud Foundry in SAP Business Application Studio.
+11. Select the space name, which you have noted down in step 4. Once you have selected the Org and Space, you would log in to Cloud Foundry in SAP Business Application Studio.
 
-11. Now, you have successfully created a workspace and pointed to our desired SAP BTP **Org** and **Space**.
+12. Now, you have successfully created a workspace and pointed to our desired SAP BTP **Org** and **Space**.
 
 ### Build and Deploy
 
@@ -72,7 +77,7 @@ Also you have to create a [destination](#create-destination-for-mock-server) to 
 
   ![add workspace](./images/add_workspace.png)
 
-4. Open the project by choosing **projects** &rarr; **cloud-extension-ecc-business-process** and choose **Open**.
+4. Open the project by choosing **projects** &rarr; **cloud-extension-ecc-business-process** and choose **OK**.
 
 3. In the project folder, right-click on the `mta.yaml` file and select **Build MTA Project**.
 
