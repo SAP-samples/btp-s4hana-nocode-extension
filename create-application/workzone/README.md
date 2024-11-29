@@ -10,7 +10,7 @@ In this section, the application will be connected with SAP Build Work Zone, sta
 
 2. Search for the application **SAP Build Work Zone, standard edition** and choose the icon to open it.
 
-3.  Now are on the home page of SAP Build Work Zone, standard edition. In the menu on the left side click on the icon for **Content Channels**
+3.  Now you are on the home page of SAP Build Work Zone, standard edition. In the menu on the left side click on the icon for **Content Channels**
 4.  Click on the refresh icon to fetch the updated content
 
     <img src="./images/integrate_launchpad_1.png" width="80%">
