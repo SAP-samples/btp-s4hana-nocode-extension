@@ -69,13 +69,13 @@ Open **SAP Build Apps Application Development** link if you have it already book
 
 To add a data source, you need to add the following steps to your project.
 
-1. Choose the tab **Integration** at the top of App builder.
+1. Choose the tab **Integrations** at the top of App builder.
 
 2. Find section **No systems integrated** and choose **Add Integration**.
 
    ![image](https://github.com/user-attachments/assets/9708f7bb-9ecb-40c4-9a44-11dfe373ffb3)
 
-3. On the next screen **SAP Systems**, select **BTP Destinations**.
+3. On the next screen select **SAP Systems** -> **BTP Destinations**.
 
 4. Select the destination that you have created in the previous section from the list.
 
