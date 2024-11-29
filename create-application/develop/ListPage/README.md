@@ -29,7 +29,7 @@ Now that the data variable is created, go back to the **User Interface** tab.
 At this step, you are creating a Business Partner List page in app builder.
 #### Check That the Data Is Visible in the UI
 
-1. On the left panel of UI CANVAS, you see the **CORE** tab, scroll to the **LIST** section and choose **List item**.
+1. On the left panel of User Interface, you see the **CORE** tab, scroll to the **LIST** section and choose **List item**.
 
    ![image](https://github.com/user-attachments/assets/0d4fad71-6e25-45d4-a499-6b0f72b891af)
 
