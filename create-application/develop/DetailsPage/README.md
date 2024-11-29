@@ -6,76 +6,78 @@ After you have created the entry page of your application, you will now create a
 
 You will add a new page to your application and add page parameters so you can access data from your application.
 
-1. On the top left section, choose the name of your current page **Home**, which is highlighted in light blue to open the page menu of SAP Build Apps.
+1. Open the drop down menu in the top left corner where your current **Home** page name appears.
 
-2. Choose **ADD NEW PAGE**.
+2. Choose **+ ADD NEW PAGE**.
 
-   <img src="./ba_createPage.png">
+   ![image](https://github.com/user-attachments/assets/a15a2c7d-7b29-437b-98e9-d95bf7c7f6c7)
 
 3. Enter **Details** as **Page name**, and then Select **OK**. Your new page will be created and open.
 
-4. On the Details page, choose the toggle button to switch to **VARIABLES** tab.
+4. On the Details page, choose the **<> VARIABLES** tab.
 
 5. Choose the **PAGE PARAMETERS** button on the left side of the screen.
 
 6. Choose **ADD PARAMETER**.
+   ![image](https://github.com/user-attachments/assets/b4eb7385-1971-4538-893a-eb9635fd8786)
 
-7. It creates a new parameter, choose the created parameter to edit.
+8. It creates a new parameter, choose the created parameter to edit.
 
-8. On the right side of the screen, change the **Parameter name** to **businessPartnerId**.
+9. On the right side of the screen, change the **Parameter name** to **businessPartnerId**.
 
-9. Again, choose  **ADD PARAMETER** and create a second parameter.
+10. Again, choose  **ADD PARAMETER** and create a second parameter.
 
-10. Change **Parameter name** to **businesspartnerName**.
+11. Change **Parameter name** to **businesspartnerName**.
 
-11. Choose **SAVE**.
+12. Choose **SAVE**.
 
-    <img src="./ba_pageparameters1.png">
+    ![image](https://github.com/user-attachments/assets/04b16c74-778c-4b90-92c6-3a83a2c8d1b7)
 
-12. Switch back to **VIEW** via the toggle button.
+13. Switch back to **User Interface** tab.
 
 ### Enable Navigation from Home Page to Details Page
 
 To show the business partner details on the details page, you need to connect the **Home** page and the **Details** page. In this section, you will first create a new navigation logic to pass the page parameter created in the previous step.
 On the details page, you will then load the business partner address by passing the business partner id to the **A_BusinessPartnerAddress** entity.
 
-1. On the top left section, choose the name of your current page **Details**, which is highlighted in light blue, to open the **PAGES** menu.  
-2. Select **Home** to switch to Home page to create a logic to pass the business partner and business partner full name parameters from Home page to Details page .
-3. Select the first row in the list.
+1. Open the drop down menu in the top left corner where your current **Details** page name appears. Select **Home** to switch to your Home page to create a logic to pass the Business Partner and Business Partner Full Name parameters from the Home page to the Details page.
+   
+2. Select the first row in the list.
 
-4. At the bottom of App Builder where you can see **Add logic to LIST ITEM1**. Choose the arrow to open the logic canvas.
+3. At the bottom of App Builder where you can see **Add logic to LIST ITEM1**. Choose the arrow to open the logic canvas.
+   ![image](https://github.com/user-attachments/assets/db8d83be-8814-4c73-9585-896842fec3f6)
 
-   <img src="./ba_enableNavigation.png" height="400px">
+4. In the **LOGIC CANVAS** component menu on the left side, choose in the **CORE** tab **NAVIGATION** &rarr; **Open page** to add a function that opens a new page.
 
-5. In the component menu on the left side, choose **NAVIGATION** &rarr; **Open page** to add a function that opens a new page.
+5. Drag and drop it next to **Event\Component tap**.
 
-6. Drag and drop it to the Logic canvas.
+6. Hover over the **Component tap** and choose the round dot. Connect the dots of the **Component tap** and the **Open page** components. It creates a new connection and sets the logic to open a new page on the event of tapping an item in the list item.
 
-7. Hover over the **Component tap** and choose the round dot. Connect the dots of the **Component tap** and the **Open page** components. It creates a new connection and sets the logic to open a new page on the event of tapping an item in the list item.
+   ![image](https://github.com/user-attachments/assets/4bae4faf-48d7-44c0-a4f5-e9eb335f9649)
 
-   <img src="./logiccanvas2.png">
+7. Choose the **Open page** component.
 
-8. Choose the **Open page** component.
+8. On the right side of the screen, select **PROPERTIES** &rarr; **Parameters** &rarr; **businessPartnerId**.
 
-9. On the right side of the screen, select **PROPERTIES** &rarr; **Parameters** &rarr; **businessPartnerId**.
+9. Choose the **X** button. It opens a popup.
 
-10. Choose the **X** button. It opens a popup.
+    ![image](https://github.com/user-attachments/assets/aba2e4cb-4c22-4114-bf3e-ad82e06277d1)
 
-    <img src="./openPage.png">
 
-11. Select **Data item in repeat**.
+10. Select **Data item in repeat**.
 
-12. Select **current**.
+11. Select **current**.
 
-13. Scroll the list and select **BusinessPartner**, and then choose **SAVE**.
+12. Scroll the list and select **BusinessPartner**, and then choose **SAVE**.
 
-    <img src="./ba_pageVariable.png">
+    ![image](https://github.com/user-attachments/assets/bba0dcb0-635b-427a-9e7f-8aef9c5c7eff)
 
-14. Repeat the steps 9-13 for to the **businesspartnerName** parameter and select **current.BusinessPartnerFullName**.
 
-    <img src="./openPage02.png">
+13. Repeat the steps 8-11 for to the **businesspartnerName** parameter and select **current.BusinessPartnerFullName**.
+
+    ![image](https://github.com/user-attachments/assets/56680b02-14eb-4fb6-8236-fa3917169b5f)
     
-15. Choose **SAVE** to save the changes.
+14. Choose **SAVE** to save the changes.
 
 With this step now, you can pass the selected business partner id and name fields from the list to the details page.
 
@@ -87,26 +89,29 @@ The detail page receives the Business partner ID from the main page. In this ste
 
 2. Select the **Details** page from there to switch to the Details page.
 
-3. Toggle to the **VARIABLES** tab.
+3. Select the **VARIABLES** tab.
 
 4. Select **DATA VARIABLES** on the left.
 
 5. Choose **ADD DATA VARIABLE**.
 
 6. Select **A_BusinessPartnerAddress** from the list.
-   <img src="./ba_detailspage2.png">
+   ![image](https://github.com/user-attachments/assets/1f392cef-4df2-48af-9299-0d2f52d5857d)
 
-7. Choose the **Filter Conditions** button on the right. 
 
-8. A popup opens. Select **Object with properties**.
+7. Choose the **Filter Conditions** button on the right.
+   ![image](https://github.com/user-attachments/assets/5f4c101b-d936-4e74-b49e-a227c7137441)
 
-      <img src="./objectwithproperties.png">
 
-9. Choose **Add Condition**. In the **Property** dropdown, select **Business Partner**.
+9. A popup opens. Select **Object with properties**.
+   ![image](https://github.com/user-attachments/assets/bb474712-d8bc-45a3-916d-6feeb05b57e5)
 
-10. Under **Compared Value**, choose button **ABC**.
+      
+10. Choose **Add Condition**. In the **Property** dropdown, select **Business Partner**.
 
-   <img src="./propertybinding.png">
+11. Under **Compared Value**, choose button **ABC**.
+
+     <img src="./propertybinding.png">
 
 11. Select **Data and Variables**.
 
@@ -118,26 +123,28 @@ The detail page receives the Business partner ID from the main page. In this ste
 
 13. Select **businesspartnerId** and choose **SAVE**.
 
-    <img src="./bpid.png">
+    ![image](https://github.com/user-attachments/assets/ad39f301-c8f4-4124-83b4-059b0db72a1b)
+
 
 14. Choose the **SAVE** button to save changes to the page.
 
-15. Toggle to the **VIEW** mode now.
+15. Go back to the **User Interface** tab now.
 
 Now, your application loads the business partner's address and stores it to the data variable.
 
 
 ### Display the Business Partner Name on the Details Page
 
-Next, you will change the header of the details page, so it displays the current Business Partner.
+Next, you will add a header to the details page, so it displays the current Business Partner.
 
-1. Select the default description on the page and delete it by pressing the trash bin icon.
+1. Drag and Drop a **Title** component from the **Core** components to your page.
+   ![image](https://github.com/user-attachments/assets/71d9502b-1845-4e41-a7f0-0879a3a55053)
 
-   <img src="./ba_removeTextField.png">
 
 2. Select headline component. On the right side of the screen, choose **ABC** button in **Content** section.
 
-   <img src="./ba_detailspage4.png">
+   ![image](https://github.com/user-attachments/assets/849614a2-7fd8-47e9-9cea-ed4b499e3425)
+
 
 3. Select **Data and Variables**
 
@@ -148,8 +155,8 @@ Next, you will change the header of the details page, so it displays the current
    <img src="./bindingpageparameter.png">
 
 5. Select **businesspartnerName** and choose **SAVE**.
-
-<img src="./editbinding.png">
+   
+   <img src="./editbinding.png">
 
 
 
@@ -159,13 +166,15 @@ Next, you will add a list element, which displays the address of the business pa
 
 1. Drag the **List item** from the **CORE** tab on the left.
 
-   <img src="./ba_detailspage5.png">
+   ![image](https://github.com/user-attachments/assets/12e720dc-de64-4f7d-b1d9-09461428955c)
+
 
 2. From the right **PROPERTIES** panel, find **Arrow Visible** section and select **false** from the dropdown.
 
 3. Choose the **Repeat with** button on the left side of the screen
 
-   <img src="./ba_detailspage6.png">
+   ![image](https://github.com/user-attachments/assets/a3fdfea6-5a11-479e-89f3-f9f6b3dea5a1)
+
 
 1. In the popup, select **Data and Variables** &rarr; **Data variable**.
 
@@ -178,6 +187,7 @@ Next, you will add a list element, which displays the address of the business pa
    <img src="./bpaddress.png" height="400px">
 
 7. On the right side of the screen, choose **ABC** button under **Primary Label**.
+   ![image](https://github.com/user-attachments/assets/21df0dc2-66ea-459e-b061-6e7470e5e35b)
 
 8. Select **Data item in repeat**.
 
@@ -207,25 +217,23 @@ Now, that your app is developed, Let's preview the application.
 
 ### Preview Your Application
 
-1. Choose **LAUNCH**.
+1. Choose **Preview**.
+   ![image](https://github.com/user-attachments/assets/5fde3c92-6bfc-42be-b5e3-78df9727dcd3)
 
-2. Choose **OPEN PREVIEW PORTAL** and choose **Open web preview** button.
-   
-   <img src="./ba_preview1.png">
+2. Choose **Open web preview** button.
 
 3. Select your application and choose **OPEN**.
 
-   <img src="./ba_preview2.png">
+   ![image](https://github.com/user-attachments/assets/4fbe5861-9a0a-4853-a837-cee241088b14)
+
 
 4. Choose the list item to see the details page.
 
 The main page should look like:
-
-   ![main page](../images/preview1.png)
+    ![main page](../images/preview1.png)
 
 The details page should look like:
-
-   <img src="./ba_deatilspagePreview.png">
+    <img src="./ba_deatilspagePreview.png">
 
 
 
