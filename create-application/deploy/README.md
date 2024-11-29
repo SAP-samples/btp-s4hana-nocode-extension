@@ -61,7 +61,7 @@ In this section you will build the application that you created using SAP Build 
 
 11. In the pop-up, choose the API endpoint of your subaccount
 
-> Hint: You can find the API endpoint in the overview section of your  of your subaccount
+> Hint: You can find the API endpoint in the overview section of your subaccount
 
 12. In case you are not logged in yet, choose **Login with BTP**
 
