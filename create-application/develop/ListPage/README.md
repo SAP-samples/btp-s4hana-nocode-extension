@@ -11,26 +11,27 @@ A data variable is essentially the same as a page variable that exists in the co
 
 Let us create a data variable to store the results of the business partner data coming from the data source.
 
-1. From the UI canvas, choose the toggle button to switch from **VIEW** to **VARIABLES**.
+1. Select the **<> VARIABLES** tab in the header navigation.
+  ![image](https://github.com/user-attachments/assets/1a9eb499-dac7-474a-8731-931df4d96f80)
 
-2. Choose **DATA VARIABLES** on the left side of app builder.
+3. Choose **DATA VARIABLES** on the left side of app builder.
 
-3. Now, choose **ADD DATA VARIABLE** and select **A_BusinessPartner**.
+4. Now, choose **ADD DATA VARIABLE** and select **A_BusinessPartner**.
   
-    ![addDataVar](../images/ba_datavariable1.png)
+    ![image](https://github.com/user-attachments/assets/bd368329-ab56-4e1e-b758-c4a2b176f451)
 
-4. Choose **SAVE**.
+5. Choose **SAVE**.
 
-Now that the data variable is created, toggle back to the **VIEW** mode.
+Now that the data variable is created, go back to the **User Interface** tab.
 
 ### Creating a Business Partner List
 
 At this step, you are creating a Business Partner List page in app builder.
 #### Check That the Data Is Visible in the UI
 
-1. On the left panel of UI CANVAS, you see the **CORE** tab, scroll to the **LISTS** section and choose **List item**.
+1. On the left panel of UI CANVAS, you see the **CORE** tab, scroll to the **LIST** section and choose **List item**.
 
-   ![Component](../images/marketplace.png)
+   ![image](https://github.com/user-attachments/assets/0d4fad71-6e25-45d4-a499-6b0f72b891af)
 
 2. Drag the **List item** to the application's page.
 
@@ -83,15 +84,16 @@ Let us now define what fields we would like to show in the UI in the business pa
 
 ### Preview the Application
 
-1. Choose **LAUNCH**.
+1. Choose **Preview**.
+   ![image](https://github.com/user-attachments/assets/216a77ce-1d5e-4117-a631-0d90287dc79f)
 
-2. Choose **OPEN APP IN PREVIEW PORTAL**.
+3. Choose button **Open web Preview**.
 
-3. A new tab opens. Select the application you have created.
+4. A new tab opens. Select the application you have created.
 
-4. The application is launched in the preview portal.
+5. The application is launched in the preview portal.
 
-    ![Preview](../images/preview1.png)
+    ![image](https://github.com/user-attachments/assets/1df1b4f1-b2d4-42d7-8bfe-4e61f32b9d01)
 
 The application's first page is now displayed.
 
