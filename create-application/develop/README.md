@@ -9,12 +9,13 @@ In this section, you will create an SAP Build Apps application.
 
 ## Open SAP Build Apps
 
-Open **SAP Build Apps Application Development** link if you have it already bookmarked, otherwise open it via the **SAP BTP Cockpit** as described below.
+Open **SAP Build Apps** link if you have it already bookmarked, otherwise open it via the **SAP BTP Cockpit** as described below.
 
- 1. To open **SAP Build Apps Application Development** via SAP cockpit, navigate to your SAP BTP subaccount.
+ 1. To open **SAP Build Apps** via SAP cockpit, navigate to your SAP BTP subaccount.
+
  2. From the left-side of your subaccount menu, navigate from **Services** &rarr; **Instances and Subscriptions**.
 
- 3. In the tab **Subscriptions**, find **SAP Build Apps** and choose **Go to Application** to open the entry page for Application Development.
+ 3. In the tab **Subscriptions**, find **SAP Build Apps**, select the **...** and choose **Go to Application** to open the entry page for SAP Build Apps.
 
      <img src="./images/ba_subscription.png" width="750px">
 
@@ -69,7 +70,7 @@ Open **SAP Build Apps Application Development** link if you have it already book
 
 To add a data source, you need to add the following steps to your project.
 
-1. Choose the tab **Integrations** at the top of App builder.
+1. Choose the tab **Integrations** at the top of App Editor.
 
 2. Find section **No systems integrated** and choose **Add Integration**.
 
@@ -95,5 +96,6 @@ To add a data source, you need to add the following steps to your project.
 
    <img src="./images/ba_enabled.png" width="80%">
 
-10. Choose **Save** at top of the app builder. This adds the data source to your project. Choose **UI Canvas** to go back to the UI designer view.
+10. Choose **Save** at top of the App Editor. This adds the data source to your project. Choose **User Interface** to go back to the UI designer view.
+
 11. Now you have added a data source for your SAP Build Apps application.
