@@ -78,3 +78,6 @@ In this section, the application will be connected with SAP Build Work Zone, sta
  ## Summary
 
  Congratulations! You now have finished the development of your application. In this last step you have integrated SAP Build Work Zone, standard edition service, to have one central entry point to show all of your SAP BTP applications.
+
+### Next Step
+[Build Your App and Install it on a Mobile Device](./../mobile_services/README.md)

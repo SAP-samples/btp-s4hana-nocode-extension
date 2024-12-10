@@ -99,3 +99,6 @@ To add a data source, you need to add the following steps to your project.
 10. Choose **Save** at top of the App Editor. This adds the data source to your project. Choose **User Interface** to go back to the UI designer view.
 
 11. Now you have added a data source for your SAP Build Apps application.
+
+### Next Step
+[Create a Business Partner List Page](./ListPage/README.md)

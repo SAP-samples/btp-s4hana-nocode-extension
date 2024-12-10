@@ -97,3 +97,5 @@ Let us now define what fields we would like to show in the UI in the business pa
 
 The application's first page is now displayed.
 
+### Next Step
+[Create a Business Partner Details Page](./../DetailsPage/README.md)

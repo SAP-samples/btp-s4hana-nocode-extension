@@ -235,5 +235,6 @@ The main page should look like:
 The details page should look like:
     <img src="./ba_deatilspagePreview.png">
 
-
+### Next Step
+[Build and Deploy Your SAP Build Apps Application to SAP BTP](./../../deploy/README.md)
 
