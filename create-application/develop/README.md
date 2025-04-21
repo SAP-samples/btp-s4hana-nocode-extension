@@ -44,7 +44,7 @@ Open **SAP Build Apps** link if you have it already bookmarked, otherwise open i
    
    ![image](./images/webapp.png)
 
-5. Under **Name**, enter the project name, as `Business Partner` e.g Business Partner jd12.
+5. Under **Name**, enter the project name as `Business Partner`.
 
 6. click on **Review**.
 
