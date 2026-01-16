@@ -10,7 +10,8 @@ In this section, the application will be connected with SAP Build Work Zone, sta
 
 2. Search for the application **SAP Build Work Zone, standard edition** and choose the icon to open it.
 
-3.  Now you are on the home page of SAP Build Work Zone, standard edition. In the menu on the left side click on the icon for **Content Channels**
+3.  Now you are on the home page of SAP Build Work Zone, standard edition. In the menu on the left side click on the icon for **Channel Manager**
+
 4.  Click on the refresh icon to fetch the updated content
 
     <img src="./images/integrate_launchpad_1.png" width="80%">
@@ -27,7 +28,7 @@ In this section, the application will be connected with SAP Build Work Zone, sta
 
     <img src="./images/integrate_launchpad_4.png" width="80%">
 
-8. Navigate back to **My Content** and choose on role **Everyone** in items table 
+8. Navigate back to **Content Manager** and choose role **Everyone** in items table 
 
     <img src="./images/integrate_launchpad_5.png" width="80%">
 
@@ -39,7 +40,7 @@ In this section, the application will be connected with SAP Build Work Zone, sta
 
     <img src="./images/integrate_launchpad_6a.png" width="80%">
 
-11. Go back to **Content Manager** tab, choose Create button and select **Group** from the dropdown
+11. Go back to **Content Manager** tab, choose **Create** button and select **Group** from the dropdown
 
     <img src="./images/integrate_launchpad_6b.png" width="80%">
 
@@ -60,12 +61,8 @@ In this section, the application will be connected with SAP Build Work Zone, sta
 17. Enter the name for the site and choose **Create**.
 
 18. Now, you are forwarded to the site editor.
-
     
-
-19. Navigate to **Site Directory**.
-
-    <img src="././images/site_editor.png" width="40%">
+19. Navigate back to **Site Directory** (probably another browser tab).
 
 20. Find your created site and open it by choosing **Go to site**.
 

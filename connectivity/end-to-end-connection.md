@@ -11,61 +11,64 @@ You can propagate the user from the SAP BTP custom Identity Provider to SAP S/4H
 
 1. In **SAP BTP Cockpit**, navigate to your subaccount.
 
-2. From your left-side subaccount menu, navigate to **Connectivity** &rarr; **Destinations**.
+2. From your left-side subaccount menu, navigate to **Connectivity** &rarr; **Destinations**.  Then choose **Create**.
 
    ![new Destination](./images/destinations_new.png)
 
-3. Choose **New Destination** to create a new destination or you can choose **Import Destination** to import the sample destination file [s4hCloudOauth](./images/s4hanacloudsaml).
+3. Then choose **From Scratch** to enter all the details by yourself or you can choose **From File** to import the sample destination file [s4hCloudOauth](./images/s4hanacloudsaml.json).
 
-4. Configure the **Destination** by entering or adjusting the following values, you will need your SAP S/4HANA system URL. To find this, login to your SAP S/4HANA Cloud system. You can find your S/4HANA Cloud server ID by selecting your user icon > Settings > User Account > Server name
+   ![from scratch](./images/from-scratch.png)
+
+4. Before configuring the **Destination** you will need your SAP S/4HANA system URL. To find this, login to your SAP S/4HANA Cloud system. You can find your S/4HANA Cloud server ID by selecting your **User Icon** > **Settings** > **User Account** > **Server**.
 
    ![url](./images/prep01.png)
    
    ![url](./images/prep02.png)
 
+5. Enter the following data to the **Destination Details** section:
 
-   * **Name**: a meaningful name, for example: S4HC_SAMLASSERTION
+   * **Name**: a meaningful name, for example: **S4HC_SAMLASSERTION**
 
-   * **Type**: HTTP
+   * **Type**: **HTTP**
 
-   * **URL** Enter the value of the OData URL, for example: https://myXXXXXX-api.s4hana.ondemand.com/sap/opu/odata/sap/API_BUSINESS_PARTNER. 
-   * **ProxyType** Internet
+   * **URL**: Enter the value of the OData URL, for example: **https://myXXXXXX-api.s4hana.ondemand.com/sap/opu/odata/sap/API_BUSINESS_PARTNER**. 
 
-   * **Authentication** SAMLAssertion
+   * **ProxyType**: **Internet**
 
-   * **Audience** https://myXXXXXX.s4hana.ondemand.com. This is the URL of your SAP S/4HANA Cloud account (without the -api).
+   * **Authentication**: **SAMLAssertion**
 
-   * **AuthnContextClassRef** urn\:oasis\:names\:tc\:SAML\:2.0\:ac\:classes\:PreviousSession
+   ![destination details](./images/destination-view-basic.png)
 
+6. Enter the following data to the **SAML Properties** section:
 
-5. Add the following **Additional Properties** by choosing the **New Property** button. If you have imported the sample destination file, the following properties are automatically added:
+   * **Audience**: **https://myXXXXXX.s4hana.ondemand.com**. This is the URL of your SAP S/4HANA Cloud account (without the -api).
 
-   * Name: **BuildApps.RequiresCsrf** - value: **true**
+   * **AuthnContextClassRef**: **urn:oasis:names:tc:SAML:2.0:ac:classes:PreviousSession**
+
+   * **Name Id Format**: **urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress**  
+
+   ![destination SAML details](./images/destination-view-saml.png)
+
+7. Add the following **Additional Properties** by choosing the **New Property** button. If you have imported the sample destination file, the following properties are automatically added:
+
+   | Name | Value |
+   | ---- | ----- |
+   | **BuildApps.RequiresCsrf** | **true** |
+   | **HTML5.DynamicDestination** | **true** |
+   | **HTML5.Timeout** | **60000** |
+   | **MobileEnabled** | **true** |
+   | **WebIDEEnabled** | **true** |
+   | **WebIDEUsage** | **odata_gen** |
+
+   ![destination properties](./images/destination-view-properties.png)
+
+8. Check **Use default client trust store**.
+
+9. **Save** your settings.
    
-   * Name: **HTML5.DynamicDestination** - value: **true**
+10. Choose **Check Connection**. You should get a success message.
    
-   * Name: **HTML5.Timeout** - value: **60000**
-
-   * Name: **MobileEnabled** - value: **true**
-
-   * Name: **nameIdFormat** - value: **urn\:oasis\:names\:tc\:SAML\:1.1\:nameid-format\:emailAddress**  
-
-   * Name: **WebIDEEnabled** - value: **true**
-
-   * Name: **WebIDEUsage** - value: **odata_gen**
-
- 
-
-
-6. Check **Use default JDK truststore**.
-
-7. **Save** your settings.
-
-   ![save Destination](./images/destination_saml.png)
-   
-8. Choose **Check Connection**. You should get a **401 Unauthorized** response.
-   
-   ![check conn](./images/checkConnection.png)
+   ![check conn](./images/destination-check-connection.png)
 
 ## Summary
 

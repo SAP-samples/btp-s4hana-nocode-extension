@@ -44,9 +44,9 @@ This scenario covers:
   - [Prerequisites and Required Systems](./prepare/README.md)
   - [Get Started with SAP Build Apps - Quick Account Setup](./prepare/QUICKSETUP.md)
   - [Launch SAP Build Apps](./prepare/StartBuildApps.md)
-  - [Optional - Set up SAP Build Apps in SAP BTP Trial](https://github.com/SAP-samples/btp-s4hana-nocode-extension/blob/main/setup/btp/SAPBUILD_trial.md)
+  - [Optional - Set up SAP Build Apps in SAP BTP Trial](./setup/btp/SAPBUILD_trial.md)
   - [Optional - Set up your SAP BTP account using Terraform scripts](https://github.com/SAP-samples/btp-terraform-samples/blob/main/released/discovery_center/mission_4024/README.md)
-  
+
 
 ## Landscape Setup for SAP BTP and SAP S/4HANA Cloud
   - [Onboard SAP S/4HANA Cloud System](./setup/s4hc-onboarding/README.md)
@@ -66,7 +66,6 @@ This scenario covers:
 If you don't have an SAP S/4HANA system, you can use a mock server setup instead.
 
   - [Install Mock Server](./setup/mock/README.md)
-
 
 ## Implementation of an SAP Build Apps Extension Application
 

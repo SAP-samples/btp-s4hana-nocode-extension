@@ -12,6 +12,7 @@ A data variable is essentially the same as a page variable that exists in the co
 Let us create a data variable to store the results of the business partner data coming from the data source.
 
 1. Select the **<> VARIABLES** tab in the header navigation.
+
   ![image](https://github.com/user-attachments/assets/1a9eb499-dac7-474a-8731-931df4d96f80)
 
 3. Choose **DATA VARIABLES** on the left side of app builder.
@@ -40,7 +41,6 @@ At this step, you are creating a Business Partner List page in app builder.
    ![Component](../images/ba_editProperties.png)
 
 4. A popup opens. Select **Data and Variables**, then choose **Data variable**.
-
 
    ![Data](../images/datavariable.png)
 
@@ -85,6 +85,7 @@ Let us now define what fields we would like to show in the UI in the business pa
 ### Preview the Application
 
 1. Choose **Preview**.
+
    ![image](https://github.com/user-attachments/assets/216a77ce-1d5e-4117-a631-0d90287dc79f)
 
 3. Choose button **Open web Preview**.

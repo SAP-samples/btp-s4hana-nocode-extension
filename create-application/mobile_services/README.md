@@ -21,18 +21,21 @@ For apps installed on mobile devices, SAP Build Apps uses SAP Mobile Services fo
 
 
 2. Select tab **Mobile Services** and **Enable SAP Mobile Services**. 
-        ![image](https://github.com/user-attachments/assets/2e61155e-dde5-4215-add3-764098ee25a0)
+
+    ![image](https://github.com/user-attachments/assets/2e61155e-dde5-4215-add3-764098ee25a0)
 
 3. Select the API Endpoint which you also used in the deployment step and the same organization and space and click on the **Continue** button.
    
-      ![image](https://github.com/user-attachments/assets/d91bc2d6-4136-4d3b-aade-057a8e4c3be7)
+    ![image](https://github.com/user-attachments/assets/d91bc2d6-4136-4d3b-aade-057a8e4c3be7)
 
 
 4. The Mobile Services authentication step may take up to five minutes.
-        ![image](https://github.com/user-attachments/assets/c7746bd0-d83c-48d5-98cf-2c1dbce51b6f)
+    
+    ![image](https://github.com/user-attachments/assets/c7746bd0-d83c-48d5-98cf-2c1dbce51b6f)
 
 5. As a result you should see that the app is connected to mobile services:
-        ![image](https://github.com/user-attachments/assets/d1fb890b-ec7e-464c-b067-8568b3548c53)
+    
+    ![image](https://github.com/user-attachments/assets/d1fb890b-ec7e-464c-b067-8568b3548c53)
 
 ## Build
 
@@ -44,13 +47,15 @@ For apps installed on mobile devices, SAP Build Apps uses SAP Mobile Services fo
 2. Choose **Android** as target platform
 
 3. Add a name of the configuration e.g. mobile
-       ![image](https://github.com/user-attachments/assets/7f89694c-9771-425b-8c51-74464d34a715)
+    
+    ![image](https://github.com/user-attachments/assets/7f89694c-9771-425b-8c51-74464d34a715)
 
 4. Define a Display Name and a package Identifier.
 
 5. Choose **APK** as target File Type
 
 6. Upload your keystore file and enter the passwords and alias.
+
     ![image](https://github.com/user-attachments/assets/a0f9c484-2871-4a54-9110-d674b2fde162)
 
 
@@ -63,9 +68,11 @@ For apps installed on mobile devices, SAP Build Apps uses SAP Mobile Services fo
 10. Choose a version e.g. 1.0.0 and select **Build** button.
 
 11. Wait until the new build has the status **Delivered** and open it with a click on the line
+
     ![image](https://github.com/user-attachments/assets/4382d36d-790e-4d12-b24e-eedaf98febe4)
 
 12. **Download** the mobile app and save the APK file to your computer.    
+
     ![image](https://github.com/user-attachments/assets/5b30eadd-2fc2-4cdd-9767-e12fa30dc10c)
 
 

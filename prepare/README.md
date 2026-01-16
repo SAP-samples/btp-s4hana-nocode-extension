@@ -22,9 +22,9 @@ This section contains the prerequisites that you have to fulfill before you get 
 The application requires the following [Entitlements and Quotas](https://help.sap.com/products/BTP/65de2977205c403bbc107264b8eccf4b/00aa2c23479d42568b18882b1ca90d79.html?locale=en-US) in the SAP BTP cockpit:
 
 | Service                           | Plan       | Number of Instances |
-|-----------------------------------|------------|:-------------------:|
-| SAP Build Apps                      | standard   |          1          |
-|  SAP Build Work Zone, standard edition | free or standard |    1          |
+| ----------------------------------| ---------- | ------------------- |
+| [SAP Build Apps](https://help.sap.com/docs/build-apps/service-guide/application-plans) | build-default or standard   |          1          |
+| [SAP Build Work Zone, standard edition](https://help.sap.com/docs/build-work-zone-standard-edition/sap-build-work-zone-standard-edition/commercial-models-and-metering) | free or standard |    1          |
 | Cloud Foundry runtime (optional)  | MEMORY     |          1          |
 | Destination service               | lite       |          1          |
 

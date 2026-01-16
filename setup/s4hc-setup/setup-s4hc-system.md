@@ -11,12 +11,13 @@ Download the subaccount specific key certificate from your Cloud Foundry subacco
 
 1. In **SAP BTP Cockpit**, navigate to your subaccount.
 
-2. From the left-side subaccount menu navigate from **Connectivity** &rarr; **Destinations**.
+2. From the left-side subaccount menu navigate from **Connectivity** &rarr; **Destination Trust**. Then choose **Generate Trust** (if not done yet). 
 
-   ![download Trust](./images/destinations_download_trust.png)
+   ![Generate Trust](images/generate-trust.png) 
 
-3. Choose **Download Trust**.
+3. Choose **Export** in the **Active Trust Certificate** section.
 
+   ![Export Trust](images/export-trust.png) 
 
 ## Log on to the SAP S/4HANA Cloud System
 

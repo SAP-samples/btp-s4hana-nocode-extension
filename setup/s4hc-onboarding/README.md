@@ -111,8 +111,6 @@ You now have to import the newly created business users in the SAP Cloud Identit
 
    ![](./images/importUsersToIAS02.png)
 
-
-
 5. Select **Send E-Mails** and choose **Send** to send activation e-mails to the newly imported users. The business users can now access the SAP S/4HANA system.
 
 

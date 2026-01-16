@@ -28,7 +28,7 @@ Open **SAP Build Apps** link if you have it already bookmarked, otherwise open i
 
 ### Create a Project
 
-1. Click on **Create** from the *Create* dropdown.
+1. Choose **Create**.
 
    ![image](./images/new-create.png)
 
@@ -40,7 +40,7 @@ Open **SAP Build Apps** link if you have it already bookmarked, otherwise open i
 
     ![image](./images/frontend.png)
    
-4. Under **Type**, select the development configuration as **Web Application** and click on **Next**.
+4. Under **Type**, select the development configuration as **Web & Mobile Application** and click on **Next**.
    
    ![image](./images/webapp.png)
 
@@ -54,17 +54,22 @@ Open **SAP Build Apps** link if you have it already bookmarked, otherwise open i
 
    ![image](./images/summary.png)
 
-8. Your created project will be opened in **App Editor** which is the central place to build your application including a user interface, logic, as well as data integration.
+8. Your created project will be opened in **App Editor** which is the central place to build your application including a user interface, logic, as well as data integration. Choose **Mobile** in the dropbox on the right side of the screen.
+
+   ![mobile view](./images/mobile-view.png)
 
 9. Choose **Headline** and change the content from **Headline** to **Extend UI Application**.
+
    ![image](https://github.com/user-attachments/assets/4461e6dd-75c2-4f9d-b8a3-7f23d1d13fd3)
 
 10. Find the text field in the UI canvas in the center of your screen and choose the trash can icon to remove this component.
+
    ![image](https://github.com/user-attachments/assets/749e834e-d442-42fc-83d1-4edec6d03f0e)
 
 11. Choose the blank page. On the right side under the **Properties**, choose **Page name**.
 
 12. Change the page name to **Home**.
+
     ![image](https://github.com/user-attachments/assets/d31853b5-1a5f-4c88-86b0-88513a48e2ae)
 
 
