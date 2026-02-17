@@ -13,7 +13,7 @@ This section contains the prerequisites that you have to fulfill before you get 
 
 ## SAP BTP Provider Account
 
-* Enable SAP BTP Cloud Foundry [global account](https://developers.sap.com/tutorials/cp-cf-entitlements-add.html).
+* Enable SAP BTP Cloud Foundry [global account](https://learning.sap.com/courses/developing-applications-for-sap-btp-cloud-foundry-runtime/setting-up-sap-btp-cloud-foundry-runtime).
 * SAP BTP [subaccount](https://help.sap.com/products/BTP/65de2977205c403bbc107264b8eccf4b/8ed4a705efa0431b910056c0acdbf377.html?locale=en-US#loio8d6e3a0fa4ab43e4a421d3ed08128afa)
 * SAP BTP space
 
